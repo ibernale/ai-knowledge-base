@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "title": "The next phase of the Microsoft-OpenAI partnership",
+      "ingested": "2026-04-28",
+      "extraction": "html-status-403"
+    },
+    {
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea",
+      "title": "Google DeepMind and Korea Partner to Accelerate Scientific Discovery",
+      "ingested": "2026-04-28",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://alignment.anthropic.com/2026/ai-organizations",
+      "title": "AI Organizations Can Be More Effective but Less Aligned than Individual Agents",
+      "ingested": "2026-04-28",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://alignment.anthropic.com/2026/automated-w2s-researcher",
+      "title": "Automated Weak-to-Strong Researcher",
+      "ingested": "2026-04-28",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research",
+      "title": "Deep Research Max: a step change for autonomous research agents",
+      "ingested": "2026-04-28",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Apr/28/talkie",
+      "title": "Introducing talkie: a 13B vintage language model from 1930",
+      "ingested": "2026-04-28",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://deepmind.google/blog/decoupled-diloco",
+      "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
+      "ingested": "2026-04-28",
+      "extraction": "html-extracted"
+    }
+  ]
+}
