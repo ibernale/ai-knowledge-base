@@ -179,6 +179,84 @@
       "title": "Join us at PyCon US 2026 in Long Beach—we have new AI and security tracks this year",
       "ingested": "2026-04-29",
       "extraction": "html-too-short"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.23747",
+      "title": "SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning",
+      "ingested": "2026-04-29",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.18200",
+      "title": "Context Engineering for AI Agents in Open-Source Software",
+      "ingested": "2026-04-29",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl",
+      "title": "Muse Spark: Scaling Towards Personal Superintelligence",
+      "ingested": "2026-04-29",
+      "extraction": "http-status-400"
+    },
+    {
+      "url": "https://sebastianraschka.com/blog/2026/understanding-llm-architectures.html",
+      "title": "My Workflow for Understanding LLM Architectures",
+      "ingested": "2026-04-29",
+      "extraction": "http-status-404"
+    },
+    {
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "title": "Components of A Coding Agent",
+      "ingested": "2026-04-29",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6",
+      "title": "Gemini Robotics ER 1.6: Enhanced Embodied Reasoning",
+      "ingested": "2026-04-29",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://www.anthropic.com/news/election-safeguards-2026",
+      "title": "Anthropic Election Safeguards Update",
+      "ingested": "2026-04-29",
+      "extraction": "http-status-404"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-nec-japan",
+      "title": "Anthropic and NEC Collaborate on Japan's Largest AI Engineering",
+      "ingested": "2026-04-29",
+      "extraction": "http-status-404"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.02029",
+      "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "ingested": "2026-04-29",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19000",
+      "title": "ReVSI: A Validated Benchmark for Spatial Intelligence Evaluation",
+      "ingested": "2026-04-29",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-top-local-models-list-april",
+      "title": "AINews Top Local Models List - April 2026",
+      "ingested": "2026-04-29",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.11988",
+      "title": "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?",
+      "ingested": "2026-04-29",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://www.paperdigest.org/2026/04/iclr-2026-papers-with-code-data",
+      "title": "ICLR 2026 Papers with Code & Data Index",
+      "ingested": "2026-04-29",
+      "extraction": "html-extracted"
     }
   ]
 }
