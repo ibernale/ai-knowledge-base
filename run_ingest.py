@@ -1,16 +1,11 @@
-"""AI Knowledge Base ingest pipeline (v2, sources-driven).
+"""AI Knowledge Base ingest pipeline (v3).
 
-Daily cron: identifies new high-value AI items via Claude+web_search,
-downloads each item, converts to clean Markdown, and writes:
-  - knowledge/<type>/YYYY-MM-DD-<slug>.md      (short note)
-  - knowledge/<type>/YYYY-MM-DD-<slug>.full.md (full content)
-
-Then updates knowledge/_index/ingested.json with the canonical URL of
-each ingested item, so subsequent runs can dedupe.
-
-v2 changes:
-- Loads sources.md and injects it in the user message as a sources catalog.
-- Higher max_tokens and max_web_searches to support 8-15 items/day target.
+v3 changes vs v2:
+- Hardened HTML/PDF fetching: better headers, smarter wrapper-page detection,
+  and graceful handling of scanned PDFs.
+- Two-pass extraction for consultancy pages: if the landing HTML looks like
+  a wrapper that links to a PDF, follow the link and extract the PDF instead.
+- Higher token budget (model needs to fit ~15 items with 80-120 word why_it_matters).
 
 Usage:
     python run_ingest.py
@@ -27,12 +22,13 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import urljoin, urlparse
 
 import anthropic
 import httpx
 
 try:
-    import fitz
+    import fitz  # pymupdf
     HAS_FITZ = True
 except ImportError:
     HAS_FITZ = False
@@ -45,8 +41,8 @@ except ImportError:
 
 
 MODEL = "claude-opus-4-5"
-MAX_TOKENS = 12000
-MAX_WEB_SEARCHES = 40
+MAX_TOKENS = 16000        # bumped from 12000 — 15 items with longer why_it_matters
+MAX_WEB_SEARCHES = 50     # bumped from 40 to support the explicit author checklist
 
 PROMPT_PATH = Path("master_prompt_ingest.md")
 SOURCES_PATH = Path("sources.md")
@@ -59,9 +55,26 @@ INDEX_DIR.mkdir(exist_ok=True)
 for sub in ("papers", "blog-posts", "reports"):
     (KNOWLEDGE_DIR / sub).mkdir(exist_ok=True)
 
-USER_AGENT = "ai-kb-ingest/2.0 (+https://github.com)"
-HTTP_TIMEOUT = 30.0
+# Realistic browser-like headers improve fetch success on consultancy and
+# corporate sites that 403 anything that smells like a script.
+DEFAULT_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/pdf,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Upgrade-Insecure-Requests": "1",
+}
+HTTP_TIMEOUT = 45.0
+MIN_PDF_TEXT = 500          # pymupdf < this many chars => probably scanned
+MIN_HTML_MD_LEN = 200       # below this, treat html extraction as failed
 
+
+# --- Index of already-ingested URLs -----------------------------------------
 
 def load_index() -> dict[str, Any]:
     if not INDEX_FILE.exists():
@@ -88,6 +101,8 @@ def normalise_url(url: str) -> str:
         return f"https://arxiv.org/abs/{m.group(2)}"
     return url
 
+
+# --- Claude: identify candidates --------------------------------------------
 
 def identify_candidates(prior_urls: list[str]) -> list[dict[str, Any]]:
     system_prompt = PROMPT_PATH.read_text(encoding="utf-8")
@@ -143,85 +158,169 @@ def identify_candidates(prior_urls: list[str]) -> list[dict[str, Any]]:
         return []
 
 
+# --- Content download and conversion ----------------------------------------
+
 @dataclass
 class Fetched:
     markdown: str | None
     note: str
 
 
+def http_get(url: str, *, accept: str | None = None) -> httpx.Response:
+    """Single shared HTTP getter with browser-like headers."""
+    headers = dict(DEFAULT_HEADERS)
+    if accept:
+        headers["Accept"] = accept
+    with httpx.Client(timeout=HTTP_TIMEOUT, follow_redirects=True, headers=headers) as client:
+        return client.get(url)
+
+
+def extract_pdf_text(pdf_bytes: bytes) -> tuple[str | None, str]:
+    """Returns (text, note). text is None if extraction failed or too short."""
+    if not HAS_FITZ:
+        return None, "no-fitz"
+    try:
+        doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+        pages = [page.get_text() for page in doc]
+        doc.close()
+        text = re.sub(r"\n{3,}", "\n\n", "\n\n".join(pages)).strip()
+        if len(text) < MIN_PDF_TEXT:
+            return None, "scanned-or-empty-pdf"
+        return text, "pdf-extracted"
+    except Exception as e:
+        return None, f"pdf-failed-{type(e).__name__}"
+
+
+def extract_html_markdown(html: str) -> tuple[str | None, str]:
+    """Returns (markdown, note). markdown is None if extraction failed."""
+    if not HAS_TRAFILATURA:
+        return None, "no-trafilatura"
+    md = trafilatura.extract(
+        html,
+        output_format="markdown",
+        include_links=True,
+        include_tables=True,
+        include_images=False,
+    )
+    if not md or len(md) < MIN_HTML_MD_LEN:
+        return None, "html-too-short"
+    return md, "html-extracted"
+
+
+def find_pdf_link_in_html(html: str, base_url: str) -> str | None:
+    """For consultancy pages: find a link to a PDF if the page is a wrapper.
+
+    Looks for the first plausible PDF link near the top of the page or in
+    common 'download' anchors.
+    """
+    # Direct .pdf links
+    pdf_match = re.search(
+        r'href=["\']([^"\']+\.pdf(?:\?[^"\']*)?)["\']',
+        html,
+        re.IGNORECASE,
+    )
+    if pdf_match:
+        return urljoin(base_url, pdf_match.group(1))
+
+    # "download report" / "view PDF" anchors with non-.pdf URLs (some sites obfuscate)
+    dl_match = re.search(
+        r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>\s*(?:download|view)\s+(?:full\s+)?(?:report|pdf|the\s+report)',
+        html,
+        re.IGNORECASE,
+    )
+    if dl_match:
+        return urljoin(base_url, dl_match.group(1))
+
+    return None
+
+
 def fetch_arxiv(arxiv_url: str) -> Fetched:
+    """ar5iv first, then PDF fallback."""
     m = re.match(r"https?://arxiv\.org/abs/(\d+\.\d+)", arxiv_url)
     if not m:
         return Fetched(None, "bad-arxiv-url")
     paper_id = m.group(1)
 
-    ar5iv_url = f"https://ar5iv.labs.arxiv.org/html/{paper_id}"
+    # Attempt 1: ar5iv HTML
     try:
-        with httpx.Client(timeout=HTTP_TIMEOUT, follow_redirects=True,
-                          headers={"User-Agent": USER_AGENT}) as client:
-            resp = client.get(ar5iv_url)
-        if resp.status_code == 200 and HAS_TRAFILATURA:
-            md = trafilatura.extract(
-                resp.text,
-                output_format="markdown",
-                include_links=True,
-                include_tables=True,
-            )
-            if md and len(md) > 1000:
+        resp = http_get(f"https://ar5iv.labs.arxiv.org/html/{paper_id}")
+        if resp.status_code == 200:
+            md, note = extract_html_markdown(resp.text)
+            if md:
                 return Fetched(md, "ar5iv")
-    except (httpx.HTTPError, Exception) as e:
-        print(f"  ar5iv failed: {e}", file=sys.stderr)
+    except Exception as e:
+        print(f"  ar5iv failed: {type(e).__name__}: {e}", file=sys.stderr)
 
-    if not HAS_FITZ:
-        return Fetched(None, "no-fitz")
-    pdf_url = f"https://arxiv.org/pdf/{paper_id}"
+    # Attempt 2: PDF
     try:
-        with httpx.Client(timeout=HTTP_TIMEOUT, follow_redirects=True,
-                          headers={"User-Agent": USER_AGENT}) as client:
-            resp = client.get(pdf_url)
+        resp = http_get(f"https://arxiv.org/pdf/{paper_id}", accept="application/pdf")
         if resp.status_code != 200:
             return Fetched(None, f"pdf-status-{resp.status_code}")
-        doc = fitz.open(stream=resp.content, filetype="pdf")
-        pages = []
-        for page in doc:
-            pages.append(page.get_text())
-        doc.close()
-        text = "\n\n".join(pages)
-        text = re.sub(r"\n{3,}", "\n\n", text).strip()
-        return Fetched(f"# Full text\n\n{text}", "pdf-extracted")
+        text, note = extract_pdf_text(resp.content)
+        if text:
+            return Fetched(f"# Full text\n\n{text}", note)
+        return Fetched(None, note)
     except Exception as e:
         return Fetched(None, f"pdf-failed-{type(e).__name__}")
 
 
-def fetch_html(url: str) -> Fetched:
-    if not HAS_TRAFILATURA:
-        return Fetched(None, "no-trafilatura")
+def fetch_html_or_wrapped_pdf(url: str) -> Fetched:
+    """For non-arXiv URLs.
+
+    Logic:
+    1. Fetch the URL.
+    2. If response is a PDF, extract text from it.
+    3. If response is HTML, try markdown extraction.
+    4. If markdown extraction yields too little, look inside the HTML for a
+       PDF link (consultancy wrapper case) and try that PDF.
+    """
     try:
-        with httpx.Client(timeout=HTTP_TIMEOUT, follow_redirects=True,
-                          headers={"User-Agent": USER_AGENT}) as client:
-            resp = client.get(url)
-        if resp.status_code != 200:
-            return Fetched(None, f"html-status-{resp.status_code}")
-        md = trafilatura.extract(
-            resp.text,
-            output_format="markdown",
-            include_links=True,
-            include_tables=True,
-            include_images=False,
-        )
-        if not md or len(md) < 200:
-            return Fetched(None, "html-too-short")
-        return Fetched(md, "html-extracted")
+        resp = http_get(url)
     except Exception as e:
-        return Fetched(None, f"html-failed-{type(e).__name__}")
+        return Fetched(None, f"http-failed-{type(e).__name__}")
+
+    if resp.status_code != 200:
+        return Fetched(None, f"http-status-{resp.status_code}")
+
+    content_type = resp.headers.get("content-type", "").lower()
+
+    # Case 1: response IS a PDF
+    if "application/pdf" in content_type or url.lower().endswith(".pdf"):
+        text, note = extract_pdf_text(resp.content)
+        if text:
+            return Fetched(f"# Full text\n\n{text}", note)
+        return Fetched(None, note)
+
+    # Case 2: HTML — try direct markdown extraction
+    md, note = extract_html_markdown(resp.text)
+    if md:
+        return Fetched(md, "html-extracted")
+
+    # Case 3: HTML extraction too short — likely a wrapper page. Look for a PDF.
+    pdf_link = find_pdf_link_in_html(resp.text, url)
+    if pdf_link:
+        print(f"  HTML wrapper detected — trying {pdf_link}")
+        try:
+            pdf_resp = http_get(pdf_link, accept="application/pdf")
+            if pdf_resp.status_code == 200:
+                text, pdf_note = extract_pdf_text(pdf_resp.content)
+                if text:
+                    return Fetched(f"# Full text\n\n{text}", "wrapped-pdf-extracted")
+                return Fetched(None, pdf_note)
+        except Exception as e:
+            return Fetched(None, f"wrapped-pdf-failed-{type(e).__name__}")
+
+    return Fetched(None, note)  # html-too-short, no wrapped PDF found
 
 
 def fetch_full_content(item: dict[str, Any]) -> Fetched:
     url = item.get("url", "")
     if "arxiv.org" in url:
         return fetch_arxiv(url)
-    return fetch_html(url)
+    return fetch_html_or_wrapped_pdf(url)
 
+
+# --- Note writing ------------------------------------------------------------
 
 def slugify(text: str, max_length: int = 60) -> str:
     text = unicodedata.normalize("NFKD", text)
@@ -304,6 +403,8 @@ def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path 
     return short_path, full_path
 
 
+# --- Main --------------------------------------------------------------------
+
 def main() -> int:
     if not PROMPT_PATH.exists():
         print(f"ERROR: prompt file not found: {PROMPT_PATH}", file=sys.stderr)
@@ -326,6 +427,7 @@ def main() -> int:
         return 0
 
     ingested_today = 0
+    extraction_summary: dict[str, int] = {}
     for item in candidates:
         url = normalise_url(item.get("url", ""))
         if not url:
@@ -346,7 +448,9 @@ def main() -> int:
             short_path, full_path = write_note({**item, "url": url}, fetched)
             print(f"  Wrote: {short_path}")
             if full_path:
-                print(f"  Wrote: {full_path}")
+                print(f"  Wrote: {full_path} (extraction: {fetched.note})")
+            else:
+                print(f"  No full content — extraction: {fetched.note}")
         except Exception as e:
             print(f"  ERROR writing note: {e}", file=sys.stderr)
             continue
@@ -358,10 +462,15 @@ def main() -> int:
             "extraction": fetched.note,
         })
         prior_urls.add(url)
+        extraction_summary[fetched.note] = extraction_summary.get(fetched.note, 0) + 1
         ingested_today += 1
 
     save_index(index)
-    print(f"\nIngested {ingested_today} new items today.")
+    print(f"\n=== Ingested {ingested_today} new items today ===")
+    if extraction_summary:
+        print("Extraction breakdown:")
+        for note, count in sorted(extraction_summary.items()):
+            print(f"  {note}: {count}")
     return 0
 
 
