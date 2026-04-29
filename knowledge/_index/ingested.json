@@ -101,6 +101,84 @@
       "title": "Import AI 389: AI Hacking Capabilities, Forecaster Updates, HiFloat4 vs MXFP4",
       "ingested": "2026-04-29",
       "extraction": "html-status-403"
+    },
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "ingested": "2026-04-29",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+      "title": "Sign of the future: GPT-5.5",
+      "ingested": "2026-04-29",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4",
+      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+      "ingested": "2026-04-29",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.12884",
+      "title": "Agent READMEs: An Empirical Study of Context Files for Agentic Coding",
+      "ingested": "2026-04-29",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026",
+      "title": "My bets on open models, mid-2026",
+      "ingested": "2026-04-29",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://hamel.dev/blog/posts/revenge",
+      "title": "The Revenge of the Data Scientist",
+      "ingested": "2026-04-29",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide",
+      "title": "GPT-5.5 prompting guide",
+      "ingested": "2026-04-29",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation",
+      "title": "The people do not yearn for automation",
+      "ingested": "2026-04-29",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Apr/27/openai-microsoft-agi",
+      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+      "ingested": "2026-04-29",
+      "extraction": "http-status-404"
+    },
+    {
+      "url": "https://www.alphaxiv.org",
+      "title": "SFT-then-RL Pipeline Bugs: DeepSpeed Optimizer Bug and OpenRLHF Loss Aggregation Bug",
+      "ingested": "2026-04-29",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://news.un.org/en/story/2026/04/1167361",
+      "title": "Time to apply the brakes to runaway AI, says pioneer",
+      "ingested": "2026-04-29",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://www.interconnects.ai/p/the-next-phase-of-open-models",
+      "title": "What comes next with open models",
+      "ingested": "2026-04-29",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Apr/17/pycon-us-2026",
+      "title": "Join us at PyCon US 2026 in Long Beach—we have new AI and security tracks this year",
+      "ingested": "2026-04-29",
+      "extraction": "html-too-short"
     }
   ]
 }
