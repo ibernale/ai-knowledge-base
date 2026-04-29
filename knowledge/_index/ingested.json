@@ -41,6 +41,66 @@
       "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
       "ingested": "2026-04-28",
       "extraction": "html-extracted"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.17800",
+      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "ingested": "2026-04-29",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://openai.com/index/gpt-5-5",
+      "title": "GPT-5.5: OpenAI's strongest agentic coding model",
+      "ingested": "2026-04-29",
+      "extraction": "html-status-403"
+    },
+    {
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "title": "The 2026 AI Index Report",
+      "ingested": "2026-04-29",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.18500",
+      "title": "SFT Bug Invalidates Multiple Mixed-Policy Optimization Papers",
+      "ingested": "2026-04-29",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.17200",
+      "title": "Agent Context Files: A Large-Scale Empirical Study",
+      "ingested": "2026-04-29",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://www.anthropic.com/news/managed-agents",
+      "title": "Anthropic Introduces Managed Agents",
+      "ingested": "2026-04-29",
+      "extraction": "html-status-404"
+    },
+    {
+      "url": "https://www.anthropic.com/engineering/claude-code-quality-fixes",
+      "title": "Claude Code Quality Issues: Root Cause Analysis and Fixes",
+      "ingested": "2026-04-29",
+      "extraction": "html-status-404"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.17650",
+      "title": "ReVSI: Revised Benchmark for Video Spatial Intelligence",
+      "ingested": "2026-04-29",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://openai.com/index/chatgpt-for-clinicians",
+      "title": "OpenAI Releases ChatGPT for Clinicians",
+      "ingested": "2026-04-29",
+      "extraction": "html-status-403"
+    },
+    {
+      "url": "https://importai.substack.com/p/import-ai-389",
+      "title": "Import AI 389: AI Hacking Capabilities, Forecaster Updates, HiFloat4 vs MXFP4",
+      "ingested": "2026-04-29",
+      "extraction": "html-status-403"
     }
   ]
 }
