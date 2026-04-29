@@ -1,4 +1,4 @@
-"""AI Knowledge Base ingest pipeline.
+"""AI Knowledge Base ingest pipeline (v2, sources-driven).
 
 Daily cron: identifies new high-value AI items via Claude+web_search,
 downloads each item, converts to clean Markdown, and writes:
@@ -7,6 +7,10 @@ downloads each item, converts to clean Markdown, and writes:
 
 Then updates knowledge/_index/ingested.json with the canonical URL of
 each ingested item, so subsequent runs can dedupe.
+
+v2 changes:
+- Loads sources.md and injects it in the user message as a sources catalog.
+- Higher max_tokens and max_web_searches to support 8-15 items/day target.
 
 Usage:
     python run_ingest.py
@@ -27,9 +31,8 @@ from typing import Any
 import anthropic
 import httpx
 
-# Optional dependencies, used inside try-blocks so partial install still works.
 try:
-    import fitz  # pymupdf
+    import fitz
     HAS_FITZ = True
 except ImportError:
     HAS_FITZ = False
@@ -41,13 +44,12 @@ except ImportError:
     HAS_TRAFILATURA = False
 
 
-# --- Configuration -----------------------------------------------------------
-
 MODEL = "claude-opus-4-5"
-MAX_TOKENS = 8000          # JSON list output is far smaller than a full brief
-MAX_WEB_SEARCHES = 25      # enough for tier-by-tier sweep
+MAX_TOKENS = 12000
+MAX_WEB_SEARCHES = 40
 
 PROMPT_PATH = Path("master_prompt_ingest.md")
+SOURCES_PATH = Path("sources.md")
 KNOWLEDGE_DIR = Path("knowledge")
 INDEX_DIR = KNOWLEDGE_DIR / "_index"
 INDEX_FILE = INDEX_DIR / "ingested.json"
@@ -57,14 +59,11 @@ INDEX_DIR.mkdir(exist_ok=True)
 for sub in ("papers", "blog-posts", "reports"):
     (KNOWLEDGE_DIR / sub).mkdir(exist_ok=True)
 
-USER_AGENT = "ai-kb-ingest/1.0 (+https://github.com)"
+USER_AGENT = "ai-kb-ingest/2.0 (+https://github.com)"
 HTTP_TIMEOUT = 30.0
 
 
-# --- Index of already-ingested URLs -----------------------------------------
-
 def load_index() -> dict[str, Any]:
-    """Load the dedup index. Schema: {"items": [{"url":..., "ingested":...}, ...]}."""
     if not INDEX_FILE.exists():
         return {"items": []}
     try:
@@ -81,29 +80,26 @@ def save_index(index: dict[str, Any]) -> None:
 
 
 def normalise_url(url: str) -> str:
-    """Strip tracking params and trailing slashes for stable comparison."""
     url = url.strip().rstrip("/")
-    # Strip common tracking query params
     url = re.sub(r"\?utm_[^&]+(&utm_[^&]+)*$", "", url)
     url = re.sub(r"&utm_[^&]+", "", url)
-    # Normalize arXiv: always abs/, never pdf/, no version suffix
     m = re.match(r"https?://arxiv\.org/(abs|pdf)/(\d+\.\d+)(v\d+)?(\.pdf)?", url)
     if m:
         return f"https://arxiv.org/abs/{m.group(2)}"
     return url
 
 
-# --- Claude: identify candidates --------------------------------------------
-
 def identify_candidates(prior_urls: list[str]) -> list[dict[str, Any]]:
-    """Ask Claude to return a JSON list of items to ingest today."""
     system_prompt = PROMPT_PATH.read_text(encoding="utf-8")
+    sources_catalog = SOURCES_PATH.read_text(encoding="utf-8") if SOURCES_PATH.exists() else ""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    already_block = "\n".join(f"- {u}" for u in prior_urls[-300:])  # last 300 is plenty
+    already_block = "\n".join(f"- {u}" for u in prior_urls[-500:])
+
     user_message = (
         f"Today's date is {today}.\n\n"
         f"<already_ingested>\n{already_block}\n</already_ingested>\n\n"
+        f"<sources_catalog>\n{sources_catalog}\n</sources_catalog>\n\n"
         "Identify items to ingest now. Return ONLY the JSON array."
     )
 
@@ -127,13 +123,10 @@ def identify_candidates(prior_urls: list[str]) -> list[dict[str, Any]]:
 
     raw = "".join(text_chunks).strip()
 
-    # Extract the JSON array. Claude usually returns clean JSON but defend
-    # against the occasional ```json fence or leading prose.
     fenced = re.search(r"```(?:json)?\s*(\[.*?\])\s*```", raw, re.DOTALL)
     if fenced:
         raw = fenced.group(1)
     else:
-        # Find the first '[' and last ']'
         start = raw.find("[")
         end = raw.rfind("]")
         if start != -1 and end > start:
@@ -150,23 +143,18 @@ def identify_candidates(prior_urls: list[str]) -> list[dict[str, Any]]:
         return []
 
 
-# --- Content download and conversion ----------------------------------------
-
 @dataclass
 class Fetched:
-    """Result of trying to download and convert an item to Markdown."""
     markdown: str | None
-    note: str  # "ok", "abstract-only", "fetch-failed", etc.
+    note: str
 
 
 def fetch_arxiv(arxiv_url: str) -> Fetched:
-    """Try ar5iv first (clean HTML), fall back to PDF text extraction."""
     m = re.match(r"https?://arxiv\.org/abs/(\d+\.\d+)", arxiv_url)
     if not m:
         return Fetched(None, "bad-arxiv-url")
     paper_id = m.group(1)
 
-    # Attempt 1: ar5iv
     ar5iv_url = f"https://ar5iv.labs.arxiv.org/html/{paper_id}"
     try:
         with httpx.Client(timeout=HTTP_TIMEOUT, follow_redirects=True,
@@ -184,7 +172,6 @@ def fetch_arxiv(arxiv_url: str) -> Fetched:
     except (httpx.HTTPError, Exception) as e:
         print(f"  ar5iv failed: {e}", file=sys.stderr)
 
-    # Attempt 2: PDF
     if not HAS_FITZ:
         return Fetched(None, "no-fitz")
     pdf_url = f"https://arxiv.org/pdf/{paper_id}"
@@ -200,7 +187,6 @@ def fetch_arxiv(arxiv_url: str) -> Fetched:
             pages.append(page.get_text())
         doc.close()
         text = "\n\n".join(pages)
-        # Light cleanup
         text = re.sub(r"\n{3,}", "\n\n", text).strip()
         return Fetched(f"# Full text\n\n{text}", "pdf-extracted")
     except Exception as e:
@@ -208,7 +194,6 @@ def fetch_arxiv(arxiv_url: str) -> Fetched:
 
 
 def fetch_html(url: str) -> Fetched:
-    """Generic HTML fetch + extract for blogs and most reports."""
     if not HAS_TRAFILATURA:
         return Fetched(None, "no-trafilatura")
     try:
@@ -232,17 +217,13 @@ def fetch_html(url: str) -> Fetched:
 
 
 def fetch_full_content(item: dict[str, Any]) -> Fetched:
-    """Dispatch to arxiv or html fetcher based on item source."""
     url = item.get("url", "")
     if "arxiv.org" in url:
         return fetch_arxiv(url)
     return fetch_html(url)
 
 
-# --- Note writing ------------------------------------------------------------
-
 def slugify(text: str, max_length: int = 60) -> str:
-    """Filesystem-safe slug from a title."""
     text = unicodedata.normalize("NFKD", text)
     text = text.encode("ascii", "ignore").decode("ascii")
     text = re.sub(r"[^\w\s-]", "", text).strip().lower()
@@ -260,10 +241,6 @@ def folder_for_type(item_type: str) -> Path:
 
 
 def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path | None]:
-    """Write the short note and (if available) the full-content companion.
-
-    Returns (short_note_path, full_note_path_or_None).
-    """
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     slug = slugify(item.get("title", "untitled"))
     folder = folder_for_type(item.get("type", "blog-post"))
@@ -271,7 +248,6 @@ def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path 
     short_path = folder / f"{today}-{slug}.md"
     full_path: Path | None = None
 
-    # Frontmatter
     fm_lines = ["---"]
     fm_lines.append(f"title: {json.dumps(item.get('title', ''))}")
     fm_lines.append(f"url: {item.get('url', '')}")
@@ -286,7 +262,6 @@ def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path 
     fm_lines.append("---\n")
     frontmatter = "\n".join(fm_lines)
 
-    # If we have a full-content companion, write it first so we can wikilink to it.
     if full_content.markdown:
         full_path = folder / f"{today}-{slug}.full.md"
         full_fm = (
@@ -302,9 +277,7 @@ def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path 
         )
         full_path.write_text(full_fm + full_content.markdown, encoding="utf-8")
 
-    # Build the short note body
     body = [frontmatter, f"# {item.get('title', 'Untitled')}\n"]
-
     body.append("## Why it matters")
     body.append(item.get("why_it_matters", "_Not provided_"))
     body.append("")
@@ -331,13 +304,12 @@ def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path 
     return short_path, full_path
 
 
-# --- Main --------------------------------------------------------------------
-
 def main() -> int:
     if not PROMPT_PATH.exists():
         print(f"ERROR: prompt file not found: {PROMPT_PATH}", file=sys.stderr)
         return 1
-
+    if not SOURCES_PATH.exists():
+        print(f"WARNING: sources catalog not found: {SOURCES_PATH}", file=sys.stderr)
     if not HAS_TRAFILATURA:
         print("ERROR: trafilatura is required (pip install trafilatura)", file=sys.stderr)
         return 1
@@ -379,7 +351,6 @@ def main() -> int:
             print(f"  ERROR writing note: {e}", file=sys.stderr)
             continue
 
-        # Record in the index, even if full extraction failed — short note is enough.
         index["items"].append({
             "url": url,
             "title": item.get("title", ""),
