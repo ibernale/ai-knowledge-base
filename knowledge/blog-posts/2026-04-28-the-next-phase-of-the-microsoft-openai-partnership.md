@@ -1,14 +1,13 @@
 ---
 title: "The next phase of the Microsoft-OpenAI partnership"
-url: https://openai.com/index/next-phase-of-microsoft-partnership
-source: openai
-type: blog-post
+url: "https://openai.com/index/next-phase-of-microsoft-partnership"
+source: "openai"
+type: "blog-post"
 authors: ["OpenAI"]
-published: 2026-04-27
-ingested: 2026-04-28
-tags: ["policy", "inference"]
+published: "2026-04-27"
+ingested: "2026-04-28"
+tags: ["research/regulation", "research/inference", "type/blog", "access/public"]
 ---
-
 # The next phase of the Microsoft-OpenAI partnership
 
 ## Why it matters

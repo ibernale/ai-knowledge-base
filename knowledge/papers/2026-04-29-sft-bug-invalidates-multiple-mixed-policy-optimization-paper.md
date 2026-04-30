@@ -1,14 +1,13 @@
 ---
 title: "SFT Bug Invalidates Multiple Mixed-Policy Optimization Papers"
-url: https://arxiv.org/abs/2604.18500
-source: arxiv
-type: paper
+url: "https://arxiv.org/abs/2604.18500"
+source: "arxiv"
+type: "paper"
 authors: ["Alexis Limozin", "Eduard Durech", "Torsten Hoefler"]
-published: 2026-04-26
-ingested: 2026-04-29
-tags: ["posttraining", "reasoning", "evals"]
+published: "2026-04-26"
+ingested: "2026-04-29"
+tags: ["research/posttraining", "research/reasoning", "research/evals", "type/paper", "access/public"]
 ---
-
 # SFT Bug Invalidates Multiple Mixed-Policy Optimization Papers
 
 ## Why it matters

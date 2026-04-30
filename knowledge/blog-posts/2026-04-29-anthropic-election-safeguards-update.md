@@ -1,14 +1,13 @@
 ---
 title: "Anthropic Election Safeguards Update"
-url: https://www.anthropic.com/news/election-safeguards-2026
-source: anthropic
-type: blog-post
+url: "https://www.anthropic.com/news/election-safeguards-2026"
+source: "anthropic"
+type: "blog-post"
 authors: ["Anthropic"]
-published: 2026-04-24
-ingested: 2026-04-29
-tags: ["safety", "policy"]
+published: "2026-04-24"
+ingested: "2026-04-29"
+tags: ["research/safety", "research/regulation", "type/blog", "access/public"]
 ---
-
 # Anthropic Election Safeguards Update
 
 ## Why it matters

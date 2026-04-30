@@ -1,14 +1,13 @@
 ---
 title: "Anthropic Introduces Managed Agents"
-url: https://www.anthropic.com/news/managed-agents
-source: anthropic
-type: blog-post
+url: "https://www.anthropic.com/news/managed-agents"
+source: "anthropic"
+type: "blog-post"
 authors: ["Anthropic"]
-published: 2026-04-23
-ingested: 2026-04-29
-tags: ["agents", "tool-use"]
+published: "2026-04-23"
+ingested: "2026-04-29"
+tags: ["research/agents", "research/tool-use", "type/blog", "access/public"]
 ---
-
 # Anthropic Introduces Managed Agents
 
 ## Why it matters

@@ -1,14 +1,13 @@
 ---
 title: "My bets on open models, mid-2026"
-url: https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026
-source: substack
-type: blog-post
+url: "https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026"
+source: "substack"
+type: "blog-post"
 authors: ["Nathan Lambert"]
-published: 2026-04-15
-ingested: 2026-04-29
-tags: ["reasoning", "distillation", "posttraining", "industry"]
+published: "2026-04-15"
+ingested: "2026-04-29"
+tags: ["research/reasoning", "research/distillation", "research/posttraining", "research/industry", "type/blog", "access/public"]
 ---
-
 # My bets on open models, mid-2026
 
 ## Why it matters

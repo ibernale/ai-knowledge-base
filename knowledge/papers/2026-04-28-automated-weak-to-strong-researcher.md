@@ -1,14 +1,13 @@
 ---
 title: "Automated Weak-to-Strong Researcher"
-url: https://alignment.anthropic.com/2026/automated-w2s-researcher
-source: anthropic
-type: paper
+url: "https://alignment.anthropic.com/2026/automated-w2s-researcher"
+source: "anthropic"
+type: "paper"
 authors: ["Anthropic Fellows Program", "et al."]
-published: 2026-04-14
-ingested: 2026-04-28
-tags: ["alignment", "agents", "reasoning"]
+published: "2026-04-14"
+ingested: "2026-04-28"
+tags: ["research/alignment", "research/agents", "research/reasoning", "type/paper", "access/public"]
 ---
-
 # Automated Weak-to-Strong Researcher
 
 ## Why it matters

@@ -1,14 +1,13 @@
 ---
-title: "Join us at PyCon US 2026 in Long Beach\u2014we have new AI and security tracks this year"
-url: https://simonwillison.net/2026/Apr/17/pycon-us-2026
-source: other
-type: blog-post
+title: "Join us at PyCon US 2026 in Long Beach—we have new AI and security tracks this year"
+url: "https://simonwillison.net/2026/Apr/17/pycon-us-2026"
+source: "other"
+type: "blog-post"
 authors: ["Simon Willison"]
-published: 2026-04-17
-ingested: 2026-04-29
-tags: ["agents", "safety"]
+published: "2026-04-17"
+ingested: "2026-04-29"
+tags: ["research/agents", "research/safety", "type/blog", "access/public"]
 ---
-
 # Join us at PyCon US 2026 in Long Beach—we have new AI and security tracks this year
 
 ## Why it matters

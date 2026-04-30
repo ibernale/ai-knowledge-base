@@ -1,14 +1,13 @@
 ---
 title: "DeepSeek V4 - almost on the frontier, a fraction of the price"
-url: https://simonwillison.net/2026/Apr/24/deepseek-v4
-source: other
-type: blog-post
+url: "https://simonwillison.net/2026/Apr/24/deepseek-v4"
+source: "other"
+type: "blog-post"
 authors: ["Simon Willison"]
-published: 2026-04-24
-ingested: 2026-04-29
-tags: ["model-release", "long-context", "inference", "agents"]
+published: "2026-04-24"
+ingested: "2026-04-29"
+tags: ["research/model-release", "research/long-context", "research/inference", "research/agents", "type/blog", "access/public"]
 ---
-
 # DeepSeek V4 - almost on the frontier, a fraction of the price
 
 ## Why it matters

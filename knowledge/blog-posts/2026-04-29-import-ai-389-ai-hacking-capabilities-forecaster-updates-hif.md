@@ -1,14 +1,13 @@
 ---
 title: "Import AI 389: AI Hacking Capabilities, Forecaster Updates, HiFloat4 vs MXFP4"
-url: https://importai.substack.com/p/import-ai-389
-source: substack
-type: blog-post
+url: "https://importai.substack.com/p/import-ai-389"
+source: "substack"
+type: "blog-post"
 authors: ["Jack Clark"]
-published: 2026-04-28
-ingested: 2026-04-29
-tags: ["safety", "evals", "hardware"]
+published: "2026-04-28"
+ingested: "2026-04-29"
+tags: ["research/safety", "research/evals", "research/hardware", "type/blog", "access/public"]
 ---
-
 # Import AI 389: AI Hacking Capabilities, Forecaster Updates, HiFloat4 vs MXFP4
 
 ## Why it matters

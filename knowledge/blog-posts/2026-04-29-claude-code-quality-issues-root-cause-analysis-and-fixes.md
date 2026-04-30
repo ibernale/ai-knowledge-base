@@ -1,14 +1,13 @@
 ---
 title: "Claude Code Quality Issues: Root Cause Analysis and Fixes"
-url: https://www.anthropic.com/engineering/claude-code-quality-fixes
-source: anthropic
-type: blog-post
+url: "https://www.anthropic.com/engineering/claude-code-quality-fixes"
+source: "anthropic"
+type: "blog-post"
 authors: ["Anthropic Engineering"]
-published: 2026-04-20
-ingested: 2026-04-29
-tags: ["agentic-coding", "posttraining"]
+published: "2026-04-20"
+ingested: "2026-04-29"
+tags: ["research/agentic-coding", "research/posttraining", "type/blog", "access/public"]
 ---
-
 # Claude Code Quality Issues: Root Cause Analysis and Fixes
 
 ## Why it matters

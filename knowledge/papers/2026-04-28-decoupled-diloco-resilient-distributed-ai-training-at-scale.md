@@ -1,14 +1,13 @@
 ---
 title: "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale"
-url: https://deepmind.google/blog/decoupled-diloco
-source: deepmind
-type: paper
+url: "https://deepmind.google/blog/decoupled-diloco"
+source: "deepmind"
+type: "paper"
 authors: ["Arthur Douillard", "Keith Rush", "Yani Donchev", "Zachary Charles", "et al."]
-published: 2026-04-23
-ingested: 2026-04-28
-tags: ["pretraining", "hardware"]
+published: "2026-04-23"
+ingested: "2026-04-28"
+tags: ["research/pretraining", "research/hardware", "type/paper", "access/public"]
 ---
-
 # Decoupled DiLoCo: Resilient, Distributed AI Training at Scale
 
 ## Why it matters

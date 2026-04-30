@@ -1,14 +1,13 @@
 ---
 title: "Agent READMEs: An Empirical Study of Context Files for Agentic Coding"
-url: https://arxiv.org/abs/2511.12884
-source: arxiv
-type: paper
+url: "https://arxiv.org/abs/2511.12884"
+source: "arxiv"
+type: "paper"
 authors: ["Worawalan Chatlatanagulchai", "et al."]
-published: 2026-04-27
-ingested: 2026-04-29
-tags: ["agents", "agentic-coding", "evals", "benchmarks"]
+published: "2026-04-27"
+ingested: "2026-04-29"
+tags: ["research/agents", "research/agentic-coding", "research/evals", "research/benchmarks", "type/paper", "access/public"]
 ---
-
 # Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 
 ## Why it matters

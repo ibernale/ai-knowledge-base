@@ -1,14 +1,13 @@
 ---
 title: "The Revenge of the Data Scientist"
-url: https://hamel.dev/blog/posts/revenge
-source: other
-type: blog-post
+url: "https://hamel.dev/blog/posts/revenge"
+source: "other"
+type: "blog-post"
 authors: ["Hamel Husain"]
-published: 2026-03-26
-ingested: 2026-04-29
-tags: ["evals", "agents", "agentic-coding"]
+published: "2026-03-26"
+ingested: "2026-04-29"
+tags: ["research/evals", "research/agents", "research/agentic-coding", "type/blog", "access/public"]
 ---
-
 # The Revenge of the Data Scientist
 
 ## Why it matters

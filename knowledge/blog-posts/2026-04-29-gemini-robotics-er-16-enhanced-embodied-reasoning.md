@@ -1,14 +1,13 @@
 ---
 title: "Gemini Robotics ER 1.6: Enhanced Embodied Reasoning"
-url: https://deepmind.google/blog/gemini-robotics-er-1-6
-source: deepmind
-type: blog-post
+url: "https://deepmind.google/blog/gemini-robotics-er-1-6"
+source: "deepmind"
+type: "blog-post"
 authors: ["Google DeepMind"]
-published: 2026-04-22
-ingested: 2026-04-29
-tags: ["robotics", "multimodal", "reasoning"]
+published: "2026-04-22"
+ingested: "2026-04-29"
+tags: ["research/robotics", "research/multimodal", "research/reasoning", "type/blog", "access/public"]
 ---
-
 # Gemini Robotics ER 1.6: Enhanced Embodied Reasoning
 
 ## Why it matters

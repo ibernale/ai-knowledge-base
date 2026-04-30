@@ -1,14 +1,13 @@
 ---
 title: "The 2026 AI Index Report"
-url: https://hai.stanford.edu/ai-index/2026-ai-index-report
-source: stanford-hai
-type: report
+url: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+source: "stanford-hai"
+type: "report"
 authors: ["Stanford HAI AI Index Steering Committee", "Yolanda Gil", "Raymond Perrault"]
-published: 2026-04-13
-ingested: 2026-04-29
-tags: ["benchmarks", "evals", "policy", "economics"]
+published: "2026-04-13"
+ingested: "2026-04-29"
+tags: ["research/benchmarks", "research/evals", "research/regulation", "research/economics", "type/report", "access/public"]
 ---
-
 # The 2026 AI Index Report
 
 ## Why it matters

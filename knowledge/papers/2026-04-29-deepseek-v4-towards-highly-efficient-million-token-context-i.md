@@ -1,14 +1,13 @@
 ---
 title: "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence"
-url: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
-source: deepseek
-type: paper
+url: "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+source: "deepseek"
+type: "paper"
 authors: ["DeepSeek-AI"]
-published: 2026-04-24
-ingested: 2026-04-29
-tags: ["model-release", "long-context", "moe", "inference", "reasoning"]
+published: "2026-04-24"
+ingested: "2026-04-29"
+tags: ["research/model-release", "research/long-context", "research/moe", "research/inference", "research/reasoning", "type/paper", "access/public"]
 ---
-
 # DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence
 
 ## Why it matters

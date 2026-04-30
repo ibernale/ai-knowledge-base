@@ -1,14 +1,13 @@
 ---
 title: "OpenAI Releases ChatGPT for Clinicians"
-url: https://openai.com/index/chatgpt-for-clinicians
-source: openai
-type: blog-post
+url: "https://openai.com/index/chatgpt-for-clinicians"
+source: "openai"
+type: "blog-post"
 authors: ["OpenAI"]
-published: 2026-04-28
-ingested: 2026-04-29
-tags: ["industry", "safety"]
+published: "2026-04-28"
+ingested: "2026-04-29"
+tags: ["research/industry", "research/safety", "type/blog", "access/public"]
 ---
-
 # OpenAI Releases ChatGPT for Clinicians
 
 ## Why it matters

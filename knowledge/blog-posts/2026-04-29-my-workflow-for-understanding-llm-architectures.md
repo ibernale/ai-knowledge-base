@@ -1,14 +1,13 @@
 ---
 title: "My Workflow for Understanding LLM Architectures"
-url: https://sebastianraschka.com/blog/2026/understanding-llm-architectures.html
-source: substack
-type: blog-post
+url: "https://sebastianraschka.com/blog/2026/understanding-llm-architectures.html"
+source: "substack"
+type: "blog-post"
 authors: ["Sebastian Raschka"]
-published: 2026-04-18
-ingested: 2026-04-29
-tags: ["pretraining", "reasoning"]
+published: "2026-04-18"
+ingested: "2026-04-29"
+tags: ["research/pretraining", "research/reasoning", "type/blog", "access/public"]
 ---
-
 # My Workflow for Understanding LLM Architectures
 
 ## Why it matters

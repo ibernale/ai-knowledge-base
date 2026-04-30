@@ -1,14 +1,13 @@
 ---
 title: "Muse Spark: Scaling Towards Personal Superintelligence"
-url: https://ai.meta.com/blog/introducing-muse-spark-msl
-source: meta
-type: blog-post
+url: "https://ai.meta.com/blog/introducing-muse-spark-msl"
+source: "meta"
+type: "blog-post"
 authors: ["Meta Superintelligence Labs"]
-published: 2026-04-08
-ingested: 2026-04-29
-tags: ["model-release", "reasoning", "multimodal", "agents"]
+published: "2026-04-08"
+ingested: "2026-04-29"
+tags: ["research/model-release", "research/reasoning", "research/multimodal", "research/agents", "type/blog", "access/public"]
 ---
-
 # Muse Spark: Scaling Towards Personal Superintelligence
 
 ## Why it matters

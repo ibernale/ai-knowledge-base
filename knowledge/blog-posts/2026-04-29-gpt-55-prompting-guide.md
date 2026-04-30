@@ -1,14 +1,13 @@
 ---
 title: "GPT-5.5 prompting guide"
-url: https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide
-source: other
-type: blog-post
+url: "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide"
+source: "other"
+type: "blog-post"
 authors: ["Simon Willison"]
-published: 2026-04-25
-ingested: 2026-04-29
-tags: ["reasoning", "tool-use", "agents"]
+published: "2026-04-25"
+ingested: "2026-04-29"
+tags: ["research/reasoning", "research/tool-use", "research/agents", "type/blog", "access/public"]
 ---
-
 # GPT-5.5 prompting guide
 
 ## Why it matters

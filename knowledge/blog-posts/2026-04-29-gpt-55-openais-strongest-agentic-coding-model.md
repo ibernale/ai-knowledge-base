@@ -1,14 +1,13 @@
 ---
 title: "GPT-5.5: OpenAI's strongest agentic coding model"
-url: https://openai.com/index/gpt-5-5
-source: openai
-type: blog-post
+url: "https://openai.com/index/gpt-5-5"
+source: "openai"
+type: "blog-post"
 authors: ["OpenAI"]
-published: 2026-04-23
-ingested: 2026-04-29
-tags: ["agentic-coding", "reasoning", "model-release"]
+published: "2026-04-23"
+ingested: "2026-04-29"
+tags: ["research/agentic-coding", "research/reasoning", "research/model-release", "type/blog", "access/public"]
 ---
-
 # GPT-5.5: OpenAI's strongest agentic coding model
 
 ## Why it matters

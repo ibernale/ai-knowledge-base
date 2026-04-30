@@ -1,14 +1,13 @@
 ---
 title: "Deep Research Max: a step change for autonomous research agents"
-url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research
-source: deepmind
-type: blog-post
+url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research"
+source: "deepmind"
+type: "blog-post"
 authors: ["Lukas Haas", "Srinivas Tadepalli"]
-published: 2026-04-21
-ingested: 2026-04-28
-tags: ["agents", "rag", "tool-use"]
+published: "2026-04-21"
+ingested: "2026-04-28"
+tags: ["research/agents", "research/rag", "research/tool-use", "type/blog", "access/public"]
 ---
-
 # Deep Research Max: a step change for autonomous research agents
 
 ## Why it matters

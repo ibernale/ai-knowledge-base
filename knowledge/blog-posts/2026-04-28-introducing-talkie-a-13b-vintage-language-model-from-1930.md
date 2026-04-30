@@ -1,14 +1,13 @@
 ---
 title: "Introducing talkie: a 13B vintage language model from 1930"
-url: https://simonwillison.net/2026/Apr/28/talkie
-source: substack
-type: blog-post
+url: "https://simonwillison.net/2026/Apr/28/talkie"
+source: "substack"
+type: "blog-post"
 authors: ["Simon Willison"]
-published: 2026-04-28
-ingested: 2026-04-28
-tags: ["pretraining"]
+published: "2026-04-28"
+ingested: "2026-04-28"
+tags: ["research/pretraining", "type/blog", "access/public"]
 ---
-
 # Introducing talkie: a 13B vintage language model from 1930
 
 ## Why it matters

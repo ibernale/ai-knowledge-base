@@ -1,14 +1,13 @@
 ---
 title: "ReVSI: Revised Benchmark for Video Spatial Intelligence"
-url: https://arxiv.org/abs/2604.17650
-source: arxiv
-type: paper
+url: "https://arxiv.org/abs/2604.17650"
+source: "arxiv"
+type: "paper"
 authors: ["Simon Fraser University", "et al."]
-published: 2026-04-27
-ingested: 2026-04-29
-tags: ["evals", "benchmarks", "multimodal"]
+published: "2026-04-27"
+ingested: "2026-04-29"
+tags: ["research/evals", "research/benchmarks", "research/multimodal", "type/paper", "access/public"]
 ---
-
 # ReVSI: Revised Benchmark for Video Spatial Intelligence
 
 ## Why it matters

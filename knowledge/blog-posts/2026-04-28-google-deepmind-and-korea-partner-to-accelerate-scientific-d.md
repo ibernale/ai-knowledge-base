@@ -1,14 +1,13 @@
 ---
 title: "Google DeepMind and Korea Partner to Accelerate Scientific Discovery"
-url: https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea
-source: deepmind
-type: blog-post
+url: "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea"
+source: "deepmind"
+type: "blog-post"
 authors: ["Google DeepMind team"]
-published: 2026-04-27
-ingested: 2026-04-28
-tags: ["policy", "agents"]
+published: "2026-04-27"
+ingested: "2026-04-28"
+tags: ["research/regulation", "research/agents", "type/blog", "access/public"]
 ---
-
 # Google DeepMind and Korea Partner to Accelerate Scientific Discovery
 
 ## Why it matters

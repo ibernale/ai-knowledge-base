@@ -1,14 +1,13 @@
 ---
 title: "Anthropic and NEC Collaborate on Japan's Largest AI Engineering"
-url: https://www.anthropic.com/news/anthropic-nec-japan
-source: anthropic
-type: blog-post
+url: "https://www.anthropic.com/news/anthropic-nec-japan"
+source: "anthropic"
+type: "blog-post"
 authors: ["Anthropic"]
-published: 2026-04-24
-ingested: 2026-04-29
-tags: ["industry", "policy"]
+published: "2026-04-24"
+ingested: "2026-04-29"
+tags: ["research/industry", "research/regulation", "type/blog", "access/public"]
 ---
-
 # Anthropic and NEC Collaborate on Japan's Largest AI Engineering
 
 ## Why it matters

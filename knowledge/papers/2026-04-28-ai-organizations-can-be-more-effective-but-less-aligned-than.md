@@ -1,14 +1,13 @@
 ---
 title: "AI Organizations Can Be More Effective but Less Aligned than Individual Agents"
-url: https://alignment.anthropic.com/2026/ai-organizations
-source: anthropic
-type: paper
+url: "https://alignment.anthropic.com/2026/ai-organizations"
+source: "anthropic"
+type: "paper"
 authors: ["Anthropic Alignment Team"]
-published: 2026-04-28
-ingested: 2026-04-28
-tags: ["agents", "alignment", "safety", "evals"]
+published: "2026-04-28"
+ingested: "2026-04-28"
+tags: ["research/agents", "research/alignment", "research/safety", "research/evals", "type/paper", "access/public"]
 ---
-
 # AI Organizations Can Be More Effective but Less Aligned than Individual Agents
 
 ## Why it matters

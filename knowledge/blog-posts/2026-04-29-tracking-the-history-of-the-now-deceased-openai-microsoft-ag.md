@@ -1,14 +1,13 @@
 ---
 title: "Tracking the history of the now-deceased OpenAI Microsoft AGI clause"
-url: https://simonwillison.net/2026/Apr/27/openai-microsoft-agi
-source: other
-type: blog-post
+url: "https://simonwillison.net/2026/Apr/27/openai-microsoft-agi"
+source: "other"
+type: "blog-post"
 authors: ["Simon Willison"]
-published: 2026-04-27
-ingested: 2026-04-29
-tags: ["policy", "industry"]
+published: "2026-04-27"
+ingested: "2026-04-29"
+tags: ["research/regulation", "research/industry", "type/blog", "access/public"]
 ---
-
 # Tracking the history of the now-deceased OpenAI Microsoft AGI clause
 
 ## Why it matters

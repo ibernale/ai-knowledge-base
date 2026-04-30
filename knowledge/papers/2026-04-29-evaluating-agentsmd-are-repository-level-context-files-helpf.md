@@ -1,14 +1,13 @@
 ---
 title: "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?"
-url: https://arxiv.org/abs/2602.11988
-source: arxiv
-type: paper
+url: "https://arxiv.org/abs/2602.11988"
+source: "arxiv"
+type: "paper"
 authors: ["Thibaud Gloaguen", "Niels Mündler", "Mark Müller", "Veselin Raychev", "Martin Vechev"]
-published: 2026-02-12
-ingested: 2026-04-29
-tags: ["agents", "agentic-coding", "evals"]
+published: "2026-02-12"
+ingested: "2026-04-29"
+tags: ["research/agents", "research/agentic-coding", "research/evals", "type/paper", "access/public"]
 ---
-
 # Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
 
 ## Why it matters

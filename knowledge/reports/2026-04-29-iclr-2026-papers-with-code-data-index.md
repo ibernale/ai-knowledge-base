@@ -1,14 +1,13 @@
 ---
 title: "ICLR 2026 Papers with Code & Data Index"
-url: https://www.paperdigest.org/2026/04/iclr-2026-papers-with-code-data
-source: other
-type: report
+url: "https://www.paperdigest.org/2026/04/iclr-2026-papers-with-code-data"
+source: "other"
+type: "report"
 authors: ["Paper Digest"]
-published: 2026-04-22
-ingested: 2026-04-29
-tags: ["benchmarks", "pretraining"]
+published: "2026-04-22"
+ingested: "2026-04-29"
+tags: ["research/benchmarks", "research/pretraining", "type/report", "access/public"]
 ---
-
 # ICLR 2026 Papers with Code & Data Index
 
 ## Why it matters

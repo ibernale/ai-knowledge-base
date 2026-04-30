@@ -1,14 +1,13 @@
 ---
 title: "Sign of the future: GPT-5.5"
-url: https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55
-source: substack
-type: blog-post
+url: "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55"
+source: "substack"
+type: "blog-post"
 authors: ["Ethan Mollick"]
-published: 2026-04-23
-ingested: 2026-04-29
-tags: ["model-release", "reasoning", "agentic-coding", "benchmarks"]
+published: "2026-04-23"
+ingested: "2026-04-29"
+tags: ["research/model-release", "research/reasoning", "research/agentic-coding", "research/benchmarks", "type/blog", "access/public"]
 ---
-
 # Sign of the future: GPT-5.5
 
 ## Why it matters

@@ -1,14 +1,13 @@
 ---
 title: "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook"
-url: https://arxiv.org/abs/2604.02029
-source: arxiv
-type: paper
+url: "https://arxiv.org/abs/2604.02029"
+source: "arxiv"
+type: "paper"
 authors: ["Xinlei Yu", "et al."]
-published: 2026-04-03
-ingested: 2026-04-29
-tags: ["reasoning", "interpretability", "pretraining"]
+published: "2026-04-03"
+ingested: "2026-04-29"
+tags: ["research/reasoning", "research/interpretability", "research/pretraining", "type/paper", "access/public"]
 ---
-
 # The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook
 
 ## Why it matters

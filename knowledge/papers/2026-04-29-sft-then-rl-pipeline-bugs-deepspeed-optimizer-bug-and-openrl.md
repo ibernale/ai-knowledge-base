@@ -1,14 +1,13 @@
 ---
 title: "SFT-then-RL Pipeline Bugs: DeepSpeed Optimizer Bug and OpenRLHF Loss Aggregation Bug"
-url: https://www.alphaxiv.org
-source: arxiv
-type: paper
+url: "https://www.alphaxiv.org"
+source: "arxiv"
+type: "paper"
 authors: ["Alexis Limozin", "Eduard Durech", "Torsten Hoefler"]
-published: 2026-04-26
-ingested: 2026-04-29
-tags: ["posttraining", "reasoning", "benchmarks"]
+published: "2026-04-26"
+ingested: "2026-04-29"
+tags: ["research/posttraining", "research/reasoning", "research/benchmarks", "type/paper", "access/public"]
 ---
-
 # SFT-then-RL Pipeline Bugs: DeepSpeed Optimizer Bug and OpenRLHF Loss Aggregation Bug
 
 ## Why it matters

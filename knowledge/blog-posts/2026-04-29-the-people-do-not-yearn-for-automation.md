@@ -1,14 +1,13 @@
 ---
 title: "The people do not yearn for automation"
-url: https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation
-source: other
-type: blog-post
+url: "https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation"
+source: "other"
+type: "blog-post"
 authors: ["Simon Willison"]
-published: 2026-04-24
-ingested: 2026-04-29
-tags: ["policy", "economics", "alignment"]
+published: "2026-04-24"
+ingested: "2026-04-29"
+tags: ["research/regulation", "research/economics", "research/alignment", "type/blog", "access/public"]
 ---
-
 # The people do not yearn for automation
 
 ## Why it matters

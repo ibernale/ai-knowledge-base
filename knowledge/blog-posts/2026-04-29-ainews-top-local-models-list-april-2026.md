@@ -1,14 +1,13 @@
 ---
 title: "AINews Top Local Models List - April 2026"
-url: https://www.latent.space/p/ainews-top-local-models-list-april
-source: substack
-type: blog-post
+url: "https://www.latent.space/p/ainews-top-local-models-list-april"
+source: "substack"
+type: "blog-post"
 authors: ["Swyx", "Alessio Fanelli"]
-published: 2026-04-14
-ingested: 2026-04-29
-tags: ["model-release", "inference"]
+published: "2026-04-14"
+ingested: "2026-04-29"
+tags: ["research/model-release", "research/inference", "type/blog", "access/public"]
 ---
-
 # AINews Top Local Models List - April 2026
 
 ## Why it matters

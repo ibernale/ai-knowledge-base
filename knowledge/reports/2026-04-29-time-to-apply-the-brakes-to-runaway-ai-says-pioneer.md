@@ -1,14 +1,13 @@
 ---
 title: "Time to apply the brakes to runaway AI, says pioneer"
-url: https://news.un.org/en/story/2026/04/1167361
-source: other
-type: report
+url: "https://news.un.org/en/story/2026/04/1167361"
+source: "other"
+type: "report"
 authors: ["Elma Okic", "Geoffrey Hinton"]
-published: 2026-04-22
-ingested: 2026-04-29
-tags: ["safety", "policy", "regulation"]
+published: "2026-04-22"
+ingested: "2026-04-29"
+tags: ["research/safety", "research/regulation", "type/report", "access/public"]
 ---
-
 # Time to apply the brakes to runaway AI, says pioneer
 
 ## Why it matters

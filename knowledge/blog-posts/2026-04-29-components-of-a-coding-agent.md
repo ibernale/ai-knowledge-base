@@ -1,14 +1,13 @@
 ---
 title: "Components of A Coding Agent"
-url: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent
-source: substack
-type: blog-post
+url: "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent"
+source: "substack"
+type: "blog-post"
 authors: ["Sebastian Raschka"]
-published: 2026-04-04
-ingested: 2026-04-29
-tags: ["agents", "agentic-coding", "tool-use"]
+published: "2026-04-04"
+ingested: "2026-04-29"
+tags: ["research/agents", "research/agentic-coding", "research/tool-use", "type/blog", "access/public"]
 ---
-
 # Components of A Coding Agent
 
 ## Why it matters

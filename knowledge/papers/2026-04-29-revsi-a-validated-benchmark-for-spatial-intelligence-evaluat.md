@@ -1,14 +1,13 @@
 ---
 title: "ReVSI: A Validated Benchmark for Spatial Intelligence Evaluation"
-url: https://arxiv.org/abs/2604.19000
-source: arxiv
-type: paper
+url: "https://arxiv.org/abs/2604.19000"
+source: "arxiv"
+type: "paper"
 authors: ["Simon Fraser University"]
-published: 2026-04-27
-ingested: 2026-04-29
-tags: ["evals", "benchmarks", "multimodal"]
+published: "2026-04-27"
+ingested: "2026-04-29"
+tags: ["research/evals", "research/benchmarks", "research/multimodal", "type/paper", "access/public"]
 ---
-
 # ReVSI: A Validated Benchmark for Spatial Intelligence Evaluation
 
 ## Why it matters

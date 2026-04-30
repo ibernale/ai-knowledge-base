@@ -1,14 +1,13 @@
 ---
 title: "SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning"
-url: https://arxiv.org/abs/2604.23747
-source: arxiv
-type: paper
+url: "https://arxiv.org/abs/2604.23747"
+source: "arxiv"
+type: "paper"
 authors: ["Alexis Limozin", "Eduard Durech", "Torsten Hoefler"]
-published: 2026-04-26
-ingested: 2026-04-29
-tags: ["posttraining", "reasoning", "benchmarks"]
+published: "2026-04-26"
+ingested: "2026-04-29"
+tags: ["research/posttraining", "research/reasoning", "research/benchmarks", "type/paper", "access/public"]
 ---
-
 # SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning
 
 ## Why it matters

@@ -1,14 +1,13 @@
 ---
 title: "Agent Context Files: A Large-Scale Empirical Study"
-url: https://arxiv.org/abs/2604.17200
-source: arxiv
-type: paper
+url: "https://arxiv.org/abs/2604.17200"
+source: "arxiv"
+type: "paper"
 authors: ["et al."]
-published: 2026-04-27
-ingested: 2026-04-29
-tags: ["agents", "agentic-coding", "evals"]
+published: "2026-04-27"
+ingested: "2026-04-29"
+tags: ["research/agents", "research/agentic-coding", "research/evals", "type/paper", "access/public"]
 ---
-
 # Agent Context Files: A Large-Scale Empirical Study
 
 ## Why it matters

@@ -1,14 +1,13 @@
 ---
 title: "Context Engineering for AI Agents in Open-Source Software"
-url: https://arxiv.org/abs/2604.18200
-source: arxiv
-type: paper
+url: "https://arxiv.org/abs/2604.18200"
+source: "arxiv"
+type: "paper"
 authors: ["Chatlatanagulchai et al."]
-published: 2026-04-28
-ingested: 2026-04-29
-tags: ["agents", "agentic-coding", "tool-use"]
+published: "2026-04-28"
+ingested: "2026-04-29"
+tags: ["research/agents", "research/agentic-coding", "research/tool-use", "type/paper", "access/public"]
 ---
-
 # Context Engineering for AI Agents in Open-Source Software
 
 ## Why it matters
