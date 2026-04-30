@@ -18,19 +18,28 @@ Every day at 06:30 UTC, a GitHub Action runs `run_ingest.py`, which:
 
 ```
 ai-knowledge-base/
+├── CLAUDE.md                 # context for Claude Code
 ├── master_prompt_ingest.md   # the system prompt for Claude
 ├── run_ingest.py             # the ingest pipeline
 ├── requirements.txt
 ├── README.md
+├── _spine/                   # git submodule → kb-spine (schemas, lint, templates, tag vocab)
 ├── .github/workflows/
-│   └── ingest.yml
-└── knowledge/                # this is the Obsidian vault content
-    ├── papers/               # .md notes for arXiv papers
-    ├── blog-posts/           # .md notes for lab/Substack posts
-    ├── reports/              # .md notes for analyst/consultancy reports
+│   └── ingest.yml            # daily run, with lint + PII gate
+└── knowledge/                # the Obsidian vault content
+    ├── papers/               # .md notes for arXiv papers (raw, ingested)
+    ├── blog-posts/           # .md notes for lab/Substack posts (raw, ingested)
+    ├── reports/              # .md notes for analyst/consultancy reports (raw, ingested)
+    ├── wiki/                 # human prose, evergreen
+    ├── entities/             # human-curated: people, orgs, labs, models, products
+    ├── concepts/             # curated concepts (and _candidates/ auto-drafted)
+    ├── daily/                # daily notes (and _weekly/ exec digests)
+    ├── auto/                 # pipeline-only, never edit by hand
     └── _index/
         └── ingested.json     # canonical-URL log for dedup
 ```
+
+The `_spine/` submodule is the **single source of truth** for schemas, the closed tag vocabulary, lint scripts, and templates — shared across all four KB vaults (research, santander, saas, tech). See `_spine/docs/conventions.md`.
 
 ## Using it from Obsidian
 
@@ -45,9 +54,10 @@ Install the **Obsidian Git** community plugin and configure:
 
 ## Tag vocabulary
 
-Closed list — see `master_prompt_ingest.md` for the canonical set. Examples:
-`agents` `rag` `evals` `alignment` `interpretability` `moe` `long-context`
-`reasoning` `multimodal` `agentic-coding` `tool-use` `policy` `benchmarks`.
+Closed, hierarchical list. Single source of truth: `_spine/tag-vocabulary.md`.
+Examples: `research/agents`, `research/rag`, `governance/eu-ai-act`, `type/paper`, `access/public`.
+
+Every note carries exactly one `type/*` and one `access/*` tag — the pipeline injects these for ingested items.
 
 ## Manual run
 

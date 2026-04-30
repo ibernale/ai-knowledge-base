@@ -116,8 +116,13 @@ For each surviving candidate, return a JSON object with these exact fields:
 }
 ```
 
-**Tag vocabulary — use ONLY these tags:**
-`agents` `rag` `evals` `alignment` `safety` `interpretability` `moe` `long-context` `reasoning` `multimodal` `robotics` `distillation` `pretraining` `posttraining` `inference` `hardware` `policy` `benchmarks` `agentic-coding` `tool-use` `economics` `industry` `regulation` `model-release`
+**Tag vocabulary — use ONLY these tags (hierarchical, prefix is mandatory):**
+`research/agents` `research/rag` `research/evals` `research/alignment` `research/safety` `research/interpretability` `research/moe` `research/long-context` `research/reasoning` `research/multimodal` `research/robotics` `research/distillation` `research/pretraining` `research/posttraining` `research/inference` `research/hardware` `research/benchmarks` `research/agentic-coding` `research/tool-use` `research/economics` `research/industry` `research/regulation` `research/model-release`
+
+If a paper / post is also about regulation or policy frameworks, you may add one of:
+`governance/eu-ai-act` `governance/dora` `governance/gdpr` `governance/eba` `governance/nis2`
+
+**Do NOT add `type/*` or `access/*` tags — the pipeline injects them automatically based on item type. Every research item is tagged `access/public` and the appropriate `type/paper`, `type/blog`, or `type/report`.**
 
 ### STEP 4 — Output format
 

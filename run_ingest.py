@@ -339,6 +339,64 @@ def folder_for_type(item_type: str) -> Path:
     return mapping.get(item_type, KNOWLEDGE_DIR / "blog-posts")
 
 
+# Tags the LLM is allowed to emit (research/* + governance/*).
+# Mirrors _spine/tag-vocabulary.md and master_prompt_ingest.md.
+ALLOWED_LLM_TAGS = {
+    "research/agents", "research/rag", "research/evals", "research/alignment",
+    "research/safety", "research/interpretability", "research/moe",
+    "research/long-context", "research/reasoning", "research/multimodal",
+    "research/robotics", "research/distillation", "research/pretraining",
+    "research/posttraining", "research/inference", "research/hardware",
+    "research/benchmarks", "research/agentic-coding", "research/tool-use",
+    "research/economics", "research/industry", "research/regulation",
+    "research/model-release",
+    "governance/eu-ai-act", "governance/dora", "governance/gdpr",
+    "governance/eba", "governance/nis2",
+}
+
+# Legacy flat tags → hierarchical equivalents. Belt-and-suspenders for the
+# transition period in case the LLM regresses.
+FLAT_TO_HIER = {
+    "policy": "research/regulation",
+    "economics": "research/economics",
+    "industry": "research/industry",
+    "model-release": "research/model-release",
+    **{t: f"research/{t}" for t in (
+        "agents", "rag", "evals", "alignment", "safety", "interpretability",
+        "moe", "long-context", "reasoning", "multimodal", "robotics",
+        "distillation", "pretraining", "posttraining", "inference",
+        "hardware", "benchmarks", "agentic-coding", "tool-use", "regulation",
+    )},
+}
+
+ITEM_TYPE_TO_TAG = {
+    "paper": "type/paper",
+    "blog-post": "type/blog",
+    "report": "type/report",
+}
+
+
+def normalise_tags(raw_tags: list[str], item_type: str) -> list[str]:
+    """Coerce LLM tags into the hierarchical vocabulary, then add the
+    structural tags (type/* and access/*) that the pipeline owns."""
+    out: list[str] = []
+    seen: set[str] = set()
+    for tag in raw_tags or []:
+        if not isinstance(tag, str):
+            continue
+        t = tag.strip().lower()
+        if "/" not in t:
+            t = FLAT_TO_HIER.get(t, t)
+        if t in ALLOWED_LLM_TAGS and t not in seen:
+            out.append(t)
+            seen.add(t)
+    type_tag = ITEM_TYPE_TO_TAG.get(item_type, "type/blog")
+    if type_tag not in seen:
+        out.append(type_tag)
+    out.append("access/public")
+    return out
+
+
 def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path | None]:
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     slug = slugify(item.get("title", "untitled"))
@@ -356,7 +414,7 @@ def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path 
     fm_lines.append(f"authors: {json.dumps(authors, ensure_ascii=False)}")
     fm_lines.append(f"published: {item.get('published_date', '')}")
     fm_lines.append(f"ingested: {today}")
-    tags = item.get("tags") or []
+    tags = normalise_tags(item.get("tags") or [], item.get("type", "blog-post"))
     fm_lines.append(f"tags: {json.dumps(tags)}")
     fm_lines.append("---\n")
     frontmatter = "\n".join(fm_lines)

@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,20 +33,55 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install -r _spine/lint/requirements.txt
 
       - name: Run ingest
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python run_ingest.py
 
+      - name: Stage new knowledge files
+        id: stage
+        run: |
+          git add knowledge/
+          NEW_FILES=$(git diff --cached --name-only --diff-filter=AM \
+            | grep '^knowledge/.*\.md$' \
+            | grep -v '\.full\.md$' \
+            || true)
+          if [ -z "$NEW_FILES" ]; then
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+            echo "No new curated markdown files."
+          else
+            echo "has_new=true" >> "$GITHUB_OUTPUT"
+            {
+              echo "files<<EOF"
+              echo "$NEW_FILES"
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+            echo "New files to lint:"
+            echo "$NEW_FILES"
+          fi
+
+      - name: Lint new files (strict)
+        if: steps.stage.outputs.has_new == 'true'
+        run: |
+          mapfile -t FILES < <(printf '%s\n' "${{ steps.stage.outputs.files }}")
+          python _spine/lint/lint_vault.py knowledge --only-files "${FILES[@]}"
+
+      - name: PII scan (warn-only)
+        if: steps.stage.outputs.has_new == 'true'
+        run: |
+          # Warn-only on the public research vault. Strict mode is for santander-kb.
+          python _spine/lint/pii_scan.py knowledge
+
       - name: Commit and push new notes
+        if: steps.stage.outputs.has_new == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main || true
-          git add knowledge/
           if git diff --cached --quiet; then
-            echo "No new notes to commit."
+            echo "No changes to commit after rebase."
           else
             git commit -m "Knowledge ingest $(date -u +%Y-%m-%d)"
             git push
