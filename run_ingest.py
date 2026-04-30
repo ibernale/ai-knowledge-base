@@ -13,6 +13,8 @@ Usage:
 
 from __future__ import annotations
 
+import argparse
+import datetime as _dt
 import json
 import os
 import re
@@ -26,6 +28,7 @@ from urllib.parse import urljoin, urlparse
 
 import anthropic
 import httpx
+import yaml
 
 try:
     import fitz  # pymupdf
@@ -397,6 +400,463 @@ def normalise_tags(raw_tags: list[str], item_type: str) -> list[str]:
     return out
 
 
+# --- Daily note, entity rollups, weekly digest ------------------------------
+
+DAILY_DIR = KNOWLEDGE_DIR / "daily"
+WEEKLY_DIR = DAILY_DIR / "_weekly"
+AUTO_DIR = KNOWLEDGE_DIR / "auto"
+AUTO_PEOPLE = AUTO_DIR / "entities" / "people"
+AUTO_ORGS = AUTO_DIR / "entities" / "orgs"
+
+# Author-slug exclusions: literal author strings that never become a person rollup.
+EXCLUDED_AUTHORS = {"et al.", "et al", "anonymous", ""}
+
+# Token markers that flag a "person" string as actually an organisation,
+# institution or publication. If any of these appear as a whitespace-separated
+# token in the author name, the entry is routed to the org rollup instead.
+ORG_AUTHOR_TOKENS = {
+    "university", "universidad", "institute", "institut", "college",
+    "lab", "labs", "research", "team", "ai", "inc", "corp",
+    "ltd", "llc", "ag", "gmbh", "sa", "co", "company", "group",
+    "foundation", "deepmind", "openai", "anthropic", "meta", "microsoft",
+    "google", "apple", "nvidia", "huggingface", "mistral",
+}
+
+# How many recent items to surface in entity rollups (None = all).
+ENTITY_ROLLUP_MAX = 100
+
+# Thresholds for generating a rollup at all.
+PERSON_ROLLUP_MIN_ITEMS = 2
+ORG_ROLLUP_MIN_ITEMS = 3
+
+
+def begin_marker(name: str) -> str:
+    return f"<!-- BEGIN AUTO:{name} -->"
+
+
+def end_marker(name: str) -> str:
+    return f"<!-- END AUTO:{name} -->"
+
+
+def update_managed_section(path: Path, name: str, new_block: str) -> bool:
+    """Replace the content between <!-- BEGIN AUTO:name --> and the matching
+    end marker. If markers are missing, do nothing and emit a warning. The
+    rest of the file is preserved verbatim."""
+    text = path.read_text(encoding="utf-8")
+    bm, em = begin_marker(name), end_marker(name)
+    bi, ei = text.find(bm), text.find(em)
+    if bi == -1 or ei == -1 or ei < bi:
+        print(
+            f"WARNING: managed-section markers '{name}' missing in {path}; skipping",
+            file=sys.stderr,
+        )
+        return False
+    new_text = text[: bi + len(bm)] + "\n" + new_block.strip() + "\n" + text[ei:]
+    if new_text == text:
+        return False
+    path.write_text(new_text, encoding="utf-8")
+    return True
+
+
+def render_daily_block(items: list[dict[str, Any]]) -> str:
+    if not items:
+        return "## Ingested today\n\n_None._"
+    by_type: dict[str, list[dict[str, Any]]] = {}
+    for it in items:
+        by_type.setdefault(it.get("type", "blog-post"), []).append(it)
+    label_for = {"paper": "Papers", "blog-post": "Blog posts", "report": "Reports"}
+    lines = [f"## Ingested today ({len(items)})", ""]
+    for k in ("paper", "blog-post", "report"):
+        bucket = by_type.get(k, [])
+        if not bucket:
+            continue
+        lines.append(f"### {label_for[k]}")
+        for it in bucket:
+            authors = it.get("authors") or []
+            tail = ""
+            if authors and authors != ["et al."]:
+                tail = f" — _{', '.join(authors[:3])}_"
+            lines.append(f"- [[{it['slug']}]] — {it.get('title', '')}{tail}")
+        lines.append("")
+    return "\n".join(lines).strip()
+
+
+def write_daily_note(items_today: list[dict[str, Any]]) -> Path:
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    DAILY_DIR.mkdir(parents=True, exist_ok=True)
+    path = DAILY_DIR / f"{today}.md"
+    if not path.exists():
+        stub = (
+            "---\n"
+            f'type: "daily"\n'
+            f'date: "{today}"\n'
+            'tags: ["type/daily", "access/public"]\n'
+            "---\n\n"
+            f"# {today}\n\n"
+            f"{begin_marker('ingested')}\n"
+            f"{end_marker('ingested')}\n\n"
+            "## Notes / scratch\n\n"
+            "_(Free-form. Promote anything worth keeping into wiki/ or concepts/.)_\n"
+        )
+        path.write_text(stub, encoding="utf-8")
+    update_managed_section(path, "ingested", render_daily_block(items_today))
+    return path
+
+
+# --- Entity rollups ---------------------------------------------------------
+
+FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?\n)---\s*\n", re.DOTALL)
+
+
+def parse_frontmatter(text: str) -> dict[str, Any] | None:
+    m = FRONTMATTER_RE.match(text)
+    if not m:
+        return None
+    try:
+        fm = yaml.safe_load(m.group(1)) or {}
+        return fm if isinstance(fm, dict) else None
+    except yaml.YAMLError:
+        return None
+
+
+def load_short_notes() -> dict[str, dict[str, Any]]:
+    """Walk papers/, blog-posts/, reports/ and return url -> frontmatter+meta."""
+    notes: dict[str, dict[str, Any]] = {}
+    for sub in ("papers", "blog-posts", "reports"):
+        d = KNOWLEDGE_DIR / sub
+        if not d.exists():
+            continue
+        for p in d.glob("*.md"):
+            if p.name.endswith(".full.md"):
+                continue
+            fm = parse_frontmatter(p.read_text(encoding="utf-8"))
+            if not fm:
+                continue
+            url = fm.get("url")
+            if url:
+                notes[url] = {**fm, "_path": str(p), "_slug": p.stem}
+    return notes
+
+
+def slugify_person(name: str) -> str | None:
+    """Returns a slug for a real person, or None if the name looks like an
+    org / institution / publication / placeholder."""
+    if not name:
+        return None
+    raw = name.strip()
+    if raw.lower() in EXCLUDED_AUTHORS:
+        return None
+    tokens_lower = re.split(r"\s+", raw.lower())
+    # Single-token "names" are almost always orgs or handles (Anthropic, OpenAI).
+    if len(tokens_lower) < 2:
+        return None
+    # Any org/institution token disqualifies the whole name.
+    if any(tok in ORG_AUTHOR_TOKENS for tok in tokens_lower):
+        return None
+    s = unicodedata.normalize("NFKD", raw).encode("ascii", "ignore").decode("ascii")
+    s = re.sub(r"[^\w\s-]", "", s).strip().lower()
+    s = re.sub(r"[\s_-]+", "-", s).strip("-")
+    return s or None
+
+
+def render_person_rollup(slug: str, name: str, items: list[dict[str, Any]]) -> str:
+    items_sorted = sorted(items, key=lambda x: x.get("ingested", ""), reverse=True)
+    if ENTITY_ROLLUP_MAX:
+        items_sorted = items_sorted[:ENTITY_ROLLUP_MAX]
+    lines = [
+        "---",
+        'type: "entity"',
+        'subtype: "person"',
+        f'name: "{name}"',
+        f'slug: "{slug}"',
+        'status: "auto"',
+        'tags: ["type/entity-person", "access/public"]',
+        "---",
+        "",
+        f"# {name} — pipeline rollup",
+        "",
+        "> Auto-generated by `run_ingest.py`. Do not edit. Hand-written sibling at",
+        f"> `entities/people/{slug}.md` should transclude this with `![[auto/entities/people/{slug}]]`.",
+        "",
+        f"## Recent items ({len(items_sorted)})",
+        "",
+    ]
+    for it in items_sorted:
+        date = it.get("ingested", "")
+        item_type = it.get("type", "blog-post")
+        title = it.get("title", "").replace('"', "'")
+        lines.append(f"- {date} — [[{it['slug']}]] _({item_type})_ — {title}")
+    return "\n".join(lines) + "\n"
+
+
+def render_org_rollup(source: str, items: list[dict[str, Any]]) -> str:
+    items_sorted = sorted(items, key=lambda x: x.get("ingested", ""), reverse=True)
+    if ENTITY_ROLLUP_MAX:
+        items_sorted = items_sorted[:ENTITY_ROLLUP_MAX]
+    lines = [
+        "---",
+        'type: "entity"',
+        'subtype: "org"',
+        f'name: "{source}"',
+        f'slug: "{source}"',
+        'status: "auto"',
+        'tags: ["type/entity-org", "access/public"]',
+        "---",
+        "",
+        f"# {source} — pipeline rollup",
+        "",
+        "> Auto-generated by `run_ingest.py`. Do not edit. Hand-written sibling at",
+        f"> `entities/orgs/{source}.md` should transclude this with `![[auto/entities/orgs/{source}]]`.",
+        "",
+        f"## Recent items ({len(items_sorted)})",
+        "",
+    ]
+    for it in items_sorted:
+        date = it.get("ingested", "")
+        item_type = it.get("type", "blog-post")
+        title = it.get("title", "").replace('"', "'")
+        lines.append(f"- {date} — [[{it['slug']}]] _({item_type})_ — {title}")
+    return "\n".join(lines) + "\n"
+
+
+def update_entity_rollups() -> tuple[int, int]:
+    """Walk all short notes, group by person and source, write rollups."""
+    notes = load_short_notes()
+    by_person: dict[str, dict[str, Any]] = {}
+    by_source: dict[str, list[dict[str, Any]]] = {}
+
+    for url, note in notes.items():
+        meta = {
+            "url": url,
+            "slug": note.get("_slug", ""),
+            "title": note.get("title", ""),
+            "type": note.get("type", "blog-post"),
+            "ingested": note.get("ingested", ""),
+            "published": note.get("published", ""),
+        }
+        for author in (note.get("authors") or []):
+            slug = slugify_person(author)
+            if not slug:
+                continue
+            entry = by_person.setdefault(slug, {"name": author, "items": []})
+            entry["items"].append(meta)
+        src = note.get("source")
+        if src and src != "other":
+            by_source.setdefault(src, []).append(meta)
+
+    AUTO_PEOPLE.mkdir(parents=True, exist_ok=True)
+    AUTO_ORGS.mkdir(parents=True, exist_ok=True)
+
+    # auto/ is pipeline-owned and full-rewrite. Wipe stale rollups so an
+    # entity that no longer meets the threshold (or that turns out to be an
+    # org masquerading as a person) doesn't linger.
+    for d in (AUTO_PEOPLE, AUTO_ORGS):
+        for f in d.glob("*.md"):
+            f.unlink()
+
+    people_written = 0
+    for slug, payload in by_person.items():
+        if len(payload["items"]) < PERSON_ROLLUP_MIN_ITEMS:
+            continue
+        path = AUTO_PEOPLE / f"{slug}.md"
+        path.write_text(render_person_rollup(slug, payload["name"], payload["items"]), encoding="utf-8")
+        people_written += 1
+
+    orgs_written = 0
+    for src, items in by_source.items():
+        if len(items) < ORG_ROLLUP_MIN_ITEMS:
+            continue
+        path = AUTO_ORGS / f"{src}.md"
+        path.write_text(render_org_rollup(src, items), encoding="utf-8")
+        orgs_written += 1
+
+    return people_written, orgs_written
+
+
+# --- Weekly exec digest -----------------------------------------------------
+
+WEEKLY_DIGEST_PROMPT = """\
+You are an executive curator producing a weekly AI research digest for a
+senior reader who already saw the daily ingest. Goal: 8-12 bullets, each
+one line + wikilink, prioritised by relevance for someone running AI at a
+large bank.
+
+Priority order (top first):
+1. Frontier-lab releases or major model launches.
+2. Tier-4 individual researcher posts (Karpathy, Lambert, Raschka, etc.).
+3. Tier-5a digest items that captured social traction.
+4. Qualifying arXiv papers (only the ones with clear practitioner value).
+5. Anything else.
+
+Return ONLY a JSON object with these fields:
+{
+  "headline": "≤ 14 words capturing the week's defining theme",
+  "items": [
+    { "slug": "<file-stem-of-the-short-note>", "one_line": "≤ 18 words explaining why this matters" }
+  ],
+  "trending_tags": ["research/...", ...],
+  "watchlist": ["<slug or short string>", ...]
+}
+
+Constraints:
+- Slugs must come from the input list verbatim (do not invent).
+- one_line is your synthesis, not a copy of the why_it_matters paragraph.
+- Skip items that turned out to be duplicates or low-quality on reflection.
+"""
+
+
+def items_for_last_n_days(notes: dict[str, dict[str, Any]], days: int) -> list[dict[str, Any]]:
+    cutoff = datetime.now(timezone.utc).date() - _dt.timedelta(days=days)
+    out: list[dict[str, Any]] = []
+    for url, note in notes.items():
+        ing = note.get("ingested", "")
+        try:
+            d = _dt.date.fromisoformat(ing)
+        except ValueError:
+            continue
+        if d >= cutoff:
+            out.append({**note, "_url": url})
+    return out
+
+
+def write_weekly_digest(client: anthropic.Anthropic, dry_run: bool = False) -> Path | None:
+    notes = load_short_notes()
+    week_items = items_for_last_n_days(notes, days=7)
+    if not week_items:
+        print("No items in the last 7 days; skipping weekly digest.")
+        return None
+
+    # Compact payload for Claude — frontmatter + why_it_matters paragraph only.
+    compact: list[dict[str, Any]] = []
+    for n in week_items:
+        path = Path(n.get("_path", ""))
+        why = ""
+        if path.exists():
+            text = path.read_text(encoding="utf-8")
+            m = re.search(r"##\s+Why it matters\s*\n+(.+?)(?=\n##|\Z)", text, re.DOTALL)
+            if m:
+                why = m.group(1).strip()[:600]
+        compact.append({
+            "slug": n.get("_slug"),
+            "type": n.get("type"),
+            "source": n.get("source"),
+            "title": n.get("title"),
+            "authors": n.get("authors"),
+            "tags": n.get("tags"),
+            "ingested": n.get("ingested"),
+            "why_it_matters": why,
+        })
+
+    today = datetime.now(timezone.utc)
+    iso_year, iso_week, _ = today.isocalendar()
+    week_label = f"{iso_year}-W{iso_week:02d}"
+
+    user_msg = (
+        f"Today is {today.strftime('%Y-%m-%d')}. Produce the digest for week {week_label}.\n\n"
+        f"Items ingested in the last 7 days ({len(compact)}):\n\n"
+        + json.dumps(compact, ensure_ascii=False)
+    )
+
+    print(f"Calling {MODEL} for weekly digest of {len(compact)} items...", flush=True)
+    text_chunks: list[str] = []
+    with client.messages.stream(
+        model=MODEL,
+        max_tokens=4000,
+        system=WEEKLY_DIGEST_PROMPT,
+        messages=[{"role": "user", "content": user_msg}],
+    ) as stream:
+        for text in stream.text_stream:
+            text_chunks.append(text)
+    raw = "".join(text_chunks).strip()
+
+    fenced = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", raw, re.DOTALL)
+    if fenced:
+        raw = fenced.group(1)
+    else:
+        start = raw.find("{")
+        end = raw.rfind("}")
+        if start != -1 and end > start:
+            raw = raw[start:end + 1]
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError as e:
+        print(f"ERROR parsing digest JSON: {e}", file=sys.stderr)
+        return None
+
+    return _persist_weekly_digest(data, valid_slugs={n["slug"] for n in compact}, week_label=week_label, today=today, dry_run=dry_run)
+
+
+def render_weekly_digest_markdown(
+    data: dict[str, Any],
+    valid_slugs: set[str],
+    week_label: str,
+    today: datetime,
+) -> str:
+    """Pure rendering: takes parsed LLM JSON and returns the digest markdown.
+
+    valid_slugs is the set of slugs that appeared in the input — items
+    referencing any other slug are dropped (defence against slug invention)."""
+    items_clean = [it for it in data.get("items", []) if it.get("slug") in valid_slugs]
+
+    lines = [
+        "---",
+        'type: "weekly-digest"',
+        f'week: "{week_label}"',
+        f'generated: "{today.strftime("%Y-%m-%d")}"',
+        'tags: ["type/weekly-digest", "access/internal"]',
+        "---",
+        "",
+        f"# Week {week_label} — Exec digest",
+        "",
+        f"> {(data.get('headline') or '').strip()}",
+        "",
+        f"## Top {len(items_clean)} of the week",
+        "",
+    ]
+    for i, it in enumerate(items_clean, 1):
+        lines.append(f"{i}. [[{it['slug']}]] — {(it.get('one_line') or '').strip()}")
+    lines.append("")
+
+    trending = data.get("trending_tags") or []
+    if trending:
+        lines.append("## What's quietly trending")
+        lines.append("")
+        for t in trending:
+            lines.append(f"- `{t}`")
+        lines.append("")
+
+    watchlist = data.get("watchlist") or []
+    if watchlist:
+        lines.append("## Watchlist")
+        lines.append("")
+        for w in watchlist:
+            lines.append(f"- {w}")
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def _persist_weekly_digest(
+    data: dict[str, Any],
+    valid_slugs: set[str],
+    week_label: str,
+    today: datetime,
+    dry_run: bool,
+) -> Path:
+    out = render_weekly_digest_markdown(data, valid_slugs, week_label, today)
+    WEEKLY_DIR.mkdir(parents=True, exist_ok=True)
+    path = WEEKLY_DIR / f"{week_label}.md"
+    if dry_run:
+        print(f"--- DRY RUN — would write {path} ---\n{out}")
+        return path
+    path.write_text(out, encoding="utf-8")
+    print(f"Wrote weekly digest: {path}")
+    return path
+
+
+# --- Original write_note ----------------------------------------------------
+
+
 def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path | None]:
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     slug = slugify(item.get("title", "untitled"))
@@ -463,15 +923,34 @@ def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path 
 
 # --- Main --------------------------------------------------------------------
 
-def main() -> int:
+PHASE_INGEST = "ingest"
+PHASE_DAILY = "daily"
+PHASE_ENTITIES = "entities"
+PHASE_WEEKLY = "weekly"
+ALL_PHASES = (PHASE_INGEST, PHASE_DAILY, PHASE_ENTITIES, PHASE_WEEKLY)
+
+
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser()
+    p.add_argument(
+        "--phase",
+        default=",".join(ALL_PHASES),
+        help=f"comma-separated phases to run (default: all). Choices: {', '.join(ALL_PHASES)}.",
+    )
+    p.add_argument("--force-weekly", action="store_true", help="run weekly digest even if today is not Sunday")
+    p.add_argument("--dry-run-weekly", action="store_true", help="print weekly digest instead of writing")
+    return p.parse_args()
+
+
+def run_ingest_phase() -> tuple[int, list[dict[str, Any]]]:
+    """Returns (ingested_count, items_written_today). Each item dict has
+    slug, type, title, authors, source — enough to render the daily note."""
     if not PROMPT_PATH.exists():
         print(f"ERROR: prompt file not found: {PROMPT_PATH}", file=sys.stderr)
-        return 1
-    if not SOURCES_PATH.exists():
-        print(f"WARNING: sources catalog not found: {SOURCES_PATH}", file=sys.stderr)
+        return 0, []
     if not HAS_TRAFILATURA:
         print("ERROR: trafilatura is required (pip install trafilatura)", file=sys.stderr)
-        return 1
+        return 0, []
 
     index = load_index()
     prior_urls = {normalise_url(item["url"]) for item in index.get("items", [])}
@@ -482,9 +961,9 @@ def main() -> int:
 
     if not candidates:
         print("Nothing to ingest today.")
-        return 0
+        return 0, []
 
-    ingested_today = 0
+    items_written_today: list[dict[str, Any]] = []
     extraction_summary: dict[str, int] = {}
     for item in candidates:
         url = normalise_url(item.get("url", ""))
@@ -513,6 +992,13 @@ def main() -> int:
             print(f"  ERROR writing note: {e}", file=sys.stderr)
             continue
 
+        items_written_today.append({
+            "slug": short_path.stem,
+            "type": item.get("type", "blog-post"),
+            "title": item.get("title", ""),
+            "authors": item.get("authors") or [],
+            "source": item.get("source", "other"),
+        })
         index["items"].append({
             "url": url,
             "title": item.get("title", ""),
@@ -521,14 +1007,47 @@ def main() -> int:
         })
         prior_urls.add(url)
         extraction_summary[fetched.note] = extraction_summary.get(fetched.note, 0) + 1
-        ingested_today += 1
 
     save_index(index)
-    print(f"\n=== Ingested {ingested_today} new items today ===")
+    print(f"\n=== Ingested {len(items_written_today)} new items today ===")
     if extraction_summary:
         print("Extraction breakdown:")
         for note, count in sorted(extraction_summary.items()):
             print(f"  {note}: {count}")
+    return len(items_written_today), items_written_today
+
+
+def main() -> int:
+    args = parse_args()
+    phases = {p.strip() for p in args.phase.split(",") if p.strip()}
+    invalid = phases - set(ALL_PHASES)
+    if invalid:
+        print(f"ERROR: unknown phases: {invalid}", file=sys.stderr)
+        return 2
+
+    items_today: list[dict[str, Any]] = []
+
+    if PHASE_INGEST in phases:
+        if not SOURCES_PATH.exists():
+            print(f"WARNING: sources catalog not found: {SOURCES_PATH}", file=sys.stderr)
+        _, items_today = run_ingest_phase()
+
+    if PHASE_DAILY in phases:
+        path = write_daily_note(items_today)
+        print(f"Daily note: {path} ({len(items_today)} items added today)")
+
+    if PHASE_ENTITIES in phases:
+        people, orgs = update_entity_rollups()
+        print(f"Entity rollups: {people} people, {orgs} orgs")
+
+    if PHASE_WEEKLY in phases:
+        is_sunday = datetime.now(timezone.utc).weekday() == 6
+        if is_sunday or args.force_weekly:
+            client = anthropic.Anthropic()
+            write_weekly_digest(client, dry_run=args.dry_run_weekly)
+        else:
+            print("Skipping weekly digest (not Sunday; pass --force-weekly to override).")
+
     return 0
 
 
