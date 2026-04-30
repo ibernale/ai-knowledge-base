@@ -689,6 +689,136 @@ def update_entity_rollups() -> tuple[int, int]:
     return people_written, orgs_written
 
 
+# --- Concept candidates -----------------------------------------------------
+
+CONCEPTS_DIR = KNOWLEDGE_DIR / "concepts"
+CANDIDATES_DIR = CONCEPTS_DIR / "_candidates"
+
+# A tag must reach this many items in the window to become a candidate.
+CANDIDATE_MIN_ITEMS = 3
+CANDIDATE_WINDOW_DAYS = 7
+
+# Tag namespaces eligible for concept clustering. type/*, access/*, workflow/*
+# are structural and never become concepts.
+CANDIDATE_TAG_NAMESPACES = ("research/", "governance/", "domain/")
+
+
+def friendly_name_from_tag(tag: str) -> str:
+    """research/agentic-coding -> 'Agentic coding'."""
+    leaf = tag.split("/", 1)[-1]
+    return leaf.replace("-", " ").capitalize()
+
+
+def slug_from_tag(tag: str) -> str:
+    """research/agentic-coding -> 'research-agentic-coding'. Stable across runs."""
+    return tag.replace("/", "-").lower()
+
+
+def render_concept_candidate(
+    tag: str,
+    items: list[dict[str, Any]],
+    co_occurring: list[tuple[str, int]],
+) -> str:
+    name = friendly_name_from_tag(tag)
+    slug = slug_from_tag(tag)
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    items_sorted = sorted(items, key=lambda x: str(x.get("ingested", "")), reverse=True)
+
+    lines = [
+        "---",
+        'type: "concept"',
+        f'name: "{name}"',
+        f'slug: "{slug}"',
+        f'source_tag: "{tag}"',
+        'status: "candidate"',
+        'tags: ["type/concept", "workflow/candidate", "access/public"]',
+        f'first_seen: "{today}"',
+        f'last_updated: "{today}"',
+        "linked_papers: []",
+        "linked_entities: []",
+        "---",
+        "",
+        f"# {name} — concept candidate",
+        "",
+        f"> **Auto-clustered** from items tagged `{tag}` ingested in the last {CANDIDATE_WINDOW_DAYS} days.",
+        ">",
+        "> **Promote**: move this file to `concepts/<slug>.md`, edit (TL;DR, key claims, open questions),",
+        '> set `status: evergreen`. The pipeline never overwrites a promoted concept.',
+        ">",
+        "> **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.",
+        "",
+        f"## Items in the window ({len(items_sorted)})",
+        "",
+    ]
+    for it in items_sorted:
+        date = str(it.get("ingested", ""))
+        item_type = it.get("type", "blog-post")
+        title = (it.get("title") or "").replace('"', "'")
+        lines.append(f"- {date} — [[{it['_slug']}]] _({item_type})_ — {title}")
+    lines.append("")
+
+    if co_occurring:
+        lines.append("## Co-occurring tags")
+        lines.append("")
+        for co_tag, count in co_occurring:
+            lines.append(f"- `{co_tag}` ({count} item{'s' if count != 1 else ''})")
+        lines.append("")
+    else:
+        lines.append("## Co-occurring tags")
+        lines.append("")
+        lines.append("_No notable co-occurrences in the window._")
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def update_concept_candidates() -> tuple[int, int]:
+    """Cluster items in the last N days by tag and write candidates.
+    Returns (written, skipped_already_promoted)."""
+    notes = load_short_notes()
+    week_items = items_for_last_n_days(notes, days=CANDIDATE_WINDOW_DAYS)
+
+    by_tag: dict[str, list[dict[str, Any]]] = {}
+    for it in week_items:
+        for tag in it.get("tags") or []:
+            if any(tag.startswith(ns) for ns in CANDIDATE_TAG_NAMESPACES):
+                by_tag.setdefault(tag, []).append(it)
+
+    CANDIDATES_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Wipe stale candidates — full rewrite, like auto/.
+    for f in CANDIDATES_DIR.glob("*.md"):
+        f.unlink()
+
+    written = 0
+    skipped = 0
+    for tag, items in by_tag.items():
+        if len(items) < CANDIDATE_MIN_ITEMS:
+            continue
+        slug = slug_from_tag(tag)
+        # Don't shadow a promoted concept.
+        if (CONCEPTS_DIR / f"{slug}.md").exists():
+            skipped += 1
+            continue
+
+        # Compute co-occurring tags within this bucket (only tags from the
+        # eligible namespaces, excluding the focal tag itself).
+        co_counts: dict[str, int] = {}
+        for it in items:
+            for t in it.get("tags") or []:
+                if t == tag:
+                    continue
+                if any(t.startswith(ns) for ns in CANDIDATE_TAG_NAMESPACES):
+                    co_counts[t] = co_counts.get(t, 0) + 1
+        co_occurring = sorted(co_counts.items(), key=lambda kv: -kv[1])[:5]
+
+        path = CANDIDATES_DIR / f"{slug}.md"
+        path.write_text(render_concept_candidate(tag, items, co_occurring), encoding="utf-8")
+        written += 1
+
+    return written, skipped
+
+
 # --- Weekly exec digest -----------------------------------------------------
 
 WEEKLY_DIGEST_PROMPT = """\
@@ -942,8 +1072,9 @@ def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path 
 PHASE_INGEST = "ingest"
 PHASE_DAILY = "daily"
 PHASE_ENTITIES = "entities"
+PHASE_CANDIDATES = "candidates"
 PHASE_WEEKLY = "weekly"
-ALL_PHASES = (PHASE_INGEST, PHASE_DAILY, PHASE_ENTITIES, PHASE_WEEKLY)
+ALL_PHASES = (PHASE_INGEST, PHASE_DAILY, PHASE_ENTITIES, PHASE_CANDIDATES, PHASE_WEEKLY)
 
 
 def parse_args() -> argparse.Namespace:
@@ -1056,11 +1187,20 @@ def main() -> int:
         people, orgs = update_entity_rollups()
         print(f"Entity rollups: {people} people, {orgs} orgs")
 
+    if PHASE_CANDIDATES in phases:
+        written, skipped = update_concept_candidates()
+        print(f"Concept candidates: {written} written, {skipped} skipped (already promoted)")
+
     if PHASE_WEEKLY in phases:
         is_sunday = datetime.now(timezone.utc).weekday() == 6
         if is_sunday or args.force_weekly:
             client = anthropic.Anthropic()
             write_weekly_digest(client, dry_run=args.dry_run_weekly)
+            # Concept candidates also belong to the weekly cadence — refresh
+            # them here even if --phase explicitly listed only weekly.
+            if PHASE_CANDIDATES not in phases:
+                w, s = update_concept_candidates()
+                print(f"Concept candidates (bundled with weekly): {w} written, {s} skipped")
         else:
             print("Skipping weekly digest (not Sunday; pass --force-weekly to override).")
 
