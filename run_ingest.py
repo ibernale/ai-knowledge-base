@@ -508,13 +508,29 @@ def write_daily_note(items_today: list[dict[str, Any]]) -> Path:
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?\n)---\s*\n", re.DOTALL)
 
 
+def _coerce_dates(v: Any) -> Any:
+    """Stringify YAML-native date / datetime values so downstream code can
+    sort or format them without mixing types. Recursive."""
+    if isinstance(v, _dt.datetime):
+        return v.isoformat()
+    if isinstance(v, _dt.date):
+        return v.isoformat()
+    if isinstance(v, list):
+        return [_coerce_dates(x) for x in v]
+    if isinstance(v, dict):
+        return {k: _coerce_dates(x) for k, x in v.items()}
+    return v
+
+
 def parse_frontmatter(text: str) -> dict[str, Any] | None:
     m = FRONTMATTER_RE.match(text)
     if not m:
         return None
     try:
         fm = yaml.safe_load(m.group(1)) or {}
-        return fm if isinstance(fm, dict) else None
+        if not isinstance(fm, dict):
+            return None
+        return _coerce_dates(fm)
     except yaml.YAMLError:
         return None
 
@@ -872,8 +888,8 @@ def write_note(item: dict[str, Any], full_content: Fetched) -> tuple[Path, Path 
     fm_lines.append(f"type: {item.get('type', 'blog-post')}")
     authors = item.get("authors") or []
     fm_lines.append(f"authors: {json.dumps(authors, ensure_ascii=False)}")
-    fm_lines.append(f"published: {item.get('published_date', '')}")
-    fm_lines.append(f"ingested: {today}")
+    fm_lines.append(f'published: "{item.get("published_date", "")}"')
+    fm_lines.append(f'ingested: "{today}"')
     tags = normalise_tags(item.get("tags") or [], item.get("type", "blog-post"))
     fm_lines.append(f"tags: {json.dumps(tags)}")
     fm_lines.append("---\n")
