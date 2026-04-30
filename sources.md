@@ -10,13 +10,13 @@
 
 These three are the highest-signal entry points for "what's worth reading this week" in AI research. The ingest pipeline should always check them first, in this order, before doing any other search.
 
-| # | Name | URL | What it gives you |
-|---|---|---|---|
-| 1 | **Hugging Face Daily Papers** | https://huggingface.co/papers | Top arXiv papers ranked by community upvotes, refreshed daily by AK (akhaliq). The single best filter for "what's hot today". |
-| 2 | **alphaXiv (Trending)** | https://www.alphaxiv.org/ | arXiv mirror with line-by-line annotations and trending feeds — gives reading-community signal beyond raw upvotes. |
-| 3 | **Papers with Code (Trending)** | https://paperswithcode.com/ | Trending papers with linked open-source implementations. Strong signal for engineering-relevant work. |
-| 4 | **Semantic Scholar (Recently Trending)** | https://www.semanticscholar.org/ | Provides citation context, TLDRs and influence scores; useful when validating that a paper actually has traction. |
-| 5 | **arXiv Sanity Lite** (Karpathy) | https://arxiv-sanity-lite.com/ | Personal-recommendation engine over arXiv preprints; clean interface for category-filtered browsing. |
+| #   | Name                                     | URL                              | What it gives you                                                                                                             |
+| --- | ---------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Hugging Face Daily Papers**            | https://huggingface.co/papers    | Top arXiv papers ranked by community upvotes, refreshed daily by AK (akhaliq). The single best filter for "what's hot today". |
+| 2   | **alphaXiv (Trending)**                  | https://www.alphaxiv.org/        | arXiv mirror with line-by-line annotations and trending feeds — gives reading-community signal beyond raw upvotes.            |
+| 3   | **Papers with Code (Trending)**          | https://paperswithcode.com/      | Trending papers with linked open-source implementations. Strong signal for engineering-relevant work.                         |
+| 4   | **Semantic Scholar (Recently Trending)** | https://www.semanticscholar.org/ | Provides citation context, TLDRs and influence scores; useful when validating that a paper actually has traction.             |
+| 5   | **arXiv Sanity Lite** (Karpathy)         | https://arxiv-sanity-lite.com/   | Personal-recommendation engine over arXiv preprints; clean interface for category-filtered browsing.                          |
 
 ---
 
@@ -24,21 +24,21 @@ These three are the highest-signal entry points for "what's worth reading this w
 
 Direct from the source, no intermediaries. Always treat as authoritative when they post about their own work.
 
-| Lab | Blog / News | Research / Publications |
-|---|---|---|
-| **Anthropic** | https://www.anthropic.com/news | https://www.anthropic.com/research |
-| **OpenAI** | https://openai.com/blog | https://openai.com/research |
-| **Google DeepMind** | https://deepmind.google/discover/blog | https://deepmind.google/research/publications |
-| **Google Research** | https://research.google/blog/ | https://research.google/pubs/ |
-| **Meta AI (FAIR)** | https://ai.meta.com/blog/ | https://ai.meta.com/research/ |
-| **Mistral AI** | https://mistral.ai/news/ | — |
-| **xAI** | https://x.ai/blog | — |
-| **Cohere** | https://cohere.com/blog | https://cohere.com/research |
-| **Microsoft Research** | https://www.microsoft.com/en-us/research/blog/ | https://www.microsoft.com/en-us/research/publications/ |
-| **NVIDIA Research** | https://blogs.nvidia.com/blog/category/deep-learning/ | https://research.nvidia.com/publications |
-| **Apple ML Research** | https://machinelearning.apple.com/ | https://machinelearning.apple.com/research |
-| **Allen AI (AI2)** | https://allenai.org/blog | https://allenai.org/papers |
-| **Hugging Face Blog** | https://huggingface.co/blog | — |
+| Lab                    | Blog / News                                           | Research / Publications                                |
+| ---------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
+| **Anthropic**          | https://www.anthropic.com/news                        | https://www.anthropic.com/research                     |
+| **OpenAI**             | https://openai.com/blog                               | https://openai.com/research                            |
+| **Google DeepMind**    | https://deepmind.google/discover/blog                 | https://deepmind.google/research/publications          |
+| **Google Research**    | https://research.google/blog/                         | https://research.google/pubs/                          |
+| **Meta AI (FAIR)**     | https://ai.meta.com/blog/                             | https://ai.meta.com/research/                          |
+| **Mistral AI**         | https://mistral.ai/news/                              | —                                                      |
+| **xAI**                | https://x.ai/blog                                     | —                                                      |
+| **Cohere**             | https://cohere.com/blog                               | https://cohere.com/research                            |
+| **Microsoft Research** | https://www.microsoft.com/en-us/research/blog/        | https://www.microsoft.com/en-us/research/publications/ |
+| **NVIDIA Research**    | https://blogs.nvidia.com/blog/category/deep-learning/ | https://research.nvidia.com/publications               |
+| **Apple ML Research**  | https://machinelearning.apple.com/                    | https://machinelearning.apple.com/research             |
+| **Allen AI (AI2)**     | https://allenai.org/blog                              | https://allenai.org/papers                             |
+| **Hugging Face Blog**  | https://huggingface.co/blog                           | —                                                      |
 
 ---
 

@@ -2,4 +2,16 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+
+# Per-machine Obsidian state, must not sync.
 .obsidian/workspace*.json
+
+# Plugin data may carry secrets (API keys, TLS keys, OAuth tokens).
+# Plugins themselves are restored from community-plugins.json. If a
+# specific plugin's data.json is known to be safe and you want it
+# tracked, `git add -f` it explicitly.
+.obsidian/plugins/*/data.json
+
+# Obsidian's accidental empty canvases (Spanish + English locales).
+Sin título*.canvas
+Untitled*.canvas
