@@ -14,5 +14,5 @@ tags: ["type/entity-person", "access/public"]
 
 ## Recent items (2)
 
-- 2026-04-29 — [[2026-04-29-components-of-a-coding-agent]] _(blog-post)_ — Components of A Coding Agent
 - 2026-04-29 — [[2026-04-29-my-workflow-for-understanding-llm-architectures]] _(blog-post)_ — My Workflow for Understanding LLM Architectures
+- 2026-04-29 — [[2026-04-29-components-of-a-coding-agent]] _(blog-post)_ — Components of A Coding Agent

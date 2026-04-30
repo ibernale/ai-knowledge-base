@@ -257,6 +257,66 @@
       "title": "ICLR 2026 Papers with Code & Data Index",
       "ingested": "2026-04-29",
       "extraction": "html-extracted"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.25256",
+      "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+      "ingested": "2026-04-30",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.24954",
+      "title": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+      "ingested": "2026-04-30",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.25321",
+      "title": "Agent READMEs: An Empirical Study of Context Files for Agentic Coding",
+      "ingested": "2026-04-30",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Apr/29/llm-0-32a0",
+      "title": "LLM 0.32a0 is a major backwards-compatible refactor",
+      "ingested": "2026-04-30",
+      "extraction": "http-status-404"
+    },
+    {
+      "url": "https://mindandmachineweekly.substack.com/p/weekly-ai-newsletter-april-2026-2026",
+      "title": "Weekly AI Newsletter: April 20–26, 2026",
+      "ingested": "2026-04-30",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://openai.com/index/next-phase-enterprise-ai",
+      "title": "OpenAI and AWS Expanded Partnership: GPT-5.5 on Amazon Bedrock",
+      "ingested": "2026-04-30",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership",
+      "title": "The next phase of the Microsoft-OpenAI partnership",
+      "ingested": "2026-04-30",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.18934",
+      "title": "AutomationBench: Evaluating AI Agents on Cross-Application Workflow Orchestration",
+      "ingested": "2026-04-30",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.22436",
+      "title": "AgentSearchBench: A Benchmark for AI Agent Search in the Wild",
+      "ingested": "2026-04-30",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.20404",
+      "title": "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents",
+      "ingested": "2026-04-30",
+      "extraction": "ar5iv"
     }
   ]
 }

@@ -14,5 +14,5 @@ tags: ["type/entity-person", "access/public"]
 
 ## Recent items (2)
 
-- 2026-04-29 — [[2026-04-29-my-bets-on-open-models-mid-2026]] _(blog-post)_ — My bets on open models, mid-2026
 - 2026-04-29 — [[2026-04-29-what-comes-next-with-open-models]] _(blog-post)_ — What comes next with open models
+- 2026-04-29 — [[2026-04-29-my-bets-on-open-models-mid-2026]] _(blog-post)_ — My bets on open models, mid-2026

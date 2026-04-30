@@ -14,9 +14,9 @@ tags: ["type/entity-org", "access/public"]
 
 ## Recent items (6)
 
+- 2026-04-29 — [[2026-04-29-anthropic-introduces-managed-agents]] _(blog-post)_ — Anthropic Introduces Managed Agents
+- 2026-04-29 — [[2026-04-29-anthropic-and-nec-collaborate-on-japans-largest-ai-engineeri]] _(blog-post)_ — Anthropic and NEC Collaborate on Japan's Largest AI Engineering
 - 2026-04-29 — [[2026-04-29-claude-code-quality-issues-root-cause-analysis-and-fixes]] _(blog-post)_ — Claude Code Quality Issues: Root Cause Analysis and Fixes
 - 2026-04-29 — [[2026-04-29-anthropic-election-safeguards-update]] _(blog-post)_ — Anthropic Election Safeguards Update
-- 2026-04-29 — [[2026-04-29-anthropic-and-nec-collaborate-on-japans-largest-ai-engineeri]] _(blog-post)_ — Anthropic and NEC Collaborate on Japan's Largest AI Engineering
-- 2026-04-29 — [[2026-04-29-anthropic-introduces-managed-agents]] _(blog-post)_ — Anthropic Introduces Managed Agents
 - 2026-04-28 — [[2026-04-28-ai-organizations-can-be-more-effective-but-less-aligned-than]] _(paper)_ — AI Organizations Can Be More Effective but Less Aligned than Individual Agents
 - 2026-04-28 — [[2026-04-28-automated-weak-to-strong-researcher]] _(paper)_ — Automated Weak-to-Strong Researcher

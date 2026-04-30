@@ -16,5 +16,5 @@ tags: ["type/entity-org", "access/public"]
 
 - 2026-04-29 — [[2026-04-29-gemini-robotics-er-16-enhanced-embodied-reasoning]] _(blog-post)_ — Gemini Robotics ER 1.6: Enhanced Embodied Reasoning
 - 2026-04-28 — [[2026-04-28-decoupled-diloco-resilient-distributed-ai-training-at-scale]] _(paper)_ — Decoupled DiLoCo: Resilient, Distributed AI Training at Scale
-- 2026-04-28 — [[2026-04-28-deep-research-max-a-step-change-for-autonomous-research-agen]] _(blog-post)_ — Deep Research Max: a step change for autonomous research agents
 - 2026-04-28 — [[2026-04-28-google-deepmind-and-korea-partner-to-accelerate-scientific-d]] _(blog-post)_ — Google DeepMind and Korea Partner to Accelerate Scientific Discovery
+- 2026-04-28 — [[2026-04-28-deep-research-max-a-step-change-for-autonomous-research-agen]] _(blog-post)_ — Deep Research Max: a step change for autonomous research agents

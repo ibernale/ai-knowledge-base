@@ -14,6 +14,6 @@ tags: ["type/entity-person", "access/public"]
 
 ## Recent items (3)
 
-- 2026-04-29 — [[2026-04-29-sft-then-rl-pipeline-bugs-deepspeed-optimizer-bug-and-openrl]] _(paper)_ — SFT-then-RL Pipeline Bugs: DeepSpeed Optimizer Bug and OpenRLHF Loss Aggregation Bug
 - 2026-04-29 — [[2026-04-29-sft-then-rl-outperforms-mixed-policy-methods-for-llm-reasoni]] _(paper)_ — SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning
+- 2026-04-29 — [[2026-04-29-sft-then-rl-pipeline-bugs-deepspeed-optimizer-bug-and-openrl]] _(paper)_ — SFT-then-RL Pipeline Bugs: DeepSpeed Optimizer Bug and OpenRLHF Loss Aggregation Bug
 - 2026-04-29 — [[2026-04-29-sft-bug-invalidates-multiple-mixed-policy-optimization-paper]] _(paper)_ — SFT Bug Invalidates Multiple Mixed-Policy Optimization Papers
