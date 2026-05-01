@@ -5,8 +5,8 @@ slug: "research-multimodal"
 source_tag: "research/multimodal"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-04-30"
-last_updated: "2026-04-30"
+first_seen: "2026-05-01"
+last_updated: "2026-05-01"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,18 +20,21 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (5)
+## Items in the window (8)
 
+- 2026-05-01 — [[2026-05-01-gigaworld-policy-action-centered-world-action-model-for-robo]] _(paper)_ — GigaWorld-Policy: Action-Centered World-Action Model for Robotic Policy Learning
+- 2026-05-01 — [[2026-05-01-nemotron-3-nano-omni-efficient-omni-modal-model-for-edge-dep]] _(paper)_ — Nemotron 3 Nano Omni: Efficient Omni-Modal Model for Edge Deployment
+- 2026-05-01 — [[2026-05-01-ai-co-clinician-researching-the-path-toward-ai-augmented-car]] _(blog-post)_ — AI co-clinician: researching the path toward AI-augmented care
 - 2026-04-30 — [[2026-04-30-nemotron-3-nano-omni-efficient-and-open-multimodal-intellige]] _(paper)_ — Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence
 - 2026-04-29 — [[2026-04-29-revsi-a-validated-benchmark-for-spatial-intelligence-evaluat]] _(paper)_ — ReVSI: A Validated Benchmark for Spatial Intelligence Evaluation
 - 2026-04-29 — [[2026-04-29-revsi-revised-benchmark-for-video-spatial-intelligence]] _(paper)_ — ReVSI: Revised Benchmark for Video Spatial Intelligence
-- 2026-04-29 — [[2026-04-29-muse-spark-scaling-towards-personal-superintelligence]] _(blog-post)_ — Muse Spark: Scaling Towards Personal Superintelligence
 - 2026-04-29 — [[2026-04-29-gemini-robotics-er-16-enhanced-embodied-reasoning]] _(blog-post)_ — Gemini Robotics ER 1.6: Enhanced Embodied Reasoning
+- 2026-04-29 — [[2026-04-29-muse-spark-scaling-towards-personal-superintelligence]] _(blog-post)_ — Muse Spark: Scaling Towards Personal Superintelligence
 
 ## Co-occurring tags
 
-- `research/evals` (2 items)
+- `research/evals` (3 items)
+- `research/agents` (3 items)
 - `research/benchmarks` (2 items)
-- `research/agents` (2 items)
-- `research/reasoning` (2 items)
-- `research/inference` (1 item)
+- `research/robotics` (2 items)
+- `research/inference` (2 items)

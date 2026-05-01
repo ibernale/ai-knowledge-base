@@ -5,8 +5,8 @@ slug: "research-benchmarks"
 source_tag: "research/benchmarks"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-04-30"
-last_updated: "2026-04-30"
+first_seen: "2026-05-01"
+last_updated: "2026-05-01"
 linked_papers: []
 linked_entities: []
 ---
@@ -25,10 +25,10 @@ linked_entities: []
 - 2026-04-30 — [[2026-04-30-autoresearchbench-benchmarking-ai-agents-on-complex-scientif]] _(paper)_ — AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery
 - 2026-04-30 — [[2026-04-30-automationbench-evaluating-ai-agents-on-cross-application-wo]] _(paper)_ — AutomationBench: Evaluating AI Agents on Cross-Application Workflow Orchestration
 - 2026-04-30 — [[2026-04-30-agentsearchbench-a-benchmark-for-ai-agent-search-in-the-wild]] _(paper)_ — AgentSearchBench: A Benchmark for AI Agent Search in the Wild
+- 2026-04-29 — [[2026-04-29-sft-then-rl-outperforms-mixed-policy-methods-for-llm-reasoni]] _(paper)_ — SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning
 - 2026-04-29 — [[2026-04-29-revsi-a-validated-benchmark-for-spatial-intelligence-evaluat]] _(paper)_ — ReVSI: A Validated Benchmark for Spatial Intelligence Evaluation
 - 2026-04-29 — [[2026-04-29-revsi-revised-benchmark-for-video-spatial-intelligence]] _(paper)_ — ReVSI: Revised Benchmark for Video Spatial Intelligence
 - 2026-04-29 — [[2026-04-29-sft-then-rl-pipeline-bugs-deepspeed-optimizer-bug-and-openrl]] _(paper)_ — SFT-then-RL Pipeline Bugs: DeepSpeed Optimizer Bug and OpenRLHF Loss Aggregation Bug
-- 2026-04-29 — [[2026-04-29-sft-then-rl-outperforms-mixed-policy-methods-for-llm-reasoni]] _(paper)_ — SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning
 - 2026-04-29 — [[2026-04-29-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-04-29 — [[2026-04-29-sign-of-the-future-gpt-55]] _(blog-post)_ — Sign of the future: GPT-5.5
 - 2026-04-29 — [[2026-04-29-iclr-2026-papers-with-code-data-index]] _(report)_ — ICLR 2026 Papers with Code & Data Index
@@ -39,5 +39,5 @@ linked_entities: []
 - `research/evals` (7 items)
 - `research/agents` (4 items)
 - `research/reasoning` (3 items)
-- `research/multimodal` (2 items)
 - `research/posttraining` (2 items)
+- `research/multimodal` (2 items)

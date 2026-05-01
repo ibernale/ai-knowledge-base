@@ -317,6 +317,72 @@
       "title": "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents",
       "ingested": "2026-04-30",
       "extraction": "ar5iv"
+    },
+    {
+      "url": "https://deepmind.google/blog/ai-co-clinician",
+      "title": "AI co-clinician: researching the path toward AI-augmented care",
+      "ingested": "2026-05-01",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "title": "An open-source spec for Codex orchestration: Symphony",
+      "ingested": "2026-05-01",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26923",
+      "title": "Agent READMEs: An Empirical Study of Context Files for Agentic Coding",
+      "ingested": "2026-05-01",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://mindandmachineweekly.substack.com/p/weekly-ai-newsletter-april-2026-4-27",
+      "title": "Weekly AI Newsletter: April 20–26, 2026",
+      "ingested": "2026-05-01",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26800",
+      "title": "Kwai Summary Attention: Efficient Long-Context Processing for LLMs",
+      "ingested": "2026-05-01",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.24500",
+      "title": "The Recurrent Transformer: Greater Effective Depth and Efficient Decoding",
+      "ingested": "2026-05-01",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26500",
+      "title": "Nemotron 3 Nano Omni: Efficient Omni-Modal Model for Edge Deployment",
+      "ingested": "2026-05-01",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.25800",
+      "title": "Re-evaluating Mixed-Policy Optimization for LLM Reasoning",
+      "ingested": "2026-05-01",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26200",
+      "title": "The Last Human-Written Paper: Agent-Native Research Artifacts",
+      "ingested": "2026-05-01",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26100",
+      "title": "GigaWorld-Policy: Action-Centered World-Action Model for Robotic Policy Learning",
+      "ingested": "2026-05-01",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27000",
+      "title": "MemOS: A Memory Operating System for Large Language Models",
+      "ingested": "2026-05-01",
+      "extraction": "ar5iv"
     }
   ]
 }
