@@ -5,8 +5,8 @@ slug: "research-industry"
 source_tag: "research/industry"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-01"
-last_updated: "2026-05-01"
+first_seen: "2026-05-02"
+last_updated: "2026-05-02"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,11 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (9)
+## Items in the window (12)
 
+- 2026-05-02 — [[2026-05-02-gpt-55-now-available-on-databricks-via-unity-ai-gateway]] _(blog-post)_ — GPT-5.5 Now Available on Databricks via Unity AI Gateway
+- 2026-05-02 — [[2026-05-02-aws-whats-next-2026-openai-partnership-and-amazon-quick]] _(blog-post)_ — AWS What's Next 2026: OpenAI Partnership and Amazon Quick
+- 2026-05-02 — [[2026-05-02-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-01 — [[2026-05-01-weekly-ai-newsletter-april-2026-2026]] _(blog-post)_ — Weekly AI Newsletter: April 20–26, 2026
 - 2026-04-30 — [[2026-04-30-weekly-ai-newsletter-april-2026-2026]] _(blog-post)_ — Weekly AI Newsletter: April 20–26, 2026
 - 2026-04-30 — [[2026-04-30-the-next-phase-of-the-microsoft-openai-partnership]] _(blog-post)_ — The next phase of the Microsoft-OpenAI partnership
@@ -34,8 +37,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/model-release` (2 items)
+- `research/model-release` (3 items)
 - `research/regulation` (2 items)
 - `research/reasoning` (2 items)
 - `research/distillation` (2 items)
-- `research/safety` (1 item)
+- `research/agents` (2 items)

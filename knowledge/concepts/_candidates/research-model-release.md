@@ -5,8 +5,8 @@ slug: "research-model-release"
 source_tag: "research/model-release"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-01"
-last_updated: "2026-05-01"
+first_seen: "2026-05-02"
+last_updated: "2026-05-02"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (8)
+## Items in the window (9)
 
+- 2026-05-02 — [[2026-05-02-gpt-55-now-available-on-databricks-via-unity-ai-gateway]] _(blog-post)_ — GPT-5.5 Now Available on Databricks via Unity AI Gateway
 - 2026-05-01 — [[2026-05-01-weekly-ai-newsletter-april-2026-2026]] _(blog-post)_ — Weekly AI Newsletter: April 20–26, 2026
 - 2026-04-30 — [[2026-04-30-weekly-ai-newsletter-april-2026-2026]] _(blog-post)_ — Weekly AI Newsletter: April 20–26, 2026
 - 2026-04-29 — [[2026-04-29-deepseek-v4-towards-highly-efficient-million-token-context-i]] _(paper)_ — DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence
@@ -35,6 +36,6 @@ linked_entities: []
 
 - `research/reasoning` (4 items)
 - `research/inference` (3 items)
+- `research/industry` (3 items)
 - `research/long-context` (2 items)
-- `research/industry` (2 items)
 - `research/agents` (2 items)

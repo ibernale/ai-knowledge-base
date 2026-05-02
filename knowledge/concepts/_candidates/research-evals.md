@@ -5,8 +5,8 @@ slug: "research-evals"
 source_tag: "research/evals"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-01"
-last_updated: "2026-05-01"
+first_seen: "2026-05-02"
+last_updated: "2026-05-02"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,11 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (17)
+## Items in the window (20)
 
+- 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
+- 2026-05-02 — [[2026-05-02-import-ai-390-offensive-cyber-capabilities-now-frontier-wide]] _(blog-post)_ — Import AI 390: Offensive cyber capabilities now frontier-wide
+- 2026-05-02 — [[2026-05-02-our-evaluation-of-openais-gpt-55-cyber-capabilities]] _(report)_ — Our evaluation of OpenAI's GPT-5.5 cyber capabilities
 - 2026-05-01 — [[2026-05-01-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-01 — [[2026-05-01-ai-co-clinician-researching-the-path-toward-ai-augmented-car]] _(blog-post)_ — AI co-clinician: researching the path toward AI-augmented care
 - 2026-04-30 — [[2026-04-30-on-the-impact-of-agentsmd-files-on-the-efficiency-of-ai-codi]] _(paper)_ — On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents
@@ -42,8 +45,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agents` (12 items)
+- `research/agents` (13 items)
+- `research/benchmarks` (9 items)
 - `research/agentic-coding` (7 items)
-- `research/benchmarks` (7 items)
+- `research/safety` (4 items)
 - `research/multimodal` (3 items)
-- `research/safety` (2 items)

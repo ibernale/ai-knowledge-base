@@ -5,8 +5,8 @@ slug: "research-reasoning"
 source_tag: "research/reasoning"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-01"
-last_updated: "2026-05-01"
+first_seen: "2026-05-02"
+last_updated: "2026-05-02"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (15)
+## Items in the window (17)
 
+- 2026-05-02 — [[2026-05-02-thinking-with-visual-primitives]] _(paper)_ — Thinking with Visual Primitives
+- 2026-05-02 — [[2026-05-02-cvpr-2026-top-papers-delta-tokens-point-tracking-and-multi-s]] _(paper)_ — CVPR 2026 Top Papers: Delta Tokens, Point Tracking, and Multi-Scale Attention
 - 2026-05-01 — [[2026-05-01-re-evaluating-mixed-policy-optimization-for-llm-reasoning]] _(paper)_ — Re-evaluating Mixed-Policy Optimization for LLM Reasoning
 - 2026-04-29 — [[2026-04-29-sft-then-rl-outperforms-mixed-policy-methods-for-llm-reasoni]] _(paper)_ — SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning
 - 2026-04-29 — [[2026-04-29-deepseek-v4-towards-highly-efficient-million-token-context-i]] _(paper)_ — DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence
@@ -42,6 +44,6 @@ linked_entities: []
 
 - `research/posttraining` (5 items)
 - `research/model-release` (4 items)
+- `research/multimodal` (4 items)
 - `research/benchmarks` (3 items)
 - `research/agents` (3 items)
-- `research/pretraining` (2 items)

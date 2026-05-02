@@ -5,8 +5,8 @@ slug: "research-agents"
 source_tag: "research/agents"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-01"
-last_updated: "2026-05-01"
+first_seen: "2026-05-02"
+last_updated: "2026-05-02"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,15 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (26)
+## Items in the window (33)
 
+- 2026-05-02 — [[2026-05-02-agent-context-files-first-large-scale-empirical-study]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study
+- 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
+- 2026-05-02 — [[2026-05-02-simon-willison-codex-cli-01280-adds-goal-and-gpt-55-cyber-ev]] _(blog-post)_ — Simon Willison: Codex CLI 0.128.0 adds /goal and GPT-5.5 cyber evaluation coverage
+- 2026-05-02 — [[2026-05-02-claude-for-creative-work]] _(blog-post)_ — Claude for Creative Work
+- 2026-05-02 — [[2026-05-02-aws-whats-next-2026-openai-partnership-and-amazon-quick]] _(blog-post)_ — AWS What's Next 2026: OpenAI Partnership and Amazon Quick
+- 2026-05-02 — [[2026-05-02-latent-space-harness-engineering-with-ryan-lopopolo-openai-f]] _(blog-post)_ — Latent Space: Harness Engineering with Ryan Lopopolo (OpenAI Frontier)
+- 2026-05-02 — [[2026-05-02-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-01 — [[2026-05-01-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
 - 2026-05-01 — [[2026-05-01-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-01 — [[2026-05-01-memos-a-memory-operating-system-for-large-language-models]] _(paper)_ — MemOS: A Memory Operating System for Large Language Models
@@ -51,8 +58,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/evals` (12 items)
-- `research/agentic-coding` (10 items)
-- `research/tool-use` (7 items)
-- `research/benchmarks` (4 items)
-- `research/reasoning` (3 items)
+- `research/agentic-coding` (14 items)
+- `research/evals` (13 items)
+- `research/tool-use` (8 items)
+- `research/benchmarks` (5 items)
+- `research/safety` (3 items)

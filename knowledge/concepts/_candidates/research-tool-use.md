@@ -5,8 +5,8 @@ slug: "research-tool-use"
 source_tag: "research/tool-use"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-01"
-last_updated: "2026-05-01"
+first_seen: "2026-05-02"
+last_updated: "2026-05-02"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (8)
+## Items in the window (9)
 
+- 2026-05-02 — [[2026-05-02-claude-for-creative-work]] _(blog-post)_ — Claude for Creative Work
 - 2026-05-01 — [[2026-05-01-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
 - 2026-05-01 — [[2026-05-01-an-open-source-spec-for-codex-orchestration-symphony]] _(blog-post)_ — An open-source spec for Codex orchestration: Symphony
 - 2026-04-30 — [[2026-04-30-llm-032a0-is-a-major-backwards-compatible-refactor]] _(blog-post)_ — LLM 0.32a0 is a major backwards-compatible refactor
@@ -33,7 +34,7 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agents` (7 items)
+- `research/agents` (8 items)
 - `research/agentic-coding` (3 items)
 - `research/rag` (1 item)
 - `research/inference` (1 item)

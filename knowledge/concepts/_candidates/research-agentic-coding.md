@@ -5,8 +5,8 @@ slug: "research-agentic-coding"
 source_tag: "research/agentic-coding"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-01"
-last_updated: "2026-05-01"
+first_seen: "2026-05-02"
+last_updated: "2026-05-02"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,12 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (13)
+## Items in the window (17)
 
+- 2026-05-02 — [[2026-05-02-agent-context-files-first-large-scale-empirical-study]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study
+- 2026-05-02 — [[2026-05-02-simon-willison-codex-cli-01280-adds-goal-and-gpt-55-cyber-ev]] _(blog-post)_ — Simon Willison: Codex CLI 0.128.0 adds /goal and GPT-5.5 cyber evaluation coverage
+- 2026-05-02 — [[2026-05-02-latent-space-harness-engineering-with-ryan-lopopolo-openai-f]] _(blog-post)_ — Latent Space: Harness Engineering with Ryan Lopopolo (OpenAI Frontier)
+- 2026-05-02 — [[2026-05-02-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-01 — [[2026-05-01-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-01 — [[2026-05-01-an-open-source-spec-for-codex-orchestration-symphony]] _(blog-post)_ — An open-source spec for Codex orchestration: Symphony
 - 2026-04-30 — [[2026-04-30-on-the-impact-of-agentsmd-files-on-the-efficiency-of-ai-codi]] _(paper)_ — On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents
@@ -38,7 +42,7 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agents` (10 items)
+- `research/agents` (14 items)
 - `research/evals` (7 items)
 - `research/tool-use` (3 items)
 - `research/benchmarks` (2 items)

@@ -5,8 +5,8 @@ slug: "research-multimodal"
 source_tag: "research/multimodal"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-01"
-last_updated: "2026-05-01"
+first_seen: "2026-05-02"
+last_updated: "2026-05-02"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (8)
+## Items in the window (10)
 
+- 2026-05-02 — [[2026-05-02-thinking-with-visual-primitives]] _(paper)_ — Thinking with Visual Primitives
+- 2026-05-02 — [[2026-05-02-cvpr-2026-top-papers-delta-tokens-point-tracking-and-multi-s]] _(paper)_ — CVPR 2026 Top Papers: Delta Tokens, Point Tracking, and Multi-Scale Attention
 - 2026-05-01 — [[2026-05-01-gigaworld-policy-action-centered-world-action-model-for-robo]] _(paper)_ — GigaWorld-Policy: Action-Centered World-Action Model for Robotic Policy Learning
 - 2026-05-01 — [[2026-05-01-nemotron-3-nano-omni-efficient-omni-modal-model-for-edge-dep]] _(paper)_ — Nemotron 3 Nano Omni: Efficient Omni-Modal Model for Edge Deployment
 - 2026-05-01 — [[2026-05-01-ai-co-clinician-researching-the-path-toward-ai-augmented-car]] _(blog-post)_ — AI co-clinician: researching the path toward AI-augmented care
@@ -33,8 +35,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
+- `research/reasoning` (4 items)
 - `research/evals` (3 items)
 - `research/agents` (3 items)
 - `research/benchmarks` (2 items)
 - `research/robotics` (2 items)
-- `research/inference` (2 items)

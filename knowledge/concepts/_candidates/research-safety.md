@@ -5,8 +5,8 @@ slug: "research-safety"
 source_tag: "research/safety"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-01"
-last_updated: "2026-05-01"
+first_seen: "2026-05-02"
+last_updated: "2026-05-02"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,11 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (6)
+## Items in the window (9)
 
+- 2026-05-02 — [[2026-05-02-simon-willison-codex-cli-01280-adds-goal-and-gpt-55-cyber-ev]] _(blog-post)_ — Simon Willison: Codex CLI 0.128.0 adds /goal and GPT-5.5 cyber evaluation coverage
+- 2026-05-02 — [[2026-05-02-import-ai-390-offensive-cyber-capabilities-now-frontier-wide]] _(blog-post)_ — Import AI 390: Offensive cyber capabilities now frontier-wide
+- 2026-05-02 — [[2026-05-02-our-evaluation-of-openais-gpt-55-cyber-capabilities]] _(report)_ — Our evaluation of OpenAI's GPT-5.5 cyber capabilities
 - 2026-04-29 — [[2026-04-29-join-us-at-pycon-us-2026-in-long-beachwe-have-new-ai-and-sec]] _(blog-post)_ — Join us at PyCon US 2026 in Long Beach—we have new AI and security tracks this year
 - 2026-04-29 — [[2026-04-29-openai-releases-chatgpt-for-clinicians]] _(blog-post)_ — OpenAI Releases ChatGPT for Clinicians
 - 2026-04-29 — [[2026-04-29-import-ai-389-ai-hacking-capabilities-forecaster-updates-hif]] _(blog-post)_ — Import AI 389: AI Hacking Capabilities, Forecaster Updates, HiFloat4 vs MXFP4
@@ -31,8 +34,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agents` (2 items)
-- `research/evals` (2 items)
+- `research/evals` (4 items)
+- `research/agents` (3 items)
 - `research/regulation` (2 items)
 - `research/alignment` (1 item)
-- `research/industry` (1 item)
+- `research/agentic-coding` (1 item)
