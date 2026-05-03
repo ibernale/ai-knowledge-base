@@ -65,3 +65,20 @@ flat_to_hier:
   agentic-coding: research/agentic-coding
   tool-use: research/tool-use
   regulation: research/regulation
+
+# Pretty names for concept rollups (auto/concepts/<slug>.md and
+# concepts/_candidates/<slug>.md). Default is title-case-per-word.
+concept_name_overrides:
+  research/rag: "RAG"
+  research/moe: "Mixture of Experts"
+  research/long-context: "Long Context"
+  research/tool-use: "Tool Use"
+  research/agentic-coding: "Agentic Coding"
+  research/posttraining: "Post-training"
+  research/pretraining: "Pre-training"
+  research/model-release: "Model Releases"
+  governance/eu-ai-act: "EU AI Act"
+  governance/dora: "DORA"
+  governance/gdpr: "GDPR"
+  governance/eba: "EBA"
+  governance/nis2: "NIS2"
