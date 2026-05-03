@@ -20,9 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (12)
+## Items in the window (13)
 
 - 2026-05-03 — [[2026-05-03-learning-rate-transfer-in-normalized-transformers-gpt]] _(paper)_ — Learning Rate Transfer in Normalized Transformers (νGPT)
+- 2026-05-03 — [[2026-05-03-vibevoice-expressive-podcast-generation-with-next-token-diff]] _(paper)_ — VibeVoice: Expressive Podcast Generation with Next-Token Diffusion
 - 2026-05-03 — [[2026-05-03-gpt-robust-learning-rate-transfer-for-normalized-transformer]] _(paper)_ — νGPT: Robust Learning Rate Transfer for Normalized Transformers
 - 2026-05-01 — [[2026-05-01-kwai-summary-attention-efficient-long-context-processing-for]] _(paper)_ — Kwai Summary Attention: Efficient Long-Context Processing for LLMs
 - 2026-05-01 — [[2026-05-01-nemotron-3-nano-omni-efficient-omni-modal-model-for-edge-dep]] _(paper)_ — Nemotron 3 Nano Omni: Efficient Omni-Modal Model for Edge Deployment
@@ -40,5 +41,5 @@ linked_entities: []
 - `research/model-release` (3 items)
 - `research/long-context` (3 items)
 - `research/pretraining` (3 items)
-- `research/multimodal` (2 items)
+- `research/multimodal` (3 items)
 - `research/agents` (2 items)

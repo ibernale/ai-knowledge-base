@@ -14,9 +14,10 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-inference]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/inference` — 12 items (most recent first).
+Source tag: `research/inference` — 13 items (most recent first).
 
 - 2026-05-03 — [[2026-05-03-learning-rate-transfer-in-normalized-transformers-gpt]] _(paper)_ — Learning Rate Transfer in Normalized Transformers (νGPT)
+- 2026-05-03 — [[2026-05-03-vibevoice-expressive-podcast-generation-with-next-token-diff]] _(paper)_ — VibeVoice: Expressive Podcast Generation with Next-Token Diffusion
 - 2026-05-03 — [[2026-05-03-gpt-robust-learning-rate-transfer-for-normalized-transformer]] _(paper)_ — νGPT: Robust Learning Rate Transfer for Normalized Transformers
 - 2026-05-01 — [[2026-05-01-kwai-summary-attention-efficient-long-context-processing-for]] _(paper)_ — Kwai Summary Attention: Efficient Long-Context Processing for LLMs
 - 2026-05-01 — [[2026-05-01-nemotron-3-nano-omni-efficient-omni-modal-model-for-edge-dep]] _(paper)_ — Nemotron 3 Nano Omni: Efficient Omni-Modal Model for Edge Deployment

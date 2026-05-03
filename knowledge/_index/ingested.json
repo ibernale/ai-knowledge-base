@@ -617,6 +617,18 @@
       "title": "A Roadmap for Visual Generation: From Atomic Mapping to Agentic World Modeling",
       "ingested": "2026-05-03",
       "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.19205",
+      "title": "VibeVoice: Expressive Podcast Generation with Next-Token Diffusion",
+      "ingested": "2026-05-03",
+      "extraction": "pdf-extracted"
+    },
+    {
+      "url": "https://huggingface.co/papers/trending",
+      "title": "GenericAgent: Self-Evolving LLM Agent with Hierarchical Memory and Reusable SOPs",
+      "ingested": "2026-05-03",
+      "extraction": "html-extracted"
     }
   ]
 }

@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (12)
+## Items in the window (13)
 
+- 2026-05-03 — [[2026-05-03-vibevoice-expressive-podcast-generation-with-next-token-diff]] _(paper)_ — VibeVoice: Expressive Podcast Generation with Next-Token Diffusion
 - 2026-05-03 — [[2026-05-03-a-roadmap-for-visual-generation-from-atomic-mapping-to-agent]] _(paper)_ — A Roadmap for Visual Generation: From Atomic Mapping to Agentic World Modeling
 - 2026-05-03 — [[2026-05-03-simulating-the-visual-world-with-artificial-intelligence-a-r]] _(paper)_ — Simulating the Visual World with Artificial Intelligence: A Roadmap
 - 2026-05-02 — [[2026-05-02-thinking-with-visual-primitives]] _(paper)_ — Thinking with Visual Primitives
@@ -41,4 +42,4 @@ linked_entities: []
 - `research/agents` (4 items)
 - `research/evals` (3 items)
 - `research/robotics` (3 items)
-- `research/benchmarks` (2 items)
+- `research/inference` (3 items)

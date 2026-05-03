@@ -1,6 +1,6 @@
 ---
 type: "concept"
-name: "Agentic coding"
+name: "Agentic Coding"
 slug: "research-agentic-coding"
 source_tag: "research/agentic-coding"
 status: "candidate"
@@ -11,7 +11,7 @@ linked_papers: []
 linked_entities: []
 ---
 
-# Agentic coding — concept candidate
+# Agentic Coding — concept candidate
 
 > **Auto-clustered** from items tagged `research/agentic-coding` ingested in the last 7 days.
 >

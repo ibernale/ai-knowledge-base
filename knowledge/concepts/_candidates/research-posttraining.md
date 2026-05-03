@@ -1,6 +1,6 @@
 ---
 type: "concept"
-name: "Posttraining"
+name: "Post-training"
 slug: "research-posttraining"
 source_tag: "research/posttraining"
 status: "candidate"
@@ -11,7 +11,7 @@ linked_papers: []
 linked_entities: []
 ---
 
-# Posttraining — concept candidate
+# Post-training — concept candidate
 
 > **Auto-clustered** from items tagged `research/posttraining` ingested in the last 7 days.
 >

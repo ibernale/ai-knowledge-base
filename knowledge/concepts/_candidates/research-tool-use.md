@@ -1,6 +1,6 @@
 ---
 type: "concept"
-name: "Tool use"
+name: "Tool Use"
 slug: "research-tool-use"
 source_tag: "research/tool-use"
 status: "candidate"
@@ -11,7 +11,7 @@ linked_papers: []
 linked_entities: []
 ---
 
-# Tool use — concept candidate
+# Tool Use — concept candidate
 
 > **Auto-clustered** from items tagged `research/tool-use` ingested in the last 7 days.
 >

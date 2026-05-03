@@ -1,6 +1,6 @@
 ---
 type: "concept"
-name: "Pretraining"
+name: "Pre-training"
 slug: "research-pretraining"
 source_tag: "research/pretraining"
 status: "candidate"
@@ -11,7 +11,7 @@ linked_papers: []
 linked_entities: []
 ---
 
-# Pretraining — concept candidate
+# Pre-training — concept candidate
 
 > **Auto-clustered** from items tagged `research/pretraining` ingested in the last 7 days.
 >

@@ -1,6 +1,6 @@
 ---
 type: "concept"
-name: "Long context"
+name: "Long Context"
 slug: "research-long-context"
 source_tag: "research/long-context"
 status: "candidate"
@@ -11,7 +11,7 @@ linked_papers: []
 linked_entities: []
 ---
 
-# Long context — concept candidate
+# Long Context — concept candidate
 
 > **Auto-clustered** from items tagged `research/long-context` ingested in the last 7 days.
 >

@@ -1,6 +1,6 @@
 ---
 type: "concept"
-name: "Model release"
+name: "Model Releases"
 slug: "research-model-release"
 source_tag: "research/model-release"
 status: "candidate"
@@ -11,7 +11,7 @@ linked_papers: []
 linked_entities: []
 ---
 
-# Model release — concept candidate
+# Model Releases — concept candidate
 
 > **Auto-clustered** from items tagged `research/model-release` ingested in the last 7 days.
 >
