@@ -57,32 +57,62 @@ Import AI, The Batch, Last Week in AI, AI News (Smol AI), Latent Space, Intercon
 
 This is where v2 failed and v3 must succeed. **You MUST explicitly check the primary writing channel of each of these names from `sources.md` Tier 4 in the last 7 days, in this order. If they published anything in that window, it is a candidate.**
 
-Mandatory checklist (do not skip any):
+Mandatory checklist — do not skip any. Grouped by sub-tier (matches `sources.md` Tier 4):
+
+**4a — Frontier-lab and senior researcher voices**:
 - Andrej Karpathy → karpathy.github.io
 - Lilian Weng → lilianweng.github.io
+- François Chollet → fchollet.com
+- Christopher Olah → colah.github.io / transformer-circuits.pub
+- Yann LeCun → yann.lecun.com
+
+**4b — Independent researchers, educators and writers (technical depth)**:
 - Simon Willison → simonwillison.net (he posts almost daily — almost guaranteed there is something)
 - Sebastian Raschka → magazine.sebastianraschka.com
 - Chip Huyen → huyenchip.com/blog
 - Jay Alammar → jalammar.github.io
 - Eugene Yan → eugeneyan.com/writing
-- Nathan Lambert → interconnects.ai
-- Jeremy Howard → fast.ai/blog
-- Hamel Husain → hamel.dev
-- Ethan Mollick → oneusefulthing.org
 - Cameron Wolfe → cameronrwolfe.substack.com
 - Sebastian Ruder → ruder.io
-- François Chollet → fchollet.com
-- Christopher Olah → colah.github.io
 - Tim Dettmers → timdettmers.com
+- Jeremy Howard → fast.ai/blog
+
+**4c — Industry analysts, builders and operators**:
+- Ethan Mollick → oneusefulthing.org
+- Nathan Lambert → interconnects.ai
 - Jack Clark → importai.substack.com
-- Andrew Ng → deeplearning.ai/the-batch
 - Dwarkesh Patel → dwarkeshpatel.com
 - Swyx → latent.space
+- Andrew Ng → deeplearning.ai/the-batch
+
+**4d — Safety / alignment / policy**:
+- Dan Hendrycks → newsletter.safe.ai
+- Holden Karnofsky → cold-takes.com
+- Helen Toner → helentoner.com
+- Paul Christiano → paulfchristiano.com/ai
+
+**4e — Builders, framework authors, DX leads**:
+- Phil Schmid → philschmid.de/blog
+- Charlie Marsh → crmarsh.com
+- Harrison Chase → blog.langchain.com/author/harrison-chase
+- Greg Kamradt → greggkamradt.com
+- Logan Markewich → logan-markewich.medium.com
+- Geoffrey Litt → geoffreylitt.com
+- Jason Liu → jxnl.co
+- Will Larson → lethain.com
+- Erik Bernhardsson → erikbern.com
+- Patrick McKenzie (patio11) → kalzumeus.com
+- Riley Goodside → x.com/goodside (skip X-only; check if he has a current blog)
+- Yoav Goldberg → cs.biu.ac.il/~yogo
+- Sara Hooker → sarahooker.me
+- Ross Wightman → github.com/rwightman
+- Aleksa Gordić → gordicaleksa.com
+- Stas Bekman → github.com/stas00
 
 You don't need to call out the absence of recent posts in your output, but you MUST search each of these in the window. If the URL responds and there's a post within 7 days, include it.
 
 **Sweep 5 — University labs (Tier 3, last 7 days):**
-Stanford HAI, MIT CSAIL, BAIR, CMU LTI, Princeton CITP, Oxford Internet Institute, ETH AI Center.
+Stanford HAI, Stanford CRFM, MIT CSAIL, BAIR, CMU LTI, Princeton CITP, NYU CDS, Oxford Internet Institute, ETH AI Center, EPFL, MILA, Vector Institute, Toronto, JHU CLSP, Cornell CIS, USC ISI, KAIST AI, Tsinghua AI, NUS, Imperial, TU Munich, Edinburgh, U Washington Allen School, Yale, Columbia, UPenn.
 
 **Sweep 6 — arXiv with author + topic filter (last 24-36h):**
 arXiv categories cs.LG, cs.CL, cs.AI, cs.CV, stat.ML. A new preprint qualifies if it meets ≥2 of:
@@ -128,25 +158,27 @@ If a paper / post is also about regulation or policy frameworks, you may add one
 
 Return ONLY a JSON array. No prose, no markdown fences, no commentary outside the JSON.
 
-If there are zero items, return `[]`. But this should be **very rare** — given the 7-day window for Tier 4 and a 50-name checklist, an empty result almost certainly means the search wasn't exhaustive enough.
+If there are zero items, return `[]`. But this should be **very rare** — given the 7-day window for Tier 4 and the ~65-name checklist (5 sub-buckets), an empty result almost certainly means the search wasn't exhaustive enough.
 
 ---
 
-## DAILY VOLUME GUIDANCE (v3, hardened)
+## DAILY VOLUME GUIDANCE (v4, exhaustive)
 
-- **Target**: 12-15 items per day.
-- **Floor**: 8 items. Below 8, the day genuinely needs to be a holiday weekend with major-conference downtime. If you're returning fewer than 8, ask yourself: did I check all 20 names in the Sweep 4 checklist? Did I look at all Tier 5a digests for the last 24-36h?
-- **Ceiling**: 20 items. Above 20, prioritise: frontier-lab releases > Tier 4 individual posts > Tier 5a digest items > qualifying arXiv papers > everything else.
+- **Target**: 15-20 items per day (up from v3's 12-15 — we now sweep 5 sub-buckets in Tier 4 plus Chinese open-weights labs and more universities).
+- **Floor**: 10 items. Below 10, ask: did I check all ~65 names in the Sweep 4 checklist (4a + 4b + 4c + 4d + 4e)? Did I look at all Tier 5a digests for the last 24-36h?
+- **Ceiling**: 28 items. Above 28, prioritise: frontier-lab releases > Tier 4 individual posts (4a/4b > 4c/4d/4e) > Tier 5a digest items > qualifying arXiv papers > Chinese open-weights releases > everything else.
 
 Distribution guidance per typical day:
-- 4-6 papers (Tier 1 aggregators + qualifying arXiv)
-- 3-5 blog posts from Tier 2 + Tier 4 individuals (the Sweep 4 checklist will usually surface 3-5 hits across 7 days from the 20 names listed)
-- 2-3 digest items from Tier 5a
-- 1-2 long-form analysis (Tier 5b)
-- 0-1 policy/safety items (Tier 5d)
-- 0-1 institutional reports (Tier 7)
+- 4-6 papers (Tier 1 aggregators + qualifying arXiv).
+- 5-8 blog posts from Tier 2 + Tier 4 individuals (Sweep 4 checklist usually surfaces 5-8 hits across 7 days from the ~65 names).
+- 2-3 digest items from Tier 5a.
+- 1-2 long-form analysis (Tier 5b).
+- 1-2 engineering posts (Tier 5c — Lil'Log, Karpathy's blog, Hamel's blog already cross-listed).
+- 0-2 policy/safety items (Tier 5d — including METR, Apollo, Redwood, FAR, AI Now, Carnegie, RAND).
+- 0-1 industry reports (Tier 5e + Tier 7).
+- 0-2 Chinese open-weights / non-US lab releases when substantive.
 
-**A good run looks like 13 items distributed roughly as above.**
+**A good run looks like 17-18 items distributed roughly as above.**
 
 ---
 

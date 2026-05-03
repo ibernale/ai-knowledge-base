@@ -39,6 +39,16 @@ Direct from the source, no intermediaries. Always treat as authoritative when th
 | **Apple ML Research**  | https://machinelearning.apple.com/                    | https://machinelearning.apple.com/research             |
 | **Allen AI (AI2)**     | https://allenai.org/blog                              | https://allenai.org/papers                             |
 | **Hugging Face Blog**  | https://huggingface.co/blog                           | —                                                      |
+| **DeepSeek**           | https://api-docs.deepseek.com/news                    | https://github.com/deepseek-ai                          |
+| **Qwen / Alibaba DAMO**| https://qwenlm.github.io/blog/                        | —                                                      |
+| **Moonshot AI / Kimi** | https://kimi.moonshot.cn/                             | —                                                      |
+| **01.AI / Yi**         | https://01.ai/                                        | —                                                      |
+| **Zhipu AI / GLM**     | https://www.zhipuai.cn/en/                            | https://github.com/THUDM                                |
+| **Baichuan**           | https://www.baichuan-ai.com/                          | —                                                      |
+| **Scale AI Research**  | https://scale.com/research                            | —                                                      |
+| **Mosaic / Databricks**| https://www.databricks.com/blog/category/generative-ai | —                                                     |
+| **Together AI**        | https://www.together.ai/blog                          | —                                                      |
+| **Inflection AI**      | https://inflection.ai/news                            | —                                                      |
 
 ---
 
@@ -57,7 +67,24 @@ Direct from the source, no intermediaries. Always treat as authoritative when th
 | Oxford Internet Institute | News | https://www.oii.ox.ac.uk/news-events/ |
 | ETH Zurich AI Center | News | https://ai.ethz.ch/news-and-events.html |
 | University of Washington | Allen School blog | https://news.cs.washington.edu/ |
-| Cambridge | Centre for AI in Medicine etc. | https://www.cst.cam.ac.uk/research |
+| Cambridge | Computer Lab + Centre for AI in Medicine | https://www.cst.cam.ac.uk/research |
+| EPFL | News and Research | https://www.epfl.ch/research/about/ |
+| MILA (Quebec AI Institute) | Publications | https://mila.quebec/en/publications/ |
+| Vector Institute (Toronto) | News | https://vectorinstitute.ai/news/ |
+| University of Toronto | DCS news | https://web.cs.toronto.edu/news |
+| Johns Hopkins CLSP | News | https://www.clsp.jhu.edu/news/ |
+| Cornell CIS / Cornell Tech | News | https://www.cs.cornell.edu/news |
+| USC Information Sciences Institute | News | https://www.isi.edu/news/ |
+| KAIST AI | News (English) | https://gsai.kaist.ac.kr/news/ |
+| Tsinghua AI | News (English) | https://ai.tsinghua.edu.cn/en/News/News.htm |
+| Hong Kong U | CSE News | https://www.cse.cuhk.edu.hk/news/ |
+| National University of Singapore | Computing news | https://www.comp.nus.edu.sg/news/ |
+| Yale | CS news | https://cpsc.yale.edu/news |
+| Columbia | CS news | https://www.cs.columbia.edu/news/ |
+| UPenn | CIS news | https://www.cis.upenn.edu/news/ |
+| Imperial College London | Computing news | https://www.imperial.ac.uk/computing/news/ |
+| TU Munich | Informatics news | https://www.cs.cit.tum.de/en/cit/news/ |
+| University of Edinburgh | Informatics news | https://informatics.ed.ac.uk/news |
 
 ---
 
@@ -137,6 +164,29 @@ The list is organised by category. Order within category is alphabetical, not ra
 | 49 | **Timnit Gebru** (DAIR) | https://www.dair-institute.org/ | @timnitgebru |
 | 50 | **Erik Brynjolfsson** (Stanford Digital Economy Lab) | https://digitaleconomy.stanford.edu/ | @erikbryn |
 
+### 4e. Builders, framework authors, developer-experience leads (engineering depth)
+
+| # | Name | Primary writing | X handle |
+|---|---|---|---|
+| 51 | **Phil Schmid** (Hugging Face / Google) | https://www.philschmid.de/blog | @_philschmid |
+| 52 | **Charlie Marsh** (Astral — Ruff/uv) | https://crmarsh.com/ | @charliermarsh |
+| 53 | **Harrison Chase** (LangChain CEO) | https://blog.langchain.com/author/harrison-chase/ | @hwchase17 |
+| 54 | **Greg Kamradt** | https://www.greggkamradt.com/ | @GregKamradt |
+| 55 | **Logan Markewich** (LlamaIndex) | https://logan-markewich.medium.com/ | @LoganMarkewich |
+| 56 | **Geoffrey Litt** (Ink & Switch, local-first) | https://www.geoffreylitt.com/ | @geoffreylitt |
+| 57 | **Jason Liu** (Instructor) | https://jxnl.co/writing/ | @jxnlco |
+| 58 | **Will Larson** | https://lethain.com/ | @lethain |
+| 59 | **Erik Bernhardsson** (Modal) | https://erikbern.com/ | @bernhardsson |
+| 60 | **Patrick McKenzie (patio11)** | https://www.kalzumeus.com/ | @patio11 |
+| 61 | **Eli Bendersky** | https://eli.thegreenplace.net/ | — |
+| 62 | **Riley Goodside** (Scale AI, prompt eng) | https://x.com/goodside | @goodside |
+| 63 | **Yoav Goldberg** (Bar-Ilan, AI2) | https://www.cs.biu.ac.il/~yogo/ | — |
+| 64 | **Sara Hooker** (Cohere For AI) | https://www.sarahooker.me/ | @sarahookr |
+| 65 | **Ross Wightman** (timm, Hugging Face) | https://github.com/rwightman | @wightmanr |
+| 66 | **Aleksa Gordić** | https://gordicaleksa.com/ | @gordic_aleksa |
+| 67 | **Lex Sokolin** (autonomous finance + AI) | https://thefintechblueprint.com/ | @LexSokolin |
+| 68 | **Stas Bekman** (training infra) | https://github.com/stas00 | — |
+
 ---
 
 ## TIER 5 — TOP 50 BLOGS, NEWSLETTERS AND PUBLICATIONS
@@ -202,6 +252,16 @@ Editorial outlets with stable cadence. The ingest pipeline checks for new posts 
 | 38 | **AI Safety Newsletter** (CAIS) | https://newsletter.safe.ai/ |
 | 39 | **GovAI** (Oxford) | https://www.governance.ai/ |
 | 40 | **Anthropic Policy** | https://www.anthropic.com/policy |
+| — | **METR (Model Evaluation & Threat Research)** | https://metr.org/ |
+| — | **Apollo Research** | https://www.apolloresearch.ai/research |
+| — | **Redwood Research** | https://www.redwoodresearch.org/ |
+| — | **FAR AI** | https://far.ai/ |
+| — | **AI Now Institute** | https://ainowinstitute.org/publications |
+| — | **Future of Privacy Forum** | https://fpf.org/blog/ |
+| — | **Carnegie Endowment AI** | https://carnegieendowment.org/topic/2068 |
+| — | **RAND AI policy** | https://www.rand.org/research/topics/artificial-intelligence.html |
+| — | **Brookings — AI** | https://www.brookings.edu/topic/artificial-intelligence/ |
+| — | **Atlantic Council — Cyber & Tech** | https://www.atlanticcouncil.org/programs/scowcroft-center-for-strategy-and-security/cyber-statecraft-initiative/ |
 
 ### 5e. Investor / industry intelligence
 
