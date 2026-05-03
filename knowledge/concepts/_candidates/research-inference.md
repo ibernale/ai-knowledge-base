@@ -5,8 +5,8 @@ slug: "research-inference"
 source_tag: "research/inference"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-02"
-last_updated: "2026-05-02"
+first_seen: "2026-05-03"
+last_updated: "2026-05-03"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (10)
+## Items in the window (11)
 
+- 2026-05-03 — [[2026-05-03-learning-rate-transfer-in-normalized-transformers-gpt]] _(paper)_ — Learning Rate Transfer in Normalized Transformers (νGPT)
 - 2026-05-01 — [[2026-05-01-kwai-summary-attention-efficient-long-context-processing-for]] _(paper)_ — Kwai Summary Attention: Efficient Long-Context Processing for LLMs
 - 2026-05-01 — [[2026-05-01-nemotron-3-nano-omni-efficient-omni-modal-model-for-edge-dep]] _(paper)_ — Nemotron 3 Nano Omni: Efficient Omni-Modal Model for Edge Deployment
 - 2026-05-01 — [[2026-05-01-the-recurrent-transformer-greater-effective-depth-and-effici]] _(paper)_ — The Recurrent Transformer: Greater Effective Depth and Efficient Decoding
@@ -37,6 +38,6 @@ linked_entities: []
 
 - `research/model-release` (3 items)
 - `research/long-context` (3 items)
+- `research/pretraining` (2 items)
 - `research/multimodal` (2 items)
 - `research/agents` (2 items)
-- `research/moe` (1 item)

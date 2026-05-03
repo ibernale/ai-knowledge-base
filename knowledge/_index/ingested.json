@@ -455,6 +455,66 @@
       "title": "CVPR 2026 Top Papers: Delta Tokens, Point Tracking, and Multi-Scale Attention",
       "ingested": "2026-05-02",
       "extraction": "html-extracted"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27077",
+      "title": "Learning Rate Transfer in Normalized Transformers (νGPT)",
+      "ingested": "2026-05-03",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.08585",
+      "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+      "ingested": "2026-05-03",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic",
+      "title": "Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic",
+      "ingested": "2026-05-03",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/2/sightings",
+      "title": "Simon Willison: Sightings - Adding iNaturalist to My Blog",
+      "ingested": "2026-05-03",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/1/inat-sightings",
+      "title": "Simon Willison: iNaturalist Sightings Tool",
+      "ingested": "2026-05-03",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://jack-clark.net",
+      "title": "Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts",
+      "ingested": "2026-05-03",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://openai.com/news",
+      "title": "OpenAI Advanced Account Security for ChatGPT and Codex",
+      "ingested": "2026-05-03",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://tech.eu/2026/05/01/over",
+      "title": "DeepMind Alumni Start Dozens of European Startups",
+      "ingested": "2026-05-03",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.22748",
+      "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+      "ingested": "2026-05-03",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.20478",
+      "title": "Codified Context: Infrastructure for AI Agents in a Complex Codebase",
+      "ingested": "2026-05-03",
+      "extraction": "ar5iv"
     }
   ]
 }

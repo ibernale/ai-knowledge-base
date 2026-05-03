@@ -5,8 +5,8 @@ slug: "research-regulation"
 source_tag: "research/regulation"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-02"
-last_updated: "2026-05-02"
+first_seen: "2026-05-03"
+last_updated: "2026-05-03"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (8)
+## Items in the window (9)
 
+- 2026-05-03 — [[2026-05-03-pentagon-strikes-deals-with-7-big-tech-companies-after-shunn]] _(blog-post)_ — Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic
 - 2026-04-29 — [[2026-04-29-anthropic-and-nec-collaborate-on-japans-largest-ai-engineeri]] _(blog-post)_ — Anthropic and NEC Collaborate on Japan's Largest AI Engineering
 - 2026-04-29 — [[2026-04-29-the-people-do-not-yearn-for-automation]] _(blog-post)_ — The people do not yearn for automation
 - 2026-04-29 — [[2026-04-29-tracking-the-history-of-the-now-deceased-openai-microsoft-ag]] _(blog-post)_ — Tracking the history of the now-deceased OpenAI Microsoft AGI clause
@@ -33,8 +34,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
+- `research/safety` (3 items)
 - `research/industry` (2 items)
 - `research/economics` (2 items)
-- `research/safety` (2 items)
 - `research/inference` (1 item)
 - `research/agents` (1 item)

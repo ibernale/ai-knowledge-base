@@ -5,8 +5,8 @@ slug: "research-alignment"
 source_tag: "research/alignment"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-02"
-last_updated: "2026-05-02"
+first_seen: "2026-05-03"
+last_updated: "2026-05-03"
 linked_papers: []
 linked_entities: []
 ---

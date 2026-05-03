@@ -5,8 +5,8 @@ slug: "research-industry"
 source_tag: "research/industry"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-02"
-last_updated: "2026-05-02"
+first_seen: "2026-05-03"
+last_updated: "2026-05-03"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (12)
+## Items in the window (13)
 
+- 2026-05-03 — [[2026-05-03-deepmind-alumni-start-dozens-of-european-startups]] _(blog-post)_ — DeepMind Alumni Start Dozens of European Startups
 - 2026-05-02 — [[2026-05-02-gpt-55-now-available-on-databricks-via-unity-ai-gateway]] _(blog-post)_ — GPT-5.5 Now Available on Databricks via Unity AI Gateway
 - 2026-05-02 — [[2026-05-02-aws-whats-next-2026-openai-partnership-and-amazon-quick]] _(blog-post)_ — AWS What's Next 2026: OpenAI Partnership and Amazon Quick
 - 2026-05-02 — [[2026-05-02-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS

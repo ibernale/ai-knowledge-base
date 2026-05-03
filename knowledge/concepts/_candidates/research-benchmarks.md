@@ -5,8 +5,8 @@ slug: "research-benchmarks"
 source_tag: "research/benchmarks"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-02"
-last_updated: "2026-05-02"
+first_seen: "2026-05-03"
+last_updated: "2026-05-03"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (13)
+## Items in the window (14)
 
+- 2026-05-03 — [[2026-05-03-import-ai-newsletter-ai-cybersecurity-capabilities-and-exper]] _(blog-post)_ — Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts
 - 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
 - 2026-05-02 — [[2026-05-02-our-evaluation-of-openais-gpt-55-cyber-capabilities]] _(report)_ — Our evaluation of OpenAI's GPT-5.5 cyber capabilities
 - 2026-04-30 — [[2026-04-30-autoresearchbench-benchmarking-ai-agents-on-complex-scientif]] _(paper)_ — AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery
@@ -38,7 +39,7 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/evals` (9 items)
+- `research/evals` (10 items)
 - `research/agents` (5 items)
 - `research/reasoning` (3 items)
 - `research/posttraining` (2 items)

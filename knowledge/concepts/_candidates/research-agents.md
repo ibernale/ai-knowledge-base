@@ -5,8 +5,8 @@ slug: "research-agents"
 source_tag: "research/agents"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-02"
-last_updated: "2026-05-02"
+first_seen: "2026-05-03"
+last_updated: "2026-05-03"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (33)
+## Items in the window (35)
 
+- 2026-05-03 — [[2026-05-03-agentic-world-modeling-foundations-capabilities-laws-and-bey]] _(paper)_ — Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond
+- 2026-05-03 — [[2026-05-03-codified-context-infrastructure-for-ai-agents-in-a-complex-c]] _(paper)_ — Codified Context: Infrastructure for AI Agents in a Complex Codebase
 - 2026-05-02 — [[2026-05-02-agent-context-files-first-large-scale-empirical-study]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study
 - 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
 - 2026-05-02 — [[2026-05-02-simon-willison-codex-cli-01280-adds-goal-and-gpt-55-cyber-ev]] _(blog-post)_ — Simon Willison: Codex CLI 0.128.0 adds /goal and GPT-5.5 cyber evaluation coverage
@@ -58,8 +60,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agentic-coding` (14 items)
+- `research/agentic-coding` (15 items)
 - `research/evals` (13 items)
 - `research/tool-use` (8 items)
 - `research/benchmarks` (5 items)
-- `research/safety` (3 items)
+- `research/reasoning` (4 items)

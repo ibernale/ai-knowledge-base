@@ -5,8 +5,8 @@ slug: "research-multimodal"
 source_tag: "research/multimodal"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-02"
-last_updated: "2026-05-02"
+first_seen: "2026-05-03"
+last_updated: "2026-05-03"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (10)
+## Items in the window (11)
 
+- 2026-05-03 — [[2026-05-03-simulating-the-visual-world-with-artificial-intelligence-a-r]] _(paper)_ — Simulating the Visual World with Artificial Intelligence: A Roadmap
 - 2026-05-02 — [[2026-05-02-thinking-with-visual-primitives]] _(paper)_ — Thinking with Visual Primitives
 - 2026-05-02 — [[2026-05-02-cvpr-2026-top-papers-delta-tokens-point-tracking-and-multi-s]] _(paper)_ — CVPR 2026 Top Papers: Delta Tokens, Point Tracking, and Multi-Scale Attention
 - 2026-05-01 — [[2026-05-01-gigaworld-policy-action-centered-world-action-model-for-robo]] _(paper)_ — GigaWorld-Policy: Action-Centered World-Action Model for Robotic Policy Learning
@@ -35,8 +36,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/reasoning` (4 items)
+- `research/reasoning` (5 items)
 - `research/evals` (3 items)
+- `research/robotics` (3 items)
 - `research/agents` (3 items)
 - `research/benchmarks` (2 items)
-- `research/robotics` (2 items)

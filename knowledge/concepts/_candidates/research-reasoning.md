@@ -5,8 +5,8 @@ slug: "research-reasoning"
 source_tag: "research/reasoning"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-02"
-last_updated: "2026-05-02"
+first_seen: "2026-05-03"
+last_updated: "2026-05-03"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (17)
+## Items in the window (19)
 
+- 2026-05-03 — [[2026-05-03-agentic-world-modeling-foundations-capabilities-laws-and-bey]] _(paper)_ — Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond
+- 2026-05-03 — [[2026-05-03-simulating-the-visual-world-with-artificial-intelligence-a-r]] _(paper)_ — Simulating the Visual World with Artificial Intelligence: A Roadmap
 - 2026-05-02 — [[2026-05-02-thinking-with-visual-primitives]] _(paper)_ — Thinking with Visual Primitives
 - 2026-05-02 — [[2026-05-02-cvpr-2026-top-papers-delta-tokens-point-tracking-and-multi-s]] _(paper)_ — CVPR 2026 Top Papers: Delta Tokens, Point Tracking, and Multi-Scale Attention
 - 2026-05-01 — [[2026-05-01-re-evaluating-mixed-policy-optimization-for-llm-reasoning]] _(paper)_ — Re-evaluating Mixed-Policy Optimization for LLM Reasoning
@@ -43,7 +45,7 @@ linked_entities: []
 ## Co-occurring tags
 
 - `research/posttraining` (5 items)
+- `research/multimodal` (5 items)
 - `research/model-release` (4 items)
-- `research/multimodal` (4 items)
+- `research/agents` (4 items)
 - `research/benchmarks` (3 items)
-- `research/agents` (3 items)

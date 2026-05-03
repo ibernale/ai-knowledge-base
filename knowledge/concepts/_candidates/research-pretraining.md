@@ -5,8 +5,8 @@ slug: "research-pretraining"
 source_tag: "research/pretraining"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-02"
-last_updated: "2026-05-02"
+first_seen: "2026-05-03"
+last_updated: "2026-05-03"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (6)
+## Items in the window (7)
 
+- 2026-05-03 — [[2026-05-03-learning-rate-transfer-in-normalized-transformers-gpt]] _(paper)_ — Learning Rate Transfer in Normalized Transformers (νGPT)
 - 2026-05-01 — [[2026-05-01-the-recurrent-transformer-greater-effective-depth-and-effici]] _(paper)_ — The Recurrent Transformer: Greater Effective Depth and Efficient Decoding
 - 2026-04-29 — [[2026-04-29-the-latent-space-foundation-evolution-mechanism-ability-and]] _(paper)_ — The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook
 - 2026-04-29 — [[2026-04-29-my-workflow-for-understanding-llm-architectures]] _(blog-post)_ — My Workflow for Understanding LLM Architectures
@@ -31,8 +32,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
+- `research/inference` (2 items)
 - `research/reasoning` (2 items)
 - `research/hardware` (1 item)
 - `research/interpretability` (1 item)
-- `research/inference` (1 item)
 - `research/benchmarks` (1 item)
