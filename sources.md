@@ -113,6 +113,33 @@ The list is organised by category. Order within category is alphabetical, not ra
 | 13 | **Lilian Weng** (ex-OpenAI, applied research) | https://lilianweng.github.io/ | @lilianweng |
 | 14 | **Chris Olah** (Anthropic, interpretability) | https://colah.github.io/ • https://transformer-circuits.pub/ | @ch402 |
 | 15 | **Jack Clark** (Anthropic, AI policy) | https://importai.substack.com/ • https://jack-clark.net/ | @jackclarkSF |
+| — | **Pieter Abbeel** (UC Berkeley, Covariant) | https://people.eecs.berkeley.edu/~pabbeel/ | @pabbeel |
+| — | **Sergey Levine** (UC Berkeley, robotics + RL) | https://people.eecs.berkeley.edu/~svlevine/ | @svlevine |
+| — | **Stuart Russell** (UC Berkeley, AI safety) | https://people.eecs.berkeley.edu/~russell/ | — |
+| — | **Christopher Manning** (Stanford NLP) | https://nlp.stanford.edu/~manning/ | @chrmanning |
+| — | **Percy Liang** (Stanford CRFM) | https://cs.stanford.edu/~pliang/ | @percyliang |
+| — | **Christopher Ré** (Stanford CRFM, Together AI) | https://cs.stanford.edu/~chrismre/ | @HazyResearch |
+| — | **Sam Altman** (OpenAI CEO) | https://blog.samaltman.com/ | @sama |
+| — | **Dario Amodei** (Anthropic CEO) | https://www.darioamodei.com/ | — |
+| — | **Greg Brockman** (OpenAI President) | https://gregbrockman.com/ | @gdb |
+| — | **John Schulman** (Anthropic, ex-OpenAI co-founder) | https://joschu.net/ | @johnschulman2 |
+| — | **Mira Murati** (Thinking Machines Lab) | https://thinkingmachines.ai/ | @miramurati |
+| — | **Mustafa Suleyman** (Microsoft AI, ex-DeepMind) | — | @mustafasuleyman |
+| — | **Aravind Srinivas** (Perplexity CEO) | — | @AravSrinivas |
+| — | **Aidan Gomez** (Cohere CEO) | https://aidangomez.ca/ | @aidangomezzz |
+| — | **Noam Shazeer** (Google, ex-Character AI) | — | @noamshazeer |
+| — | **Jason Wei** (Anthropic, ex-OpenAI) | https://www.jasonwei.net/ | @_jasonwei |
+| — | **Yi Tay** (Reka, ex-Google Brain) | https://www.yitay.net/ | @YiTayML |
+| — | **Thomas Wolf** (Hugging Face co-founder) | https://thomwolf.io/ | @Thom_Wolf |
+| — | **Clément Delangue** (Hugging Face CEO) | — | @ClementDelangue |
+| — | **Shane Legg** (DeepMind co-founder, Chief AGI Scientist) | — | — |
+| — | **Max Tegmark** (MIT, Future of Life Institute) | https://space.mit.edu/home/tegmark/ | @tegmark |
+| — | **Nick Bostrom** (Macrostrategy Research) | https://nickbostrom.com/ | @nickbostrom |
+| — | **Dawn Song** (UC Berkeley) | https://dawnsong.io/ | @dawnsongtweets |
+| — | **Tatsunori Hashimoto** (Stanford) | https://thashim.github.io/ | @tatsu_hashimoto |
+| — | **Yejin Choi** (UW, Stanford) | https://yejinchoi.com/ | @YejinChoinka |
+| — | **Ed Chi** (Google DeepMind) | https://research.google/people/106214/ | — |
+| — | **Aleksander Mądry** (MIT, OpenAI) | https://madry-lab.ml/ | — |
 
 ### 4b. Independent researchers, educators and writers (technical depth)
 
@@ -278,11 +305,48 @@ Editorial outlets with stable cadence. The ingest pipeline checks for new posts 
 | 49 | **Semafor Tech** | https://www.semafor.com/vertical/technology |
 | 50 | **AI Index Report** (Stanford HAI, annual) | https://aiindex.stanford.edu/ |
 
+### 5e-bis. Top VC funds with AI thesis (publish substantive theses, not just deal news)
+
+The model should sweep these for new long-form thesis posts (market maps, technical deep-dives, infrastructure breakdowns) — not portfolio-company press releases.
+
+| # | Fund | URL |
+|---|---|---|
+| — | **Andreessen Horowitz (a16z)** — AI | https://a16z.com/ai/ |
+| — | **a16z Future** | https://future.com/ |
+| — | **Sequoia Capital** | https://www.sequoiacap.com/perspectives/ |
+| — | **Khosla Ventures** | https://www.khoslaventures.com/blog/ |
+| — | **Founders Fund** | https://foundersfund.com/ |
+| — | **Index Ventures** | https://www.indexventures.com/perspectives/ |
+| — | **Accel** | https://www.accel.com/noteworthy |
+| — | **Lux Capital** (deep-tech / AI infra) | https://www.luxcapital.com/news |
+| — | **General Catalyst** | https://www.generalcatalyst.com/perspectives/ |
+| — | **Greylock** (Reid Hoffman, Saam Motamedi) | https://greylock.com/perspectives/ |
+| — | **Kleiner Perkins** | https://www.kleinerperkins.com/perspectives/ |
+| — | **Bessemer Venture Partners** (State of the Cloud, Roadmaps) | https://www.bvp.com/atlas |
+| — | **Conviction** (Sarah Guo) | https://www.conviction.com/perspectives |
+| — | **Menlo Ventures** | https://menlovc.com/perspective/ |
+| — | **Air Street Capital** (Nathan Benaich) | https://press.airstreet.com/ |
+| — | **Battery Ventures** | https://www.battery.com/blog/ |
+| — | **CRV** | https://www.crv.com/perspectives |
+| — | **NEA** | https://www.nea.com/perspectives |
+| — | **Insight Partners** | https://www.insightpartners.com/ideas/ |
+| — | **IVP** | https://www.ivp.com/insights/ |
+| — | **Coatue** | https://www.coatue.com/insights |
+| — | **Tiger Global** | https://www.tigerglobal.com/ |
+| — | **SoftBank Vision Fund** | https://visionfund.com/news |
+| — | **Initialized Capital** (Garry Tan) | https://initialized.com/perspectives |
+| — | **Madrona Ventures** (Seattle AI) | https://www.madrona.com/category/perspectives/ |
+| — | **Felicis** | https://www.felicis.com/insights |
+| — | **8VC** | https://8vc.com/research |
+| — | **First Round Capital** | https://review.firstround.com/ |
+
 ---
 
 ## TIER 6 — ACADEMIC AND PREPRINT VENUES
 
-These are the corpora the ingest pipeline mines for new papers. Always check published_date against the search window.
+These are the corpora the ingest pipeline mines for new papers. Always check published_date against the search window. During an active conference accepted-papers window, the conference page is a primary source.
+
+### Preprint servers
 
 | Venue | URL | Notes |
 |---|---|---|
@@ -290,12 +354,66 @@ These are the corpora the ingest pipeline mines for new papers. Always check pub
 | **arXiv cs.CL** | https://arxiv.org/list/cs.CL/recent | NLP |
 | **arXiv cs.AI** | https://arxiv.org/list/cs.AI/recent | General AI |
 | **arXiv cs.CV** | https://arxiv.org/list/cs.CV/recent | Computer Vision |
+| **arXiv cs.RO** | https://arxiv.org/list/cs.RO/recent | Robotics |
 | **arXiv stat.ML** | https://arxiv.org/list/stat.ML/recent | Statistical ML |
-| **NeurIPS** | https://neurips.cc/ | Annual + accepted papers |
-| **ICML** | https://icml.cc/ | Annual + accepted papers |
-| **ICLR** | https://iclr.cc/ | Annual + accepted papers + OpenReview |
-| **ACL Anthology** | https://aclanthology.org/ | NLP venue archive |
-| **OpenReview** | https://openreview.net/ | Conference review platform |
+| **OpenReview** | https://openreview.net/ | Conference review platform — pre-publication signal |
+| **Semantic Scholar** | https://www.semanticscholar.org/ | Citation context, TLDRs, influence scores |
+
+### Top-tier ML / AI conferences (general)
+
+| Venue | URL | Notes |
+|---|---|---|
+| **NeurIPS** | https://neurips.cc/ | December — flagship ML conference |
+| **ICML** | https://icml.cc/ | July — top ML conference |
+| **ICLR** | https://iclr.cc/ | Spring — open-review process |
+| **AAAI** | https://aaai.org/conference/aaai/ | February — broad AI |
+| **IJCAI** | https://www.ijcai.org/ | August — international AI |
+| **AISTATS** | https://aistats.org/ | Statistical AI |
+| **UAI** | https://www.auai.org/ | Uncertainty in AI |
+
+### NLP and language models
+
+| Venue | URL | Notes |
+|---|---|---|
+| **ACL Anthology** | https://aclanthology.org/ | NLP venue archive (ACL, EMNLP, NAACL, EACL, COLING, TACL) |
+| **ACL** | https://www.aclweb.org/portal/ | Association for Computational Linguistics |
+| **EMNLP** | https://2025.emnlp.org/ | Empirical Methods in NLP |
+| **NAACL** | https://2025.naacl.org/ | North American chapter ACL |
+| **COLM** | https://colmweb.org/ | Conference on Language Modeling — newer, LLM-focused |
+
+### Computer vision and multimodal
+
+| Venue | URL | Notes |
+|---|---|---|
+| **CVPR** | https://cvpr.thecvf.com/ | June — top vision conference |
+| **ECCV** | https://eccv.ecva.net/ | Biennial European vision |
+| **ICCV** | https://iccv.thecvf.com/ | Biennial international vision |
+| **SIGGRAPH** | https://s2025.siggraph.org/ | Graphics + generative content |
+
+### Robotics, RL, embodied AI
+
+| Venue | URL | Notes |
+|---|---|---|
+| **RSS** (Robotics: Science and Systems) | https://roboticsconference.org/ | Robotics flagship |
+| **CoRL** (Conference on Robot Learning) | https://www.corl.org/ | Robot learning |
+| **ICRA** | https://www.icra2025.org/ | International Conference on Robotics and Automation |
+
+### AI ethics, fairness, accountability
+
+| Venue | URL | Notes |
+|---|---|---|
+| **FAccT** (Fairness, Accountability, Transparency) | https://facctconference.org/ | ACM venue, AI ethics flagship |
+| **AIES** (AI, Ethics & Society) | https://www.aies-conference.com/ | AAAI/ACM joint conference |
+| **EAAMO** (Equity & Access in Algorithms, Mechanisms, Optimization) | https://eaamo.org/ | Algorithmic equity |
+
+### Knowledge discovery and applied ML
+
+| Venue | URL | Notes |
+|---|---|---|
+| **KDD** | https://kdd.org/ | Knowledge Discovery and Data Mining |
+| **WWW (The Web Conf)** | https://www.thewebconf.org/ | Web / search / IR |
+| **RecSys** | https://recsys.acm.org/ | Recommender systems |
+| **SIGIR** | https://sigir.org/ | Information retrieval |
 
 ---
 

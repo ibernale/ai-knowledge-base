@@ -123,10 +123,29 @@ arXiv categories cs.LG, cs.CL, cs.AI, cs.CV, stat.ML. A new preprint qualifies i
 If you have to choose between including a borderline arXiv paper or excluding it, **lean toward including** when an author from Tier 4 is on it. The topic is downstream of who wrote it.
 
 **Sweep 7 — Industry analysis & policy (Tier 5b, 5d, last 7 days):**
-Stratechery, Exponential View, AI Snake Oil, Hyperdimensional, AI Safety Newsletter, GovAI, Air Street Press.
+Stratechery, Exponential View, AI Snake Oil, Hyperdimensional, AI Safety Newsletter, GovAI, Air Street Press, METR, Apollo Research, Redwood Research, FAR AI, AI Now, FPF, Carnegie, RAND, Brookings AI.
 
-**Sweep 8 — Consultancies (Tier 7, last 7 days):**
-McKinsey QuantumBlack, BCG, Deloitte AI, AI Index updates, WEF AI, OECD AI Observatory.
+**Sweep 8 — Top VC AI theses (Tier 5e-bis, last 7 days):**
+
+Top venture funds publish substantive theses (market maps, technical deep-dives, infrastructure breakdowns) — sweep these but **only** for substantive theses, NOT portfolio-company press releases.
+
+- a16z + a16z Future, Sequoia, Khosla, Founders Fund, Index, Accel, Lux, General Catalyst, Greylock, Kleiner Perkins, Bessemer (Atlas / State of the Cloud), Conviction, Menlo, Air Street Capital, Battery, CRV, NEA, Insight Partners, Coatue, Initialized, Madrona, Felicis, 8VC, First Round Review.
+
+**Sweep 9 — Active conferences (Tier 6, last 14 days when applicable):**
+
+When a conference is in its accepted-papers / proceedings window (typically the conference dates plus 4 weeks), pull standout papers from:
+
+- **General ML/AI**: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS, UAI.
+- **NLP**: ACL, EMNLP, NAACL, COLM.
+- **Vision / multimodal**: CVPR, ECCV, ICCV, SIGGRAPH.
+- **Robotics**: RSS, CoRL, ICRA.
+- **AI ethics**: FAccT, AIES, EAAMO.
+- **Applied ML**: KDD, WWW, RecSys, SIGIR.
+
+Outside conference windows, the regular arXiv sweep (Sweep 6) covers the same papers as preprints. During a conference window, the conference page may have venue-specific signal (best-paper awards, oral selections, town hall talks) worth surfacing as a `paper` type.
+
+**Sweep 10 — Consultancies (Tier 7, last 7 days):**
+McKinsey QuantumBlack, BCG, Deloitte AI, AI Index updates, WEF AI, OECD AI Observatory, KPMG, PwC, EY when AI-substantive.
 
 ### STEP 3 — Select and structure
 
