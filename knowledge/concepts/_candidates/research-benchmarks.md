@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (14)
+## Items in the window (15)
 
+- 2026-05-03 — [[2026-05-03-synthetic-computers-at-scale-for-long-horizon-productivity-s]] _(paper)_ — Synthetic Computers at Scale for Long-Horizon Productivity Simulation
 - 2026-05-03 — [[2026-05-03-import-ai-newsletter-ai-cybersecurity-capabilities-and-exper]] _(blog-post)_ — Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts
 - 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
 - 2026-05-02 — [[2026-05-02-our-evaluation-of-openais-gpt-55-cyber-capabilities]] _(report)_ — Our evaluation of OpenAI's GPT-5.5 cyber capabilities
@@ -39,8 +40,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/evals` (10 items)
-- `research/agents` (5 items)
+- `research/evals` (11 items)
+- `research/agents` (6 items)
 - `research/reasoning` (3 items)
 - `research/posttraining` (2 items)
 - `research/multimodal` (2 items)

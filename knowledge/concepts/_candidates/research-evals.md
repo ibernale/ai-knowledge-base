@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (21)
+## Items in the window (22)
 
+- 2026-05-03 — [[2026-05-03-synthetic-computers-at-scale-for-long-horizon-productivity-s]] _(paper)_ — Synthetic Computers at Scale for Long-Horizon Productivity Simulation
 - 2026-05-03 — [[2026-05-03-import-ai-newsletter-ai-cybersecurity-capabilities-and-exper]] _(blog-post)_ — Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts
 - 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
 - 2026-05-02 — [[2026-05-02-import-ai-390-offensive-cyber-capabilities-now-frontier-wide]] _(blog-post)_ — Import AI 390: Offensive cyber capabilities now frontier-wide
@@ -46,8 +47,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agents` (13 items)
-- `research/benchmarks` (10 items)
+- `research/agents` (14 items)
+- `research/benchmarks` (11 items)
 - `research/agentic-coding` (7 items)
 - `research/safety` (5 items)
 - `research/multimodal` (3 items)

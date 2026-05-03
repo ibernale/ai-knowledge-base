@@ -20,16 +20,18 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (3)
+## Items in the window (5)
 
+- 2026-05-03 — [[2026-05-03-deepmind-paper-llms-will-never-be-conscious]] _(paper)_ — DeepMind Paper: LLMs Will Never Be Conscious
+- 2026-05-03 — [[2026-05-03-2026-cosmos-lecture-jack-clark-on-human-autonomy]] _(blog-post)_ — 2026 Cosmos Lecture: Jack Clark on Human Autonomy
 - 2026-04-29 — [[2026-04-29-the-people-do-not-yearn-for-automation]] _(blog-post)_ — The people do not yearn for automation
 - 2026-04-28 — [[2026-04-28-ai-organizations-can-be-more-effective-but-less-aligned-than]] _(paper)_ — AI Organizations Can Be More Effective but Less Aligned than Individual Agents
 - 2026-04-28 — [[2026-04-28-automated-weak-to-strong-researcher]] _(paper)_ — Automated Weak-to-Strong Researcher
 
 ## Co-occurring tags
 
+- `research/reasoning` (2 items)
 - `research/agents` (2 items)
 - `research/safety` (1 item)
 - `research/evals` (1 item)
-- `research/reasoning` (1 item)
-- `research/regulation` (1 item)
+- `governance/eu-ai-act` (1 item)

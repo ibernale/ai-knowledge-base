@@ -551,6 +551,48 @@
       "title": "2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development",
       "ingested": "2026-05-03",
       "extraction": "html-too-short"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.28181",
+      "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+      "ingested": "2026-05-03",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.28500",
+      "title": "Agent Context Files Study: READMEs for Coding Agents",
+      "ingested": "2026-05-03",
+      "extraction": "pdf-status-404"
+    },
+    {
+      "url": "https://www.interconnects.ai/p/claude-mythos-misguided",
+      "title": "Claude Mythos and misguided open-weight fearmongering",
+      "ingested": "2026-05-03",
+      "extraction": "http-status-404"
+    },
+    {
+      "url": "https://www.latent.space/p/unsupervised-learning-2026",
+      "title": "AIE Europe Debrief + Agent Labs Thesis: Latent Space x Unsupervised Learning Crossover",
+      "ingested": "2026-05-03",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://blog.cosmos-institute.org/p/the-2026-cosmos-lecture-jack-clark",
+      "title": "2026 Cosmos Lecture: Jack Clark on Human Autonomy",
+      "ingested": "2026-05-03",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://www.404media.co/google-deepmind-paper-argues-llms-will-never-be-conscious",
+      "title": "DeepMind Paper: LLMs Will Never Be Conscious",
+      "ingested": "2026-05-03",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/12/New-Future-Of-Work-Report-2025.pdf",
+      "title": "Microsoft New Future of Work Report 2025",
+      "ingested": "2026-05-03",
+      "extraction": "pdf-extracted"
     }
   ]
 }

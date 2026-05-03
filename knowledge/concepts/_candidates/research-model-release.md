@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (9)
+## Items in the window (10)
 
+- 2026-05-03 — [[2026-05-03-claude-mythos-and-misguided-open-weight-fearmongering]] _(blog-post)_ — Claude Mythos and misguided open-weight fearmongering
 - 2026-05-02 — [[2026-05-02-gpt-55-now-available-on-databricks-via-unity-ai-gateway]] _(blog-post)_ — GPT-5.5 Now Available on Databricks via Unity AI Gateway
 - 2026-05-01 — [[2026-05-01-weekly-ai-newsletter-april-2026-2026]] _(blog-post)_ — Weekly AI Newsletter: April 20–26, 2026
 - 2026-04-30 — [[2026-04-30-weekly-ai-newsletter-april-2026-2026]] _(blog-post)_ — Weekly AI Newsletter: April 20–26, 2026
