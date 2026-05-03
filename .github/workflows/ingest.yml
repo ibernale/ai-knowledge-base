@@ -32,13 +32,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r _spine/pipeline/requirements.txt
           pip install -r _spine/lint/requirements.txt
 
       - name: Run ingest
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python run_ingest.py
+        run: python _spine/pipeline/run_ingest.py
 
       - name: Stage new knowledge files
         id: stage

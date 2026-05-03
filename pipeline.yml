@@ -1,0 +1,67 @@
+# ai-knowledge-base — ingest pipeline config
+#
+# Loaded by _spine/pipeline/run_ingest.py at runtime. Domain-specific
+# settings only; the engine code is in the spine.
+
+model: claude-opus-4-5
+max_tokens: 16000
+max_web_searches: 50
+default_access_tag: access/public
+
+# Closed list of tags the LLM may emit (research/* full + small governance subset).
+allowed_tags:
+  - research/agents
+  - research/rag
+  - research/evals
+  - research/alignment
+  - research/safety
+  - research/interpretability
+  - research/moe
+  - research/long-context
+  - research/reasoning
+  - research/multimodal
+  - research/robotics
+  - research/distillation
+  - research/pretraining
+  - research/posttraining
+  - research/inference
+  - research/hardware
+  - research/benchmarks
+  - research/agentic-coding
+  - research/tool-use
+  - research/economics
+  - research/industry
+  - research/regulation
+  - research/model-release
+  - governance/eu-ai-act
+  - governance/dora
+  - governance/gdpr
+  - governance/eba
+  - governance/nis2
+
+# Belt-and-suspenders: flat tags the LLM might emit → hierarchical canonical form.
+flat_to_hier:
+  policy: research/regulation
+  economics: research/economics
+  industry: research/industry
+  model-release: research/model-release
+  agents: research/agents
+  rag: research/rag
+  evals: research/evals
+  alignment: research/alignment
+  safety: research/safety
+  interpretability: research/interpretability
+  moe: research/moe
+  long-context: research/long-context
+  reasoning: research/reasoning
+  multimodal: research/multimodal
+  robotics: research/robotics
+  distillation: research/distillation
+  pretraining: research/pretraining
+  posttraining: research/posttraining
+  inference: research/inference
+  hardware: research/hardware
+  benchmarks: research/benchmarks
+  agentic-coding: research/agentic-coding
+  tool-use: research/tool-use
+  regulation: research/regulation
