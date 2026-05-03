@@ -20,9 +20,11 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (13)
+## Items in the window (15)
 
 - 2026-05-03 — [[2026-05-03-deepmind-alumni-start-dozens-of-european-startups]] _(blog-post)_ — DeepMind Alumni Start Dozens of European Startups
+- 2026-05-03 — [[2026-05-03-shopifys-ai-phase-transition-2026-usage-explosion-unlimited]] _(blog-post)_ — Shopify's AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget
+- 2026-05-03 — [[2026-05-03-2026-agentic-coding-trends-report-how-coding-agents-are-resh]] _(report)_ — 2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development
 - 2026-05-02 — [[2026-05-02-gpt-55-now-available-on-databricks-via-unity-ai-gateway]] _(blog-post)_ — GPT-5.5 Now Available on Databricks via Unity AI Gateway
 - 2026-05-02 — [[2026-05-02-aws-whats-next-2026-openai-partnership-and-amazon-quick]] _(blog-post)_ — AWS What's Next 2026: OpenAI Partnership and Amazon Quick
 - 2026-05-02 — [[2026-05-02-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
@@ -38,8 +40,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
+- `research/agents` (4 items)
 - `research/model-release` (3 items)
+- `research/agentic-coding` (3 items)
 - `research/regulation` (2 items)
 - `research/reasoning` (2 items)
-- `research/distillation` (2 items)
-- `research/agents` (2 items)

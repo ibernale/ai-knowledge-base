@@ -515,6 +515,42 @@
       "title": "Codified Context: Infrastructure for AI Agents in a Complex Codebase",
       "ingested": "2026-05-03",
       "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.01824",
+      "title": "Agent READMEs: An Empirical Study of Context Files for Agentic Coding",
+      "ingested": "2026-05-03",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://openai.com/index/advanced-account-security",
+      "title": "OpenAI Advanced Account Security for ChatGPT and Codex",
+      "ingested": "2026-05-03",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://www.axios.com/2026/05/01/washington-new-anthropic-problem",
+      "title": "Pentagon Strikes AI Deals with Seven Major Tech Companies; Anthropic Excluded",
+      "ingested": "2026-05-03",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://fortune.com/2026/05/02/agentic-ai-governance-framework-banking-healthcare-retail-supply-chain-yale-celi-sonnenfeld",
+      "title": "Agentic AI Governance Framework for Banking, Healthcare, Retail, and Supply Chain",
+      "ingested": "2026-05-03",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://www.latent.space/p/shopify-ai-transition",
+      "title": "Shopify's AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget",
+      "ingested": "2026-05-03",
+      "extraction": "http-status-404"
+    },
+    {
+      "url": "https://resources.anthropic.com/2026-agentic-coding-trends-report",
+      "title": "2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development",
+      "ingested": "2026-05-03",
+      "extraction": "html-too-short"
     }
   ]
 }

@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (12)
+## Items in the window (13)
 
+- 2026-05-03 — [[2026-05-03-pentagon-strikes-ai-deals-with-seven-major-tech-companies-an]] _(blog-post)_ — Pentagon Strikes AI Deals with Seven Major Tech Companies; Anthropic Excluded
 - 2026-05-03 — [[2026-05-03-openai-advanced-account-security-for-chatgpt-and-codex]] _(blog-post)_ — OpenAI Advanced Account Security for ChatGPT and Codex
 - 2026-05-03 — [[2026-05-03-import-ai-newsletter-ai-cybersecurity-capabilities-and-exper]] _(blog-post)_ — Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts
 - 2026-05-03 — [[2026-05-03-pentagon-strikes-deals-with-7-big-tech-companies-after-shunn]] _(blog-post)_ — Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic
@@ -38,7 +39,7 @@ linked_entities: []
 ## Co-occurring tags
 
 - `research/evals` (5 items)
+- `research/regulation` (4 items)
 - `research/agents` (3 items)
-- `research/regulation` (3 items)
 - `research/agentic-coding` (2 items)
-- `research/benchmarks` (2 items)
+- `governance/dora` (2 items)

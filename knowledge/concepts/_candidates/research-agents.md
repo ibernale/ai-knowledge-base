@@ -20,10 +20,14 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (35)
+## Items in the window (39)
 
 - 2026-05-03 — [[2026-05-03-agentic-world-modeling-foundations-capabilities-laws-and-bey]] _(paper)_ — Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond
+- 2026-05-03 — [[2026-05-03-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-03 — [[2026-05-03-codified-context-infrastructure-for-ai-agents-in-a-complex-c]] _(paper)_ — Codified Context: Infrastructure for AI Agents in a Complex Codebase
+- 2026-05-03 — [[2026-05-03-shopifys-ai-phase-transition-2026-usage-explosion-unlimited]] _(blog-post)_ — Shopify's AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget
+- 2026-05-03 — [[2026-05-03-agentic-ai-governance-framework-for-banking-healthcare-retai]] _(blog-post)_ — Agentic AI Governance Framework for Banking, Healthcare, Retail, and Supply Chain
+- 2026-05-03 — [[2026-05-03-2026-agentic-coding-trends-report-how-coding-agents-are-resh]] _(report)_ — 2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development
 - 2026-05-02 — [[2026-05-02-agent-context-files-first-large-scale-empirical-study]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study
 - 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
 - 2026-05-02 — [[2026-05-02-simon-willison-codex-cli-01280-adds-goal-and-gpt-55-cyber-ev]] _(blog-post)_ — Simon Willison: Codex CLI 0.128.0 adds /goal and GPT-5.5 cyber evaluation coverage
@@ -60,8 +64,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agentic-coding` (15 items)
+- `research/agentic-coding` (18 items)
 - `research/evals` (13 items)
-- `research/tool-use` (8 items)
+- `research/tool-use` (9 items)
 - `research/benchmarks` (5 items)
 - `research/reasoning` (4 items)

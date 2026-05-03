@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (11)
+## Items in the window (12)
 
+- 2026-05-03 — [[2026-05-03-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-03 — [[2026-05-03-simon-willison-sightings-adding-inaturalist-to-my-blog]] _(blog-post)_ — Simon Willison: Sightings - Adding iNaturalist to My Blog
 - 2026-05-03 — [[2026-05-03-simon-willison-inaturalist-sightings-tool]] _(blog-post)_ — Simon Willison: iNaturalist Sightings Tool
 - 2026-05-02 — [[2026-05-02-claude-for-creative-work]] _(blog-post)_ — Claude for Creative Work
@@ -36,8 +37,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agents` (8 items)
-- `research/agentic-coding` (5 items)
+- `research/agents` (9 items)
+- `research/agentic-coding` (6 items)
 - `research/rag` (1 item)
 - `research/inference` (1 item)
 - `research/reasoning` (1 item)

@@ -20,12 +20,15 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (21)
+## Items in the window (24)
 
+- 2026-05-03 — [[2026-05-03-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-03 — [[2026-05-03-codified-context-infrastructure-for-ai-agents-in-a-complex-c]] _(paper)_ — Codified Context: Infrastructure for AI Agents in a Complex Codebase
 - 2026-05-03 — [[2026-05-03-simon-willison-sightings-adding-inaturalist-to-my-blog]] _(blog-post)_ — Simon Willison: Sightings - Adding iNaturalist to My Blog
+- 2026-05-03 — [[2026-05-03-shopifys-ai-phase-transition-2026-usage-explosion-unlimited]] _(blog-post)_ — Shopify's AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget
 - 2026-05-03 — [[2026-05-03-openai-advanced-account-security-for-chatgpt-and-codex]] _(blog-post)_ — OpenAI Advanced Account Security for ChatGPT and Codex
 - 2026-05-03 — [[2026-05-03-simon-willison-inaturalist-sightings-tool]] _(blog-post)_ — Simon Willison: iNaturalist Sightings Tool
+- 2026-05-03 — [[2026-05-03-2026-agentic-coding-trends-report-how-coding-agents-are-resh]] _(report)_ — 2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development
 - 2026-05-02 — [[2026-05-02-agent-context-files-first-large-scale-empirical-study]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study
 - 2026-05-02 — [[2026-05-02-simon-willison-codex-cli-01280-adds-goal-and-gpt-55-cyber-ev]] _(blog-post)_ — Simon Willison: Codex CLI 0.128.0 adds /goal and GPT-5.5 cyber evaluation coverage
 - 2026-05-02 — [[2026-05-02-latent-space-harness-engineering-with-ryan-lopopolo-openai-f]] _(blog-post)_ — Latent Space: Harness Engineering with Ryan Lopopolo (OpenAI Frontier)
@@ -46,8 +49,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agents` (15 items)
+- `research/agents` (18 items)
 - `research/evals` (7 items)
-- `research/tool-use` (5 items)
+- `research/tool-use` (6 items)
+- `research/industry` (3 items)
 - `research/benchmarks` (2 items)
-- `research/safety` (2 items)

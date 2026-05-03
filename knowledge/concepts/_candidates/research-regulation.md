@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (9)
+## Items in the window (11)
 
+- 2026-05-03 — [[2026-05-03-pentagon-strikes-ai-deals-with-seven-major-tech-companies-an]] _(blog-post)_ — Pentagon Strikes AI Deals with Seven Major Tech Companies; Anthropic Excluded
+- 2026-05-03 — [[2026-05-03-agentic-ai-governance-framework-for-banking-healthcare-retai]] _(blog-post)_ — Agentic AI Governance Framework for Banking, Healthcare, Retail, and Supply Chain
 - 2026-05-03 — [[2026-05-03-pentagon-strikes-deals-with-7-big-tech-companies-after-shunn]] _(blog-post)_ — Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic
 - 2026-04-29 — [[2026-04-29-anthropic-and-nec-collaborate-on-japans-largest-ai-engineeri]] _(blog-post)_ — Anthropic and NEC Collaborate on Japan's Largest AI Engineering
 - 2026-04-29 — [[2026-04-29-the-people-do-not-yearn-for-automation]] _(blog-post)_ — The people do not yearn for automation
@@ -34,8 +36,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/safety` (3 items)
+- `research/safety` (4 items)
+- `research/agents` (2 items)
+- `governance/dora` (2 items)
 - `research/industry` (2 items)
 - `research/economics` (2 items)
-- `research/inference` (1 item)
-- `research/agents` (1 item)

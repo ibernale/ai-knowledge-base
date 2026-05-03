@@ -1,6 +1,6 @@
 ---
 title: "OpenAI Advanced Account Security for ChatGPT and Codex"
-url: https://openai.com/news
+url: https://openai.com/index/advanced-account-security
 source: openai
 type: blog-post
 authors: ["OpenAI"]
@@ -12,13 +12,13 @@ tags: ["research/safety", "research/agentic-coding", "type/blog", "access/public
 # OpenAI Advanced Account Security for ChatGPT and Codex
 
 ## Why it matters
-OpenAI introduced Advanced Account Security as an opt-in setting with phishing-resistant sign-in, tighter recovery controls, shorter sessions, and automatic training exclusion. Required for Trusted Access for Cyber users accessing permissive models from June 1, 2026. This reflects the maturation of AI security infrastructure as models become embedded in high-stakes work: accounts now hold sensitive personal and professional context across connected tools and workflows. The Yubico security key partnership signals enterprise-grade security expectations.
+As AI becomes embedded in high-stakes work and sensitive workflows, account security moves from nice-to-have to critical infrastructure. OpenAI's Advanced Account Security introduces phishing-resistant sign-in via passkeys, restricted account recovery (disabling SMS/email recovery), shorter sessions, login alerts, and automatic training data exclusion. Notably, individual members of Trusted Access for Cyber (accessing the most capable models) must enable this by June 1, 2026. This signals a maturation of the AI ecosystem: the same accounts that control powerful coding agents need enterprise-grade security, and OpenAI is making this opt-in protection extend to Codex users.
 
 ## Lede (original)
-Today, we're introducing Advanced Account Security, a new opt-in setting for ChatGPT accounts, designed for people at increased risk of digital attacks, as well as for those who want the strongest account protections available. It brings together a set of heightened security measures that help safeguard against account takeover while making those protections easier to activate in one place.
+Today, we're introducing Advanced Account Security, a new opt-in setting for ChatGPT accounts, designed for people at increased risk of digital attacks, as well as for those who want the strongest account protections available.
 
 ## Source
-[https://openai.com/news](https://openai.com/news)
+[https://openai.com/index/advanced-account-security](https://openai.com/index/advanced-account-security)
 
 ## Full text
 _Not extracted: http-status-403_
