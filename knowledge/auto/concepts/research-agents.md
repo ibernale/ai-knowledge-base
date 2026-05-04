@@ -14,8 +14,11 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-agents]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/agents` — 45 items (most recent first).
+Source tag: `research/agents` — 48 items (most recent first).
 
+- 2026-05-04 — [[2026-05-04-position-agentic-ai-orchestration-should-be-bayes-consistent]] _(paper)_ — Position: agentic AI orchestration should be Bayes-consistent
+- 2026-05-04 — [[2026-05-04-introducing-dynamic-workflows-durable-execution-that-follows]] _(blog-post)_ — Introducing Dynamic Workflows: durable execution that follows the tenant
+- 2026-05-04 — [[2026-05-04-building-the-agentic-cloud-everything-we-launched-during-age]] _(blog-post)_ — Building the agentic cloud: everything we launched during Agents Week 2026
 - 2026-05-03 — [[2026-05-03-genericagent-self-evolving-llm-agent-with-hierarchical-memor]] _(paper)_ — GenericAgent: Self-Evolving LLM Agent with Hierarchical Memory and Reusable SOPs
 - 2026-05-03 — [[2026-05-03-agentic-world-modeling-foundations-capabilities-laws-and-bey]] _(paper)_ — Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond
 - 2026-05-03 — [[2026-05-03-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding

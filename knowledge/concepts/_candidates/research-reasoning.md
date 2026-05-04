@@ -5,8 +5,8 @@ slug: "research-reasoning"
 source_tag: "research/reasoning"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-03"
-last_updated: "2026-05-03"
+first_seen: "2026-05-04"
+last_updated: "2026-05-04"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (21)
+## Items in the window (22)
 
+- 2026-05-04 — [[2026-05-04-position-agentic-ai-orchestration-should-be-bayes-consistent]] _(paper)_ — Position: agentic AI orchestration should be Bayes-consistent
 - 2026-05-03 — [[2026-05-03-genericagent-self-evolving-llm-agent-with-hierarchical-memor]] _(paper)_ — GenericAgent: Self-Evolving LLM Agent with Hierarchical Memory and Reusable SOPs
 - 2026-05-03 — [[2026-05-03-deepmind-paper-llms-will-never-be-conscious]] _(paper)_ — DeepMind Paper: LLMs Will Never Be Conscious
 - 2026-05-03 — [[2026-05-03-agentic-world-modeling-foundations-capabilities-laws-and-bey]] _(paper)_ — Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond
@@ -46,7 +47,7 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agents` (5 items)
+- `research/agents` (6 items)
 - `research/posttraining` (5 items)
 - `research/multimodal` (5 items)
 - `research/model-release` (4 items)

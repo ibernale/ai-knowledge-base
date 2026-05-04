@@ -5,8 +5,8 @@ slug: "research-evals"
 source_tag: "research/evals"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-03"
-last_updated: "2026-05-03"
+first_seen: "2026-05-04"
+last_updated: "2026-05-04"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (23)
+## Items in the window (24)
 
+- 2026-05-04 — [[2026-05-04-measuring-progress-toward-agi-a-cognitive-framework]] _(blog-post)_ — Measuring Progress Toward AGI: A Cognitive Framework
 - 2026-05-03 — [[2026-05-03-synthetic-computers-at-scale-for-long-horizon-productivity-s]] _(paper)_ — Synthetic Computers at Scale for Long-Horizon Productivity Simulation
 - 2026-05-03 — [[2026-05-03-import-ai-453-breaking-ai-agents-mirrorcode-ten-views-on-gra]] _(blog-post)_ — Import AI 453: Breaking AI Agents; MirrorCode; Ten Views on Gradual Disempowerment
 - 2026-05-03 — [[2026-05-03-import-ai-newsletter-ai-cybersecurity-capabilities-and-exper]] _(blog-post)_ — Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts
@@ -49,7 +50,7 @@ linked_entities: []
 ## Co-occurring tags
 
 - `research/agents` (15 items)
-- `research/benchmarks` (11 items)
+- `research/benchmarks` (12 items)
 - `research/agentic-coding` (7 items)
 - `research/safety` (6 items)
 - `research/multimodal` (3 items)

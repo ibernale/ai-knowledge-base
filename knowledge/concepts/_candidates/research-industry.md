@@ -5,8 +5,8 @@ slug: "research-industry"
 source_tag: "research/industry"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-03"
-last_updated: "2026-05-03"
+first_seen: "2026-05-04"
+last_updated: "2026-05-04"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (17)
+## Items in the window (18)
 
+- 2026-05-04 — [[2026-05-04-anthropics-annualized-revenue-hits-30-billion]] _(blog-post)_ — Anthropic's annualized revenue hits $30 billion
 - 2026-05-03 — [[2026-05-03-deepmind-alumni-start-dozens-of-european-startups]] _(blog-post)_ — DeepMind Alumni Start Dozens of European Startups
 - 2026-05-03 — [[2026-05-03-shopifys-ai-phase-transition-2026-usage-explosion-unlimited]] _(blog-post)_ — Shopify's AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget
 - 2026-05-03 — [[2026-05-03-aie-europe-debrief-agent-labs-thesis-latent-space-x-unsuperv]] _(blog-post)_ — AIE Europe Debrief + Agent Labs Thesis: Latent Space x Unsupervised Learning Crossover

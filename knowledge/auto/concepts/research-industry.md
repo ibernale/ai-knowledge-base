@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-industry]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/industry` — 17 items (most recent first).
+Source tag: `research/industry` — 18 items (most recent first).
 
+- 2026-05-04 — [[2026-05-04-anthropics-annualized-revenue-hits-30-billion]] _(blog-post)_ — Anthropic's annualized revenue hits $30 billion
 - 2026-05-03 — [[2026-05-03-deepmind-alumni-start-dozens-of-european-startups]] _(blog-post)_ — DeepMind Alumni Start Dozens of European Startups
 - 2026-05-03 — [[2026-05-03-shopifys-ai-phase-transition-2026-usage-explosion-unlimited]] _(blog-post)_ — Shopify's AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget
 - 2026-05-03 — [[2026-05-03-aie-europe-debrief-agent-labs-thesis-latent-space-x-unsuperv]] _(blog-post)_ — AIE Europe Debrief + Agent Labs Thesis: Latent Space x Unsupervised Learning Crossover

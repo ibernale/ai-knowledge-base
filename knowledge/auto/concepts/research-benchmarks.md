@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-benchmarks]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/benchmarks` — 15 items (most recent first).
+Source tag: `research/benchmarks` — 16 items (most recent first).
 
+- 2026-05-04 — [[2026-05-04-measuring-progress-toward-agi-a-cognitive-framework]] _(blog-post)_ — Measuring Progress Toward AGI: A Cognitive Framework
 - 2026-05-03 — [[2026-05-03-synthetic-computers-at-scale-for-long-horizon-productivity-s]] _(paper)_ — Synthetic Computers at Scale for Long-Horizon Productivity Simulation
 - 2026-05-03 — [[2026-05-03-import-ai-newsletter-ai-cybersecurity-capabilities-and-exper]] _(blog-post)_ — Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts
 - 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts

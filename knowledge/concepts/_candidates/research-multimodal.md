@@ -5,8 +5,8 @@ slug: "research-multimodal"
 source_tag: "research/multimodal"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-03"
-last_updated: "2026-05-03"
+first_seen: "2026-05-04"
+last_updated: "2026-05-04"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (13)
+## Items in the window (14)
 
+- 2026-05-04 — [[2026-05-04-hermes-toward-a-unified-driving-world-model-for-3d-scene-und]] _(paper)_ — HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation
 - 2026-05-03 — [[2026-05-03-vibevoice-expressive-podcast-generation-with-next-token-diff]] _(paper)_ — VibeVoice: Expressive Podcast Generation with Next-Token Diffusion
 - 2026-05-03 — [[2026-05-03-a-roadmap-for-visual-generation-from-atomic-mapping-to-agent]] _(paper)_ — A Roadmap for Visual Generation: From Atomic Mapping to Agentic World Modeling
 - 2026-05-03 — [[2026-05-03-simulating-the-visual-world-with-artificial-intelligence-a-r]] _(paper)_ — Simulating the Visual World with Artificial Intelligence: A Roadmap
@@ -39,7 +40,7 @@ linked_entities: []
 ## Co-occurring tags
 
 - `research/reasoning` (5 items)
+- `research/robotics` (4 items)
 - `research/agents` (4 items)
 - `research/evals` (3 items)
-- `research/robotics` (3 items)
 - `research/inference` (3 items)

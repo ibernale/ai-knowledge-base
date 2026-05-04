@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-posttraining]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/posttraining` — 6 items (most recent first).
+Source tag: `research/posttraining` — 7 items (most recent first).
 
+- 2026-05-04 — [[2026-05-04-exploration-hacking-can-llms-learn-to-resist-rl-training]] _(paper)_ — Exploration Hacking: Can LLMs Learn to Resist RL Training?
 - 2026-05-01 — [[2026-05-01-re-evaluating-mixed-policy-optimization-for-llm-reasoning]] _(paper)_ — Re-evaluating Mixed-Policy Optimization for LLM Reasoning
 - 2026-04-29 — [[2026-04-29-sft-then-rl-outperforms-mixed-policy-methods-for-llm-reasoni]] _(paper)_ — SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning
 - 2026-04-29 — [[2026-04-29-sft-then-rl-pipeline-bugs-deepspeed-optimizer-bug-and-openrl]] _(paper)_ — SFT-then-RL Pipeline Bugs: DeepSpeed Optimizer Bug and OpenRLHF Loss Aggregation Bug

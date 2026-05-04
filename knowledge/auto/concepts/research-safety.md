@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-safety]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/safety` — 15 items (most recent first).
+Source tag: `research/safety` — 16 items (most recent first).
 
+- 2026-05-04 — [[2026-05-04-exploration-hacking-can-llms-learn-to-resist-rl-training]] _(paper)_ — Exploration Hacking: Can LLMs Learn to Resist RL Training?
 - 2026-05-03 — [[2026-05-03-pentagon-strikes-ai-deals-with-seven-major-tech-companies-an]] _(blog-post)_ — Pentagon Strikes AI Deals with Seven Major Tech Companies; Anthropic Excluded
 - 2026-05-03 — [[2026-05-03-openai-advanced-account-security-for-chatgpt-and-codex]] _(blog-post)_ — OpenAI Advanced Account Security for ChatGPT and Codex
 - 2026-05-03 — [[2026-05-03-import-ai-453-breaking-ai-agents-mirrorcode-ten-views-on-gra]] _(blog-post)_ — Import AI 453: Breaking AI Agents; MirrorCode; Ten Views on Gradual Disempowerment

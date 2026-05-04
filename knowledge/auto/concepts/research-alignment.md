@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-alignment]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/alignment` — 5 items (most recent first).
+Source tag: `research/alignment` — 6 items (most recent first).
 
+- 2026-05-04 — [[2026-05-04-exploration-hacking-can-llms-learn-to-resist-rl-training]] _(paper)_ — Exploration Hacking: Can LLMs Learn to Resist RL Training?
 - 2026-05-03 — [[2026-05-03-deepmind-paper-llms-will-never-be-conscious]] _(paper)_ — DeepMind Paper: LLMs Will Never Be Conscious
 - 2026-05-03 — [[2026-05-03-2026-cosmos-lecture-jack-clark-on-human-autonomy]] _(blog-post)_ — 2026 Cosmos Lecture: Jack Clark on Human Autonomy
 - 2026-04-29 — [[2026-04-29-the-people-do-not-yearn-for-automation]] _(blog-post)_ — The people do not yearn for automation

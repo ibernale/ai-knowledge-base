@@ -5,8 +5,8 @@ slug: "research-agentic-coding"
 source_tag: "research/agentic-coding"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-03"
-last_updated: "2026-05-03"
+first_seen: "2026-05-04"
+last_updated: "2026-05-04"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (27)
+## Items in the window (28)
 
+- 2026-05-04 — [[2026-05-04-kimi-k26-beats-claude-gpt-55-and-gemini-in-programming-chall]] _(blog-post)_ — Kimi K2.6 beats Claude, GPT-5.5, and Gemini in programming challenge
 - 2026-05-03 — [[2026-05-03-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-03 — [[2026-05-03-codified-context-infrastructure-for-ai-agents-in-a-complex-c]] _(paper)_ — Codified Context: Infrastructure for AI Agents in a Complex Codebase
 - 2026-05-03 — [[2026-05-03-agent-context-files-an-empirical-study-of-agentic-coding-doc]] _(paper)_ — Agent Context Files: An Empirical Study of Agentic Coding Documentation
@@ -56,4 +57,4 @@ linked_entities: []
 - `research/evals` (7 items)
 - `research/tool-use` (6 items)
 - `research/industry` (4 items)
-- `research/benchmarks` (2 items)
+- `research/model-release` (3 items)

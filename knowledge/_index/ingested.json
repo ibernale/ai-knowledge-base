@@ -629,6 +629,54 @@
       "title": "GenericAgent: Self-Evolving LLM Agent with Hierarchical Memory and Reusable SOPs",
       "ingested": "2026-05-03",
       "extraction": "html-extracted"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.28182",
+      "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+      "ingested": "2026-05-04",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00742",
+      "title": "Position: agentic AI orchestration should be Bayes-consistent",
+      "ingested": "2026-05-04",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://blog.cloudflare.com/dynamic-workflows",
+      "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
+      "ingested": "2026-05-04",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://blog.cloudflare.com/agents-week-in-review",
+      "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
+      "ingested": "2026-05-04",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework",
+      "title": "Measuring Progress Toward AGI: A Cognitive Framework",
+      "ingested": "2026-05-04",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.28196",
+      "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+      "ingested": "2026-05-04",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://nicholasrhodes.substack.com/p/ai-brief-may-3-2026",
+      "title": "Anthropic's annualized revenue hits $30 billion",
+      "ingested": "2026-05-04",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://www.tldl.io/blog/ai-news-updates-2026",
+      "title": "Kimi K2.6 beats Claude, GPT-5.5, and Gemini in programming challenge",
+      "ingested": "2026-05-04",
+      "extraction": "html-too-short"
     }
   ]
 }

@@ -5,8 +5,8 @@ slug: "research-alignment"
 source_tag: "research/alignment"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-03"
-last_updated: "2026-05-03"
+first_seen: "2026-05-04"
+last_updated: "2026-05-04"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (5)
+## Items in the window (6)
 
+- 2026-05-04 — [[2026-05-04-exploration-hacking-can-llms-learn-to-resist-rl-training]] _(paper)_ — Exploration Hacking: Can LLMs Learn to Resist RL Training?
 - 2026-05-03 — [[2026-05-03-deepmind-paper-llms-will-never-be-conscious]] _(paper)_ — DeepMind Paper: LLMs Will Never Be Conscious
 - 2026-05-03 — [[2026-05-03-2026-cosmos-lecture-jack-clark-on-human-autonomy]] _(blog-post)_ — 2026 Cosmos Lecture: Jack Clark on Human Autonomy
 - 2026-04-29 — [[2026-04-29-the-people-do-not-yearn-for-automation]] _(blog-post)_ — The people do not yearn for automation
@@ -32,6 +33,6 @@ linked_entities: []
 
 - `research/reasoning` (2 items)
 - `research/agents` (2 items)
-- `research/safety` (1 item)
+- `research/safety` (2 items)
 - `research/evals` (1 item)
-- `governance/eu-ai-act` (1 item)
+- `research/posttraining` (1 item)

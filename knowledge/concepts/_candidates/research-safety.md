@@ -5,8 +5,8 @@ slug: "research-safety"
 source_tag: "research/safety"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-03"
-last_updated: "2026-05-03"
+first_seen: "2026-05-04"
+last_updated: "2026-05-04"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (15)
+## Items in the window (16)
 
+- 2026-05-04 — [[2026-05-04-exploration-hacking-can-llms-learn-to-resist-rl-training]] _(paper)_ — Exploration Hacking: Can LLMs Learn to Resist RL Training?
 - 2026-05-03 — [[2026-05-03-pentagon-strikes-ai-deals-with-seven-major-tech-companies-an]] _(blog-post)_ — Pentagon Strikes AI Deals with Seven Major Tech Companies; Anthropic Excluded
 - 2026-05-03 — [[2026-05-03-openai-advanced-account-security-for-chatgpt-and-codex]] _(blog-post)_ — OpenAI Advanced Account Security for ChatGPT and Codex
 - 2026-05-03 — [[2026-05-03-import-ai-453-breaking-ai-agents-mirrorcode-ten-views-on-gra]] _(blog-post)_ — Import AI 453: Breaking AI Agents; MirrorCode; Ten Views on Gradual Disempowerment
@@ -43,5 +44,5 @@ linked_entities: []
 - `research/evals` (6 items)
 - `research/agents` (4 items)
 - `research/regulation` (4 items)
+- `research/alignment` (2 items)
 - `research/agentic-coding` (2 items)
-- `governance/dora` (2 items)

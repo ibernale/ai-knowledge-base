@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-model-release]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/model-release` — 10 items (most recent first).
+Source tag: `research/model-release` — 11 items (most recent first).
 
+- 2026-05-04 — [[2026-05-04-kimi-k26-beats-claude-gpt-55-and-gemini-in-programming-chall]] _(blog-post)_ — Kimi K2.6 beats Claude, GPT-5.5, and Gemini in programming challenge
 - 2026-05-03 — [[2026-05-03-claude-mythos-and-misguided-open-weight-fearmongering]] _(blog-post)_ — Claude Mythos and misguided open-weight fearmongering
 - 2026-05-02 — [[2026-05-02-gpt-55-now-available-on-databricks-via-unity-ai-gateway]] _(blog-post)_ — GPT-5.5 Now Available on Databricks via Unity AI Gateway
 - 2026-05-01 — [[2026-05-01-weekly-ai-newsletter-april-2026-2026]] _(blog-post)_ — Weekly AI Newsletter: April 20–26, 2026
