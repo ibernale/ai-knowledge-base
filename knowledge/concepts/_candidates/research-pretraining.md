@@ -5,8 +5,8 @@ slug: "research-pretraining"
 source_tag: "research/pretraining"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-04"
-last_updated: "2026-05-04"
+first_seen: "2026-05-05"
+last_updated: "2026-05-05"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (8)
+## Items in the window (9)
 
+- 2026-05-05 — [[2026-05-05-granite-41-llms-how-theyre-built]] _(blog-post)_ — Granite 4.1 LLMs: How They're Built
 - 2026-05-03 — [[2026-05-03-learning-rate-transfer-in-normalized-transformers-gpt]] _(paper)_ — Learning Rate Transfer in Normalized Transformers (νGPT)
 - 2026-05-03 — [[2026-05-03-gpt-robust-learning-rate-transfer-for-normalized-transformer]] _(paper)_ — νGPT: Robust Learning Rate Transfer for Normalized Transformers
 - 2026-05-01 — [[2026-05-01-the-recurrent-transformer-greater-effective-depth-and-effici]] _(paper)_ — The Recurrent Transformer: Greater Effective Depth and Efficient Decoding
@@ -37,4 +38,4 @@ linked_entities: []
 - `research/reasoning` (2 items)
 - `research/hardware` (1 item)
 - `research/interpretability` (1 item)
-- `research/benchmarks` (1 item)
+- `research/posttraining` (1 item)

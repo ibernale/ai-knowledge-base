@@ -677,6 +677,66 @@
       "title": "Kimi K2.6 beats Claude, GPT-5.5, and Gemini in programming challenge",
       "ingested": "2026-05-04",
       "extraction": "html-too-short"
+    },
+    {
+      "url": "https://importai.substack.com/p/import-ai-455-automating-ai-research",
+      "title": "Import AI 455: Automating AI Research",
+      "ingested": "2026-05-05",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+      "ingested": "2026-05-05",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/4/april-newsletter",
+      "title": "Simon Willison's April 2026 Newsletter",
+      "ingested": "2026-05-05",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery",
+      "title": "Granite 4.1 3B SVG Pelican Gallery",
+      "ingested": "2026-05-05",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "title": "Granite 4.1 LLMs: How They're Built",
+      "ingested": "2026-05-05",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.01234",
+      "title": "Agent READMEs: An Empirical Study of Context Files for Agentic Coding",
+      "ingested": "2026-05-05",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-whats-next-with-aws-2026-amazon-quick-openai-partnership-and-more-may-4-2026",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "ingested": "2026-05-05",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.01",
+      "title": "UniVidX: A Unified Multimodal Framework for Video Generation",
+      "ingested": "2026-05-05",
+      "extraction": "pdf-status-404"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00",
+      "title": "VibeVoice: Long-Form Multi-Speaker Speech Synthesis",
+      "ingested": "2026-05-05",
+      "extraction": "pdf-status-404"
+    },
+    {
+      "url": "https://www.anthropic.com/research/personal-guidance",
+      "title": "Anthropic: How people ask Claude for personal guidance",
+      "ingested": "2026-05-05",
+      "extraction": "http-status-404"
     }
   ]
 }

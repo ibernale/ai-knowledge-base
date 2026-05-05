@@ -5,8 +5,8 @@ slug: "research-posttraining"
 source_tag: "research/posttraining"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-04"
-last_updated: "2026-05-04"
+first_seen: "2026-05-05"
+last_updated: "2026-05-05"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (7)
+## Items in the window (8)
 
+- 2026-05-05 — [[2026-05-05-granite-41-llms-how-theyre-built]] _(blog-post)_ — Granite 4.1 LLMs: How They're Built
 - 2026-05-04 — [[2026-05-04-exploration-hacking-can-llms-learn-to-resist-rl-training]] _(paper)_ — Exploration Hacking: Can LLMs Learn to Resist RL Training?
 - 2026-05-01 — [[2026-05-01-re-evaluating-mixed-policy-optimization-for-llm-reasoning]] _(paper)_ — Re-evaluating Mixed-Policy Optimization for LLM Reasoning
 - 2026-04-29 — [[2026-04-29-sft-then-rl-outperforms-mixed-policy-methods-for-llm-reasoni]] _(paper)_ — SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning

@@ -14,8 +14,12 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-agents]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/agents` — 48 items (most recent first).
+Source tag: `research/agents` — 52 items (most recent first).
 
+- 2026-05-05 — [[2026-05-05-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
+- 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
+- 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
+- 2026-05-05 — [[2026-05-05-building-a-new-enterprise-ai-services-company-with-blackston]] _(blog-post)_ — Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 - 2026-05-04 — [[2026-05-04-position-agentic-ai-orchestration-should-be-bayes-consistent]] _(paper)_ — Position: agentic AI orchestration should be Bayes-consistent
 - 2026-05-04 — [[2026-05-04-introducing-dynamic-workflows-durable-execution-that-follows]] _(blog-post)_ — Introducing Dynamic Workflows: durable execution that follows the tenant
 - 2026-05-04 — [[2026-05-04-building-the-agentic-cloud-everything-we-launched-during-age]] _(blog-post)_ — Building the agentic cloud: everything we launched during Agents Week 2026

@@ -5,8 +5,8 @@ slug: "research-hardware"
 source_tag: "research/hardware"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-04"
-last_updated: "2026-05-04"
+first_seen: "2026-05-05"
+last_updated: "2026-05-05"
 linked_papers: []
 linked_entities: []
 ---

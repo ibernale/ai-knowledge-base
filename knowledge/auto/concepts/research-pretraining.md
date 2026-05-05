@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-pretraining]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/pretraining` — 8 items (most recent first).
+Source tag: `research/pretraining` — 9 items (most recent first).
 
+- 2026-05-05 — [[2026-05-05-granite-41-llms-how-theyre-built]] _(blog-post)_ — Granite 4.1 LLMs: How They're Built
 - 2026-05-03 — [[2026-05-03-learning-rate-transfer-in-normalized-transformers-gpt]] _(paper)_ — Learning Rate Transfer in Normalized Transformers (νGPT)
 - 2026-05-03 — [[2026-05-03-gpt-robust-learning-rate-transfer-for-normalized-transformer]] _(paper)_ — νGPT: Robust Learning Rate Transfer for Normalized Transformers
 - 2026-05-01 — [[2026-05-01-the-recurrent-transformer-greater-effective-depth-and-effici]] _(paper)_ — The Recurrent Transformer: Greater Effective Depth and Efficient Decoding

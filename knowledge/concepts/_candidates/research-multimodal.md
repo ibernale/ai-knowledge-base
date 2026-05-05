@@ -5,8 +5,8 @@ slug: "research-multimodal"
 source_tag: "research/multimodal"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-04"
-last_updated: "2026-05-04"
+first_seen: "2026-05-05"
+last_updated: "2026-05-05"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (14)
+## Items in the window (16)
 
+- 2026-05-05 — [[2026-05-05-vibevoice-long-form-multi-speaker-speech-synthesis]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis
+- 2026-05-05 — [[2026-05-05-unividx-a-unified-multimodal-framework-for-video-generation]] _(paper)_ — UniVidX: A Unified Multimodal Framework for Video Generation
 - 2026-05-04 — [[2026-05-04-hermes-toward-a-unified-driving-world-model-for-3d-scene-und]] _(paper)_ — HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation
 - 2026-05-03 — [[2026-05-03-vibevoice-expressive-podcast-generation-with-next-token-diff]] _(paper)_ — VibeVoice: Expressive Podcast Generation with Next-Token Diffusion
 - 2026-05-03 — [[2026-05-03-a-roadmap-for-visual-generation-from-atomic-mapping-to-agent]] _(paper)_ — A Roadmap for Visual Generation: From Atomic Mapping to Agentic World Modeling
@@ -41,6 +43,6 @@ linked_entities: []
 
 - `research/reasoning` (5 items)
 - `research/robotics` (4 items)
+- `research/inference` (4 items)
 - `research/agents` (4 items)
 - `research/evals` (3 items)
-- `research/inference` (3 items)

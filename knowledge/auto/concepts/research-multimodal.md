@@ -14,8 +14,10 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-multimodal]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/multimodal` — 14 items (most recent first).
+Source tag: `research/multimodal` — 16 items (most recent first).
 
+- 2026-05-05 — [[2026-05-05-vibevoice-long-form-multi-speaker-speech-synthesis]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis
+- 2026-05-05 — [[2026-05-05-unividx-a-unified-multimodal-framework-for-video-generation]] _(paper)_ — UniVidX: A Unified Multimodal Framework for Video Generation
 - 2026-05-04 — [[2026-05-04-hermes-toward-a-unified-driving-world-model-for-3d-scene-und]] _(paper)_ — HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation
 - 2026-05-03 — [[2026-05-03-vibevoice-expressive-podcast-generation-with-next-token-diff]] _(paper)_ — VibeVoice: Expressive Podcast Generation with Next-Token Diffusion
 - 2026-05-03 — [[2026-05-03-a-roadmap-for-visual-generation-from-atomic-mapping-to-agent]] _(paper)_ — A Roadmap for Visual Generation: From Atomic Mapping to Agentic World Modeling

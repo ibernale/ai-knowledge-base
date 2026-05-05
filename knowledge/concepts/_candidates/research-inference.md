@@ -5,8 +5,8 @@ slug: "research-inference"
 source_tag: "research/inference"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-04"
-last_updated: "2026-05-04"
+first_seen: "2026-05-05"
+last_updated: "2026-05-05"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,12 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (15)
+## Items in the window (19)
 
+- 2026-05-05 — [[2026-05-05-vibevoice-long-form-multi-speaker-speech-synthesis]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis
+- 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
+- 2026-05-05 — [[2026-05-05-simon-willisons-april-2026-newsletter]] _(blog-post)_ — Simon Willison's April 2026 Newsletter
+- 2026-05-05 — [[2026-05-05-granite-41-3b-svg-pelican-gallery]] _(blog-post)_ — Granite 4.1 3B SVG Pelican Gallery
 - 2026-05-04 — [[2026-05-04-introducing-dynamic-workflows-durable-execution-that-follows]] _(blog-post)_ — Introducing Dynamic Workflows: durable execution that follows the tenant
 - 2026-05-04 — [[2026-05-04-building-the-agentic-cloud-everything-we-launched-during-age]] _(blog-post)_ — Building the agentic cloud: everything we launched during Agents Week 2026
 - 2026-05-03 — [[2026-05-03-learning-rate-transfer-in-normalized-transformers-gpt]] _(paper)_ — Learning Rate Transfer in Normalized Transformers (νGPT)
@@ -40,8 +44,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/agents` (4 items)
-- `research/model-release` (3 items)
+- `research/model-release` (5 items)
+- `research/agents` (5 items)
+- `research/multimodal` (4 items)
 - `research/long-context` (3 items)
 - `research/pretraining` (3 items)
-- `research/multimodal` (3 items)
