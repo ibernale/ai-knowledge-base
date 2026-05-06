@@ -5,8 +5,8 @@ slug: "research-agentic-coding"
 source_tag: "research/agentic-coding"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (31)
+## Items in the window (32)
 
+- 2026-05-06 — [[2026-05-06-simon-willison-redis-array-type-and-vibe-coding-at-scale]] _(blog-post)_ — Simon Willison: Redis array type and vibe-coding at scale
 - 2026-05-05 — [[2026-05-05-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-05 — [[2026-05-05-simon-willisons-april-2026-newsletter]] _(blog-post)_ — Simon Willison's April 2026 Newsletter
 - 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
@@ -58,6 +59,6 @@ linked_entities: []
 
 - `research/agents` (22 items)
 - `research/evals` (8 items)
-- `research/tool-use` (6 items)
+- `research/tool-use` (7 items)
 - `research/industry` (4 items)
 - `research/model-release` (4 items)

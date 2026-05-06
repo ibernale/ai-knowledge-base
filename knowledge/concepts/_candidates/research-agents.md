@@ -5,8 +5,8 @@ slug: "research-agents"
 source_tag: "research/agents"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (52)
+## Items in the window (48)
 
 - 2026-05-05 — [[2026-05-05-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
@@ -70,15 +70,11 @@ linked_entities: []
 - 2026-04-29 — [[2026-04-29-components-of-a-coding-agent]] _(blog-post)_ — Components of A Coding Agent
 - 2026-04-29 — [[2026-04-29-gpt-55-prompting-guide]] _(blog-post)_ — GPT-5.5 prompting guide
 - 2026-04-29 — [[2026-04-29-muse-spark-scaling-towards-personal-superintelligence]] _(blog-post)_ — Muse Spark: Scaling Towards Personal Superintelligence
-- 2026-04-28 — [[2026-04-28-ai-organizations-can-be-more-effective-but-less-aligned-than]] _(paper)_ — AI Organizations Can Be More Effective but Less Aligned than Individual Agents
-- 2026-04-28 — [[2026-04-28-automated-weak-to-strong-researcher]] _(paper)_ — Automated Weak-to-Strong Researcher
-- 2026-04-28 — [[2026-04-28-google-deepmind-and-korea-partner-to-accelerate-scientific-d]] _(blog-post)_ — Google DeepMind and Korea Partner to Accelerate Scientific Discovery
-- 2026-04-28 — [[2026-04-28-deep-research-max-a-step-change-for-autonomous-research-agen]] _(blog-post)_ — Deep Research Max: a step change for autonomous research agents
 
 ## Co-occurring tags
 
 - `research/agentic-coding` (22 items)
-- `research/evals` (16 items)
-- `research/tool-use` (9 items)
-- `research/reasoning` (6 items)
+- `research/evals` (15 items)
+- `research/tool-use` (8 items)
 - `research/benchmarks` (6 items)
+- `research/industry` (6 items)

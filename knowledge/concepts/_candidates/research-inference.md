@@ -5,8 +5,8 @@ slug: "research-inference"
 source_tag: "research/inference"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,11 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (19)
+## Items in the window (21)
 
+- 2026-05-06 — [[2026-05-06-speckv-adaptive-speculative-decoding-with-compression-aware]] _(paper)_ — SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection
+- 2026-05-06 — [[2026-05-06-rf-detr-neural-architecture-search-for-real-time-detection-t]] _(paper)_ — RF-DETR: Neural Architecture Search for Real-Time Detection Transformers
+- 2026-05-06 — [[2026-05-06-how-openai-delivers-low-latency-voice-ai-at-scale]] _(blog-post)_ — How OpenAI delivers low-latency voice AI at scale
 - 2026-05-05 — [[2026-05-05-vibevoice-long-form-multi-speaker-speech-synthesis]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-05 — [[2026-05-05-simon-willisons-april-2026-newsletter]] _(blog-post)_ — Simon Willison's April 2026 Newsletter
@@ -40,12 +43,11 @@ linked_entities: []
 - 2026-04-29 — [[2026-04-29-deepseek-v4-towards-highly-efficient-million-token-context-i]] _(paper)_ — DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence
 - 2026-04-29 — [[2026-04-29-ainews-top-local-models-list-april-2026]] _(blog-post)_ — AINews Top Local Models List - April 2026
 - 2026-04-29 — [[2026-04-29-deepseek-v4-almost-on-the-frontier-a-fraction-of-the-price]] _(blog-post)_ — DeepSeek V4 - almost on the frontier, a fraction of the price
-- 2026-04-28 — [[2026-04-28-the-next-phase-of-the-microsoft-openai-partnership]] _(blog-post)_ — The next phase of the Microsoft-OpenAI partnership
 
 ## Co-occurring tags
 
+- `research/multimodal` (6 items)
 - `research/model-release` (5 items)
 - `research/agents` (5 items)
-- `research/multimodal` (4 items)
 - `research/long-context` (3 items)
 - `research/pretraining` (3 items)

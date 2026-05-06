@@ -5,8 +5,8 @@ slug: "research-safety"
 source_tag: "research/safety"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (18)
+## Items in the window (17)
 
 - 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
 - 2026-05-05 — [[2026-05-05-anthropic-how-people-ask-claude-for-personal-guidance]] _(blog-post)_ — Anthropic: How people ask Claude for personal guidance
@@ -39,12 +39,11 @@ linked_entities: []
 - 2026-04-29 — [[2026-04-29-import-ai-389-ai-hacking-capabilities-forecaster-updates-hif]] _(blog-post)_ — Import AI 389: AI Hacking Capabilities, Forecaster Updates, HiFloat4 vs MXFP4
 - 2026-04-29 — [[2026-04-29-anthropic-election-safeguards-update]] _(blog-post)_ — Anthropic Election Safeguards Update
 - 2026-04-29 — [[2026-04-29-time-to-apply-the-brakes-to-runaway-ai-says-pioneer]] _(report)_ — Time to apply the brakes to runaway AI, says pioneer
-- 2026-04-28 — [[2026-04-28-ai-organizations-can-be-more-effective-but-less-aligned-than]] _(paper)_ — AI Organizations Can Be More Effective but Less Aligned than Individual Agents
 
 ## Co-occurring tags
 
-- `research/evals` (6 items)
-- `research/agents` (5 items)
-- `research/alignment` (4 items)
+- `research/evals` (5 items)
+- `research/agents` (4 items)
 - `research/regulation` (4 items)
+- `research/alignment` (3 items)
 - `research/agentic-coding` (3 items)

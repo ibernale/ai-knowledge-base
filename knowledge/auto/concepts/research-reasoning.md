@@ -14,8 +14,10 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-reasoning]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/reasoning` — 22 items (most recent first).
+Source tag: `research/reasoning` — 24 items (most recent first).
 
+- 2026-05-06 — [[2026-05-06-a-survey-of-reasoning-intensive-retrieval-progress-and-chall]] _(paper)_ — A Survey of Reasoning-Intensive Retrieval: Progress and Challenges
+- 2026-05-06 — [[2026-05-06-gpt-55-instant-smarter-clearer-and-more-personalized]] _(blog-post)_ — GPT-5.5 Instant: smarter, clearer, and more personalized
 - 2026-05-04 — [[2026-05-04-position-agentic-ai-orchestration-should-be-bayes-consistent]] _(paper)_ — Position: agentic AI orchestration should be Bayes-consistent
 - 2026-05-03 — [[2026-05-03-genericagent-self-evolving-llm-agent-with-hierarchical-memor]] _(paper)_ — GenericAgent: Self-Evolving LLM Agent with Hierarchical Memory and Reusable SOPs
 - 2026-05-03 — [[2026-05-03-deepmind-paper-llms-will-never-be-conscious]] _(paper)_ — DeepMind Paper: LLMs Will Never Be Conscious

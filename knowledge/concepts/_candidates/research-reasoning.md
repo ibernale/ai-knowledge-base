@@ -5,8 +5,8 @@ slug: "research-reasoning"
 source_tag: "research/reasoning"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (22)
+## Items in the window (23)
 
+- 2026-05-06 — [[2026-05-06-a-survey-of-reasoning-intensive-retrieval-progress-and-chall]] _(paper)_ — A Survey of Reasoning-Intensive Retrieval: Progress and Challenges
+- 2026-05-06 — [[2026-05-06-gpt-55-instant-smarter-clearer-and-more-personalized]] _(blog-post)_ — GPT-5.5 Instant: smarter, clearer, and more personalized
 - 2026-05-04 — [[2026-05-04-position-agentic-ai-orchestration-should-be-bayes-consistent]] _(paper)_ — Position: agentic AI orchestration should be Bayes-consistent
 - 2026-05-03 — [[2026-05-03-genericagent-self-evolving-llm-agent-with-hierarchical-memor]] _(paper)_ — GenericAgent: Self-Evolving LLM Agent with Hierarchical Memory and Reusable SOPs
 - 2026-05-03 — [[2026-05-03-deepmind-paper-llms-will-never-be-conscious]] _(paper)_ — DeepMind Paper: LLMs Will Never Be Conscious
@@ -43,12 +45,11 @@ linked_entities: []
 - 2026-04-29 — [[2026-04-29-my-bets-on-open-models-mid-2026]] _(blog-post)_ — My bets on open models, mid-2026
 - 2026-04-29 — [[2026-04-29-gpt-55-prompting-guide]] _(blog-post)_ — GPT-5.5 prompting guide
 - 2026-04-29 — [[2026-04-29-muse-spark-scaling-towards-personal-superintelligence]] _(blog-post)_ — Muse Spark: Scaling Towards Personal Superintelligence
-- 2026-04-28 — [[2026-04-28-automated-weak-to-strong-researcher]] _(paper)_ — Automated Weak-to-Strong Researcher
 
 ## Co-occurring tags
 
-- `research/agents` (6 items)
+- `research/agents` (5 items)
 - `research/posttraining` (5 items)
+- `research/model-release` (5 items)
 - `research/multimodal` (5 items)
-- `research/model-release` (4 items)
 - `research/benchmarks` (3 items)

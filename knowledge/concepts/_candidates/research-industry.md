@@ -5,8 +5,8 @@ slug: "research-industry"
 source_tag: "research/industry"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (20)
+## Items in the window (21)
 
+- 2026-05-06 — [[2026-05-06-the-distillation-panic]] _(blog-post)_ — The distillation panic
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-05 — [[2026-05-05-building-a-new-enterprise-ai-services-company-with-blackston]] _(blog-post)_ — Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 - 2026-05-04 — [[2026-05-04-anthropics-annualized-revenue-hits-30-billion]] _(blog-post)_ — Anthropic's annualized revenue hits $30 billion
@@ -48,5 +49,5 @@ linked_entities: []
 - `research/agents` (6 items)
 - `research/agentic-coding` (4 items)
 - `research/model-release` (3 items)
+- `research/distillation` (3 items)
 - `research/inference` (2 items)
-- `research/regulation` (2 items)

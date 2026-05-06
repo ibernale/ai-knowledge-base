@@ -5,8 +5,8 @@ slug: "research-pretraining"
 source_tag: "research/pretraining"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (9)
+## Items in the window (7)
 
 - 2026-05-05 — [[2026-05-05-granite-41-llms-how-theyre-built]] _(blog-post)_ — Granite 4.1 LLMs: How They're Built
 - 2026-05-03 — [[2026-05-03-learning-rate-transfer-in-normalized-transformers-gpt]] _(paper)_ — Learning Rate Transfer in Normalized Transformers (νGPT)
@@ -29,13 +29,11 @@ linked_entities: []
 - 2026-04-29 — [[2026-04-29-the-latent-space-foundation-evolution-mechanism-ability-and]] _(paper)_ — The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook
 - 2026-04-29 — [[2026-04-29-my-workflow-for-understanding-llm-architectures]] _(blog-post)_ — My Workflow for Understanding LLM Architectures
 - 2026-04-29 — [[2026-04-29-iclr-2026-papers-with-code-data-index]] _(report)_ — ICLR 2026 Papers with Code & Data Index
-- 2026-04-28 — [[2026-04-28-decoupled-diloco-resilient-distributed-ai-training-at-scale]] _(paper)_ — Decoupled DiLoCo: Resilient, Distributed AI Training at Scale
-- 2026-04-28 — [[2026-04-28-introducing-talkie-a-13b-vintage-language-model-from-1930]] _(blog-post)_ — Introducing talkie: a 13B vintage language model from 1930
 
 ## Co-occurring tags
 
 - `research/inference` (3 items)
 - `research/reasoning` (2 items)
-- `research/hardware` (1 item)
 - `research/interpretability` (1 item)
 - `research/posttraining` (1 item)
+- `research/model-release` (1 item)

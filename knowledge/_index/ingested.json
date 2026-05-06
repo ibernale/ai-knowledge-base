@@ -737,6 +737,66 @@
       "title": "Anthropic: How people ask Claude for personal guidance",
       "ingested": "2026-05-05",
       "extraction": "http-status-404"
+    },
+    {
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "ingested": "2026-05-06",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "ingested": "2026-05-06",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://www.interconnects.ai/p/the-distillation-panic",
+      "title": "The distillation panic",
+      "ingested": "2026-05-06",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.09554",
+      "title": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+      "ingested": "2026-05-06",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/4",
+      "title": "Simon Willison: Redis array type and vibe-coding at scale",
+      "ingested": "2026-05-06",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02834",
+      "title": "VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition",
+      "ingested": "2026-05-06",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04045",
+      "title": "Audio-Visual Intelligence in Large Foundation Models",
+      "ingested": "2026-05-06",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02888",
+      "title": "SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection",
+      "ingested": "2026-05-06",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04044",
+      "title": "UniCorrn: Unified Correspondence Transformer Across 2D and 3D",
+      "ingested": "2026-05-06",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00063",
+      "title": "A Survey of Reasoning-Intensive Retrieval: Progress and Challenges",
+      "ingested": "2026-05-06",
+      "extraction": "ar5iv"
     }
   ]
 }

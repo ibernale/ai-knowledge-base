@@ -5,8 +5,8 @@ slug: "research-evals"
 source_tag: "research/evals"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (25)
+## Items in the window (24)
 
 - 2026-05-05 — [[2026-05-05-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-04 — [[2026-05-04-measuring-progress-toward-agi-a-cognitive-framework]] _(blog-post)_ — Measuring Progress Toward AGI: A Cognitive Framework
@@ -46,12 +46,11 @@ linked_entities: []
 - 2026-04-29 — [[2026-04-29-import-ai-389-ai-hacking-capabilities-forecaster-updates-hif]] _(blog-post)_ — Import AI 389: AI Hacking Capabilities, Forecaster Updates, HiFloat4 vs MXFP4
 - 2026-04-29 — [[2026-04-29-the-revenge-of-the-data-scientist]] _(blog-post)_ — The Revenge of the Data Scientist
 - 2026-04-29 — [[2026-04-29-the-2026-ai-index-report]] _(report)_ — The 2026 AI Index Report
-- 2026-04-28 — [[2026-04-28-ai-organizations-can-be-more-effective-but-less-aligned-than]] _(paper)_ — AI Organizations Can Be More Effective but Less Aligned than Individual Agents
 
 ## Co-occurring tags
 
-- `research/agents` (16 items)
+- `research/agents` (15 items)
 - `research/benchmarks` (12 items)
 - `research/agentic-coding` (8 items)
-- `research/safety` (6 items)
+- `research/safety` (5 items)
 - `research/multimodal` (3 items)

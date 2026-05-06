@@ -14,8 +14,11 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-inference]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/inference` — 19 items (most recent first).
+Source tag: `research/inference` — 22 items (most recent first).
 
+- 2026-05-06 — [[2026-05-06-speckv-adaptive-speculative-decoding-with-compression-aware]] _(paper)_ — SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection
+- 2026-05-06 — [[2026-05-06-rf-detr-neural-architecture-search-for-real-time-detection-t]] _(paper)_ — RF-DETR: Neural Architecture Search for Real-Time Detection Transformers
+- 2026-05-06 — [[2026-05-06-how-openai-delivers-low-latency-voice-ai-at-scale]] _(blog-post)_ — How OpenAI delivers low-latency voice AI at scale
 - 2026-05-05 — [[2026-05-05-vibevoice-long-form-multi-speaker-speech-synthesis]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-05 — [[2026-05-05-simon-willisons-april-2026-newsletter]] _(blog-post)_ — Simon Willison's April 2026 Newsletter

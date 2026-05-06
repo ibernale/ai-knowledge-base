@@ -5,8 +5,8 @@ slug: "research-regulation"
 source_tag: "research/regulation"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (11)
+## Items in the window (9)
 
 - 2026-05-03 — [[2026-05-03-pentagon-strikes-ai-deals-with-seven-major-tech-companies-an]] _(blog-post)_ — Pentagon Strikes AI Deals with Seven Major Tech Companies; Anthropic Excluded
 - 2026-05-03 — [[2026-05-03-agentic-ai-governance-framework-for-banking-healthcare-retai]] _(blog-post)_ — Agentic AI Governance Framework for Banking, Healthcare, Retail, and Supply Chain
@@ -31,13 +31,11 @@ linked_entities: []
 - 2026-04-29 — [[2026-04-29-anthropic-election-safeguards-update]] _(blog-post)_ — Anthropic Election Safeguards Update
 - 2026-04-29 — [[2026-04-29-time-to-apply-the-brakes-to-runaway-ai-says-pioneer]] _(report)_ — Time to apply the brakes to runaway AI, says pioneer
 - 2026-04-29 — [[2026-04-29-the-2026-ai-index-report]] _(report)_ — The 2026 AI Index Report
-- 2026-04-28 — [[2026-04-28-the-next-phase-of-the-microsoft-openai-partnership]] _(blog-post)_ — The next phase of the Microsoft-OpenAI partnership
-- 2026-04-28 — [[2026-04-28-google-deepmind-and-korea-partner-to-accelerate-scientific-d]] _(blog-post)_ — Google DeepMind and Korea Partner to Accelerate Scientific Discovery
 
 ## Co-occurring tags
 
 - `research/safety` (4 items)
-- `research/agents` (2 items)
 - `governance/dora` (2 items)
 - `research/industry` (2 items)
 - `research/economics` (2 items)
+- `research/agents` (1 item)

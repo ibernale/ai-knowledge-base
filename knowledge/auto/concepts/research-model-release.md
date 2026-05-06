@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-model-release]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/model-release` — 14 items (most recent first).
+Source tag: `research/model-release` — 15 items (most recent first).
 
+- 2026-05-06 — [[2026-05-06-gpt-55-instant-smarter-clearer-and-more-personalized]] _(blog-post)_ — GPT-5.5 Instant: smarter, clearer, and more personalized
 - 2026-05-05 — [[2026-05-05-simon-willisons-april-2026-newsletter]] _(blog-post)_ — Simon Willison's April 2026 Newsletter
 - 2026-05-05 — [[2026-05-05-granite-41-3b-svg-pelican-gallery]] _(blog-post)_ — Granite 4.1 3B SVG Pelican Gallery
 - 2026-05-05 — [[2026-05-05-granite-41-llms-how-theyre-built]] _(blog-post)_ — Granite 4.1 LLMs: How They're Built

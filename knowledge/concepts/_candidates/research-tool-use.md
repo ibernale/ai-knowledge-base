@@ -5,8 +5,8 @@ slug: "research-tool-use"
 source_tag: "research/tool-use"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -22,6 +22,7 @@ linked_entities: []
 
 ## Items in the window (12)
 
+- 2026-05-06 — [[2026-05-06-simon-willison-redis-array-type-and-vibe-coding-at-scale]] _(blog-post)_ — Simon Willison: Redis array type and vibe-coding at scale
 - 2026-05-03 — [[2026-05-03-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-03 — [[2026-05-03-simon-willison-sightings-adding-inaturalist-to-my-blog]] _(blog-post)_ — Simon Willison: Sightings - Adding iNaturalist to My Blog
 - 2026-05-03 — [[2026-05-03-simon-willison-inaturalist-sightings-tool]] _(blog-post)_ — Simon Willison: iNaturalist Sightings Tool
@@ -33,12 +34,10 @@ linked_entities: []
 - 2026-04-29 — [[2026-04-29-anthropic-introduces-managed-agents]] _(blog-post)_ — Anthropic Introduces Managed Agents
 - 2026-04-29 — [[2026-04-29-components-of-a-coding-agent]] _(blog-post)_ — Components of A Coding Agent
 - 2026-04-29 — [[2026-04-29-gpt-55-prompting-guide]] _(blog-post)_ — GPT-5.5 prompting guide
-- 2026-04-28 — [[2026-04-28-deep-research-max-a-step-change-for-autonomous-research-agen]] _(blog-post)_ — Deep Research Max: a step change for autonomous research agents
 
 ## Co-occurring tags
 
-- `research/agents` (9 items)
-- `research/agentic-coding` (6 items)
-- `research/rag` (1 item)
+- `research/agents` (8 items)
+- `research/agentic-coding` (7 items)
 - `research/inference` (1 item)
 - `research/reasoning` (1 item)

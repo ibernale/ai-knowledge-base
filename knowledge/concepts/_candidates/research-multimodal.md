@@ -5,8 +5,8 @@ slug: "research-multimodal"
 source_tag: "research/multimodal"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,13 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (16)
+## Items in the window (21)
 
+- 2026-05-06 — [[2026-05-06-unicorrn-unified-correspondence-transformer-across-2d-and-3d]] _(paper)_ — UniCorrn: Unified Correspondence Transformer Across 2D and 3D
+- 2026-05-06 — [[2026-05-06-rf-detr-neural-architecture-search-for-real-time-detection-t]] _(paper)_ — RF-DETR: Neural Architecture Search for Real-Time Detection Transformers
+- 2026-05-06 — [[2026-05-06-videonet-a-large-scale-dataset-for-domain-specific-action-re]] _(paper)_ — VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition
+- 2026-05-06 — [[2026-05-06-audio-visual-intelligence-in-large-foundation-models]] _(paper)_ — Audio-Visual Intelligence in Large Foundation Models
+- 2026-05-06 — [[2026-05-06-how-openai-delivers-low-latency-voice-ai-at-scale]] _(blog-post)_ — How OpenAI delivers low-latency voice AI at scale
 - 2026-05-05 — [[2026-05-05-vibevoice-long-form-multi-speaker-speech-synthesis]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis
 - 2026-05-05 — [[2026-05-05-unividx-a-unified-multimodal-framework-for-video-generation]] _(paper)_ — UniVidX: A Unified Multimodal Framework for Video Generation
 - 2026-05-04 — [[2026-05-04-hermes-toward-a-unified-driving-world-model-for-3d-scene-und]] _(paper)_ — HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation
@@ -41,8 +46,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
+- `research/inference` (6 items)
 - `research/reasoning` (5 items)
 - `research/robotics` (4 items)
-- `research/inference` (4 items)
 - `research/agents` (4 items)
 - `research/evals` (3 items)

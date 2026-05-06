@@ -14,8 +14,13 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-multimodal]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/multimodal` — 16 items (most recent first).
+Source tag: `research/multimodal` — 21 items (most recent first).
 
+- 2026-05-06 — [[2026-05-06-unicorrn-unified-correspondence-transformer-across-2d-and-3d]] _(paper)_ — UniCorrn: Unified Correspondence Transformer Across 2D and 3D
+- 2026-05-06 — [[2026-05-06-rf-detr-neural-architecture-search-for-real-time-detection-t]] _(paper)_ — RF-DETR: Neural Architecture Search for Real-Time Detection Transformers
+- 2026-05-06 — [[2026-05-06-videonet-a-large-scale-dataset-for-domain-specific-action-re]] _(paper)_ — VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition
+- 2026-05-06 — [[2026-05-06-audio-visual-intelligence-in-large-foundation-models]] _(paper)_ — Audio-Visual Intelligence in Large Foundation Models
+- 2026-05-06 — [[2026-05-06-how-openai-delivers-low-latency-voice-ai-at-scale]] _(blog-post)_ — How OpenAI delivers low-latency voice AI at scale
 - 2026-05-05 — [[2026-05-05-vibevoice-long-form-multi-speaker-speech-synthesis]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis
 - 2026-05-05 — [[2026-05-05-unividx-a-unified-multimodal-framework-for-video-generation]] _(paper)_ — UniVidX: A Unified Multimodal Framework for Video Generation
 - 2026-05-04 — [[2026-05-04-hermes-toward-a-unified-driving-world-model-for-3d-scene-und]] _(paper)_ — HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation

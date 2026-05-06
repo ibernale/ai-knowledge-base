@@ -5,8 +5,8 @@ slug: "research-model-release"
 source_tag: "research/model-release"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-05"
-last_updated: "2026-05-05"
+first_seen: "2026-05-06"
+last_updated: "2026-05-06"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (14)
+## Items in the window (15)
 
+- 2026-05-06 — [[2026-05-06-gpt-55-instant-smarter-clearer-and-more-personalized]] _(blog-post)_ — GPT-5.5 Instant: smarter, clearer, and more personalized
 - 2026-05-05 — [[2026-05-05-simon-willisons-april-2026-newsletter]] _(blog-post)_ — Simon Willison's April 2026 Newsletter
 - 2026-05-05 — [[2026-05-05-granite-41-3b-svg-pelican-gallery]] _(blog-post)_ — Granite 4.1 3B SVG Pelican Gallery
 - 2026-05-05 — [[2026-05-05-granite-41-llms-how-theyre-built]] _(blog-post)_ — Granite 4.1 LLMs: How They're Built
@@ -40,7 +41,7 @@ linked_entities: []
 ## Co-occurring tags
 
 - `research/inference` (5 items)
-- `research/reasoning` (4 items)
+- `research/reasoning` (5 items)
 - `research/agentic-coding` (4 items)
 - `research/industry` (3 items)
 - `research/long-context` (2 items)
