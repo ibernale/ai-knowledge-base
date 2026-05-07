@@ -14,8 +14,10 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-industry]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/industry` — 21 items (most recent first).
+Source tag: `research/industry` — 23 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-anthropic-launches-finance-agent-templates-and-microsoft-365]] _(blog-post)_ — Anthropic launches finance agent templates and Microsoft 365 add-ins
+- 2026-05-07 — [[2026-05-07-anthropic-partners-with-spacex-for-orbital-ai-compute-capaci]] _(blog-post)_ — Anthropic partners with SpaceX for orbital AI compute capacity
 - 2026-05-06 — [[2026-05-06-the-distillation-panic]] _(blog-post)_ — The distillation panic
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-05 — [[2026-05-05-building-a-new-enterprise-ai-services-company-with-blackston]] _(blog-post)_ — Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs

@@ -5,8 +5,8 @@ slug: "research-agents"
 source_tag: "research/agents"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-06"
-last_updated: "2026-05-06"
+first_seen: "2026-05-07"
+last_updated: "2026-05-07"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,16 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (48)
+## Items in the window (45)
 
+- 2026-05-07 — [[2026-05-07-mem0-graph-based-memory-for-long-term-conversational-coheren]] _(paper)_ — Mem0: Graph-based Memory for Long-term Conversational Coherence
+- 2026-05-07 — [[2026-05-07-world-models-in-robot-learning-a-survey]] _(paper)_ — World Models in Robot Learning: A Survey
+- 2026-05-07 — [[2026-05-07-workspace-bench-10-benchmarking-ai-agents-on-workspace-tasks]] _(paper)_ — Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies
+- 2026-05-07 — [[2026-05-07-aris-adversarial-research-infrastructure-for-safe-ai]] _(paper)_ — ARIS: Adversarial Research Infrastructure for Safe AI
+- 2026-05-07 — [[2026-05-07-rethinking-reasoning-intensive-retrieval-evaluating-and-adva]] _(paper)_ — Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems
+- 2026-05-07 — [[2026-05-07-evaluating-agentsmd-are-repository-level-context-files-helpf]] _(paper)_ — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
+- 2026-05-07 — [[2026-05-07-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026
+- 2026-05-07 — [[2026-05-07-anthropic-launches-finance-agent-templates-and-microsoft-365]] _(blog-post)_ — Anthropic launches finance agent templates and Microsoft 365 add-ins
 - 2026-05-05 — [[2026-05-05-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
@@ -59,22 +67,11 @@ linked_entities: []
 - 2026-04-30 — [[2026-04-30-agentsearchbench-a-benchmark-for-ai-agent-search-in-the-wild]] _(paper)_ — AgentSearchBench: A Benchmark for AI Agent Search in the Wild
 - 2026-04-30 — [[2026-04-30-nemotron-3-nano-omni-efficient-and-open-multimodal-intellige]] _(paper)_ — Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence
 - 2026-04-30 — [[2026-04-30-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
-- 2026-04-29 — [[2026-04-29-evaluating-agentsmd-are-repository-level-context-files-helpf]] _(paper)_ — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
-- 2026-04-29 — [[2026-04-29-context-engineering-for-ai-agents-in-open-source-software]] _(paper)_ — Context Engineering for AI Agents in Open-Source Software
-- 2026-04-29 — [[2026-04-29-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
-- 2026-04-29 — [[2026-04-29-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
-- 2026-04-29 — [[2026-04-29-join-us-at-pycon-us-2026-in-long-beachwe-have-new-ai-and-sec]] _(blog-post)_ — Join us at PyCon US 2026 in Long Beach—we have new AI and security tracks this year
-- 2026-04-29 — [[2026-04-29-anthropic-introduces-managed-agents]] _(blog-post)_ — Anthropic Introduces Managed Agents
-- 2026-04-29 — [[2026-04-29-deepseek-v4-almost-on-the-frontier-a-fraction-of-the-price]] _(blog-post)_ — DeepSeek V4 - almost on the frontier, a fraction of the price
-- 2026-04-29 — [[2026-04-29-the-revenge-of-the-data-scientist]] _(blog-post)_ — The Revenge of the Data Scientist
-- 2026-04-29 — [[2026-04-29-components-of-a-coding-agent]] _(blog-post)_ — Components of A Coding Agent
-- 2026-04-29 — [[2026-04-29-gpt-55-prompting-guide]] _(blog-post)_ — GPT-5.5 prompting guide
-- 2026-04-29 — [[2026-04-29-muse-spark-scaling-towards-personal-superintelligence]] _(blog-post)_ — Muse Spark: Scaling Towards Personal Superintelligence
 
 ## Co-occurring tags
 
-- `research/agentic-coding` (22 items)
-- `research/evals` (15 items)
-- `research/tool-use` (8 items)
+- `research/agentic-coding` (18 items)
+- `research/evals` (14 items)
+- `research/industry` (7 items)
 - `research/benchmarks` (6 items)
-- `research/industry` (6 items)
+- `research/reasoning` (4 items)

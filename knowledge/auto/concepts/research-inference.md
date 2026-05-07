@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-inference]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/inference` — 22 items (most recent first).
+Source tag: `research/inference` — 23 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-dflash-speculative-decoding-with-block-diffusion-models]] _(paper)_ — DFlash: Speculative Decoding with Block Diffusion Models
 - 2026-05-06 — [[2026-05-06-speckv-adaptive-speculative-decoding-with-compression-aware]] _(paper)_ — SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection
 - 2026-05-06 — [[2026-05-06-rf-detr-neural-architecture-search-for-real-time-detection-t]] _(paper)_ — RF-DETR: Neural Architecture Search for Real-Time Detection Transformers
 - 2026-05-06 — [[2026-05-06-how-openai-delivers-low-latency-voice-ai-at-scale]] _(blog-post)_ — How OpenAI delivers low-latency voice AI at scale

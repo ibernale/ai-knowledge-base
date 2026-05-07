@@ -5,8 +5,8 @@ slug: "research-evals"
 source_tag: "research/evals"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-06"
-last_updated: "2026-05-06"
+first_seen: "2026-05-07"
+last_updated: "2026-05-07"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,13 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (24)
+## Items in the window (20)
 
+- 2026-05-07 — [[2026-05-07-workspace-bench-10-benchmarking-ai-agents-on-workspace-tasks]] _(paper)_ — Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies
+- 2026-05-07 — [[2026-05-07-aris-adversarial-research-infrastructure-for-safe-ai]] _(paper)_ — ARIS: Adversarial Research Infrastructure for Safe AI
+- 2026-05-07 — [[2026-05-07-safety-and-accuracy-follow-different-scaling-laws-in-clinica]] _(paper)_ — Safety and accuracy follow different scaling laws in clinical large language models
+- 2026-05-07 — [[2026-05-07-stop-automating-peer-review-without-rigorous-evaluation]] _(paper)_ — Stop Automating Peer Review Without Rigorous Evaluation
+- 2026-05-07 — [[2026-05-07-evaluating-agentsmd-are-repository-level-context-files-helpf]] _(paper)_ — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
 - 2026-05-05 — [[2026-05-05-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-04 — [[2026-05-04-measuring-progress-toward-agi-a-cognitive-framework]] _(blog-post)_ — Measuring Progress Toward AGI: A Cognitive Framework
 - 2026-05-03 — [[2026-05-03-synthetic-computers-at-scale-for-long-horizon-productivity-s]] _(paper)_ — Synthetic Computers at Scale for Long-Horizon Productivity Simulation
@@ -37,20 +42,11 @@ linked_entities: []
 - 2026-04-30 — [[2026-04-30-automationbench-evaluating-ai-agents-on-cross-application-wo]] _(paper)_ — AutomationBench: Evaluating AI Agents on Cross-Application Workflow Orchestration
 - 2026-04-30 — [[2026-04-30-agentsearchbench-a-benchmark-for-ai-agent-search-in-the-wild]] _(paper)_ — AgentSearchBench: A Benchmark for AI Agent Search in the Wild
 - 2026-04-30 — [[2026-04-30-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
-- 2026-04-29 — [[2026-04-29-evaluating-agentsmd-are-repository-level-context-files-helpf]] _(paper)_ — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
-- 2026-04-29 — [[2026-04-29-revsi-a-validated-benchmark-for-spatial-intelligence-evaluat]] _(paper)_ — ReVSI: A Validated Benchmark for Spatial Intelligence Evaluation
-- 2026-04-29 — [[2026-04-29-revsi-revised-benchmark-for-video-spatial-intelligence]] _(paper)_ — ReVSI: Revised Benchmark for Video Spatial Intelligence
-- 2026-04-29 — [[2026-04-29-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
-- 2026-04-29 — [[2026-04-29-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
-- 2026-04-29 — [[2026-04-29-sft-bug-invalidates-multiple-mixed-policy-optimization-paper]] _(paper)_ — SFT Bug Invalidates Multiple Mixed-Policy Optimization Papers
-- 2026-04-29 — [[2026-04-29-import-ai-389-ai-hacking-capabilities-forecaster-updates-hif]] _(blog-post)_ — Import AI 389: AI Hacking Capabilities, Forecaster Updates, HiFloat4 vs MXFP4
-- 2026-04-29 — [[2026-04-29-the-revenge-of-the-data-scientist]] _(blog-post)_ — The Revenge of the Data Scientist
-- 2026-04-29 — [[2026-04-29-the-2026-ai-index-report]] _(report)_ — The 2026 AI Index Report
 
 ## Co-occurring tags
 
-- `research/agents` (15 items)
-- `research/benchmarks` (12 items)
-- `research/agentic-coding` (8 items)
-- `research/safety` (5 items)
-- `research/multimodal` (3 items)
+- `research/agents` (14 items)
+- `research/benchmarks` (11 items)
+- `research/safety` (6 items)
+- `research/agentic-coding` (5 items)
+- `research/multimodal` (1 item)

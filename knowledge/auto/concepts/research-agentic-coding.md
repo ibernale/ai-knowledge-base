@@ -14,8 +14,10 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-agentic-coding]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/agentic-coding` — 32 items (most recent first).
+Source tag: `research/agentic-coding` — 34 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-evaluating-agentsmd-are-repository-level-context-files-helpf]] _(paper)_ — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
+- 2026-05-07 — [[2026-05-07-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026
 - 2026-05-06 — [[2026-05-06-simon-willison-redis-array-type-and-vibe-coding-at-scale]] _(blog-post)_ — Simon Willison: Redis array type and vibe-coding at scale
 - 2026-05-05 — [[2026-05-05-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-05 — [[2026-05-05-simon-willisons-april-2026-newsletter]] _(blog-post)_ — Simon Willison's April 2026 Newsletter

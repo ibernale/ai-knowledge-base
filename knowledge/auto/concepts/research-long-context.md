@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-long-context]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/long-context` — 4 items (most recent first).
+Source tag: `research/long-context` — 5 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-mem0-graph-based-memory-for-long-term-conversational-coheren]] _(paper)_ — Mem0: Graph-based Memory for Long-term Conversational Coherence
 - 2026-05-01 — [[2026-05-01-kwai-summary-attention-efficient-long-context-processing-for]] _(paper)_ — Kwai Summary Attention: Efficient Long-Context Processing for LLMs
 - 2026-05-01 — [[2026-05-01-memos-a-memory-operating-system-for-large-language-models]] _(paper)_ — MemOS: A Memory Operating System for Large Language Models
 - 2026-04-29 — [[2026-04-29-deepseek-v4-towards-highly-efficient-million-token-context-i]] _(paper)_ — DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence

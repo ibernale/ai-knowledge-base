@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-hardware]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/hardware` — 3 items (most recent first).
+Source tag: `research/hardware` — 4 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-anthropic-partners-with-spacex-for-orbital-ai-compute-capaci]] _(blog-post)_ — Anthropic partners with SpaceX for orbital AI compute capacity
 - 2026-05-01 — [[2026-05-01-nemotron-3-nano-omni-efficient-omni-modal-model-for-edge-dep]] _(paper)_ — Nemotron 3 Nano Omni: Efficient Omni-Modal Model for Edge Deployment
 - 2026-04-29 — [[2026-04-29-import-ai-389-ai-hacking-capabilities-forecaster-updates-hif]] _(blog-post)_ — Import AI 389: AI Hacking Capabilities, Forecaster Updates, HiFloat4 vs MXFP4
 - 2026-04-28 — [[2026-04-28-decoupled-diloco-resilient-distributed-ai-training-at-scale]] _(paper)_ — Decoupled DiLoCo: Resilient, Distributed AI Training at Scale

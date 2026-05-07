@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-distillation]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/distillation` — 3 items (most recent first).
+Source tag: `research/distillation` — 4 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-dflash-speculative-decoding-with-block-diffusion-models]] _(paper)_ — DFlash: Speculative Decoding with Block Diffusion Models
 - 2026-05-06 — [[2026-05-06-the-distillation-panic]] _(blog-post)_ — The distillation panic
 - 2026-04-29 — [[2026-04-29-what-comes-next-with-open-models]] _(blog-post)_ — What comes next with open models
 - 2026-04-29 — [[2026-04-29-my-bets-on-open-models-mid-2026]] _(blog-post)_ — My bets on open models, mid-2026

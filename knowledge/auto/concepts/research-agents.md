@@ -14,8 +14,16 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-agents]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/agents` — 52 items (most recent first).
+Source tag: `research/agents` — 60 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-mem0-graph-based-memory-for-long-term-conversational-coheren]] _(paper)_ — Mem0: Graph-based Memory for Long-term Conversational Coherence
+- 2026-05-07 — [[2026-05-07-world-models-in-robot-learning-a-survey]] _(paper)_ — World Models in Robot Learning: A Survey
+- 2026-05-07 — [[2026-05-07-workspace-bench-10-benchmarking-ai-agents-on-workspace-tasks]] _(paper)_ — Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies
+- 2026-05-07 — [[2026-05-07-aris-adversarial-research-infrastructure-for-safe-ai]] _(paper)_ — ARIS: Adversarial Research Infrastructure for Safe AI
+- 2026-05-07 — [[2026-05-07-rethinking-reasoning-intensive-retrieval-evaluating-and-adva]] _(paper)_ — Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems
+- 2026-05-07 — [[2026-05-07-evaluating-agentsmd-are-repository-level-context-files-helpf]] _(paper)_ — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
+- 2026-05-07 — [[2026-05-07-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026
+- 2026-05-07 — [[2026-05-07-anthropic-launches-finance-agent-templates-and-microsoft-365]] _(blog-post)_ — Anthropic launches finance agent templates and Microsoft 365 add-ins
 - 2026-05-05 — [[2026-05-05-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research

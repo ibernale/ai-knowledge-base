@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-robotics]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/robotics` — 5 items (most recent first).
+Source tag: `research/robotics` — 6 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-world-models-in-robot-learning-a-survey]] _(paper)_ — World Models in Robot Learning: A Survey
 - 2026-05-04 — [[2026-05-04-hermes-toward-a-unified-driving-world-model-for-3d-scene-und]] _(paper)_ — HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation
 - 2026-05-03 — [[2026-05-03-agentic-world-modeling-foundations-capabilities-laws-and-bey]] _(paper)_ — Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond
 - 2026-05-03 — [[2026-05-03-simulating-the-visual-world-with-artificial-intelligence-a-r]] _(paper)_ — Simulating the Visual World with Artificial Intelligence: A Roadmap

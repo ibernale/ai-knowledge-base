@@ -5,8 +5,8 @@ slug: "research-robotics"
 source_tag: "research/robotics"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-06"
-last_updated: "2026-05-06"
+first_seen: "2026-05-07"
+last_updated: "2026-05-07"
 linked_papers: []
 linked_entities: []
 ---
@@ -22,14 +22,14 @@ linked_entities: []
 
 ## Items in the window (5)
 
+- 2026-05-07 — [[2026-05-07-world-models-in-robot-learning-a-survey]] _(paper)_ — World Models in Robot Learning: A Survey
 - 2026-05-04 — [[2026-05-04-hermes-toward-a-unified-driving-world-model-for-3d-scene-und]] _(paper)_ — HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation
 - 2026-05-03 — [[2026-05-03-agentic-world-modeling-foundations-capabilities-laws-and-bey]] _(paper)_ — Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond
 - 2026-05-03 — [[2026-05-03-simulating-the-visual-world-with-artificial-intelligence-a-r]] _(paper)_ — Simulating the Visual World with Artificial Intelligence: A Roadmap
 - 2026-05-01 — [[2026-05-01-gigaworld-policy-action-centered-world-action-model-for-robo]] _(paper)_ — GigaWorld-Policy: Action-Centered World-Action Model for Robotic Policy Learning
-- 2026-04-29 — [[2026-04-29-gemini-robotics-er-16-enhanced-embodied-reasoning]] _(blog-post)_ — Gemini Robotics ER 1.6: Enhanced Embodied Reasoning
 
 ## Co-occurring tags
 
-- `research/multimodal` (4 items)
-- `research/reasoning` (3 items)
-- `research/agents` (1 item)
+- `research/multimodal` (3 items)
+- `research/agents` (2 items)
+- `research/reasoning` (2 items)

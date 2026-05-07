@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-posttraining]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/posttraining` — 8 items (most recent first).
+Source tag: `research/posttraining` — 9 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-model-spec-midtraining-improving-how-alignment-training-gene]] _(blog-post)_ — Model Spec Midtraining: Improving How Alignment Training Generalizes
 - 2026-05-05 — [[2026-05-05-granite-41-llms-how-theyre-built]] _(blog-post)_ — Granite 4.1 LLMs: How They're Built
 - 2026-05-04 — [[2026-05-04-exploration-hacking-can-llms-learn-to-resist-rl-training]] _(paper)_ — Exploration Hacking: Can LLMs Learn to Resist RL Training?
 - 2026-05-01 — [[2026-05-01-re-evaluating-mixed-policy-optimization-for-llm-reasoning]] _(paper)_ — Re-evaluating Mixed-Policy Optimization for LLM Reasoning

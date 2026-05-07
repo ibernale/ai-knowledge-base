@@ -5,8 +5,8 @@ slug: "research-agentic-coding"
 source_tag: "research/agentic-coding"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-06"
-last_updated: "2026-05-06"
+first_seen: "2026-05-07"
+last_updated: "2026-05-07"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (32)
+## Items in the window (25)
 
+- 2026-05-07 — [[2026-05-07-evaluating-agentsmd-are-repository-level-context-files-helpf]] _(paper)_ — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
+- 2026-05-07 — [[2026-05-07-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026
 - 2026-05-06 — [[2026-05-06-simon-willison-redis-array-type-and-vibe-coding-at-scale]] _(blog-post)_ — Simon Willison: Redis array type and vibe-coding at scale
 - 2026-05-05 — [[2026-05-05-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-05 — [[2026-05-05-simon-willisons-april-2026-newsletter]] _(blog-post)_ — Simon Willison's April 2026 Newsletter
@@ -45,20 +47,11 @@ linked_entities: []
 - 2026-05-01 — [[2026-05-01-an-open-source-spec-for-codex-orchestration-symphony]] _(blog-post)_ — An open-source spec for Codex orchestration: Symphony
 - 2026-04-30 — [[2026-04-30-on-the-impact-of-agentsmd-files-on-the-efficiency-of-ai-codi]] _(paper)_ — On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents
 - 2026-04-30 — [[2026-04-30-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
-- 2026-04-29 — [[2026-04-29-evaluating-agentsmd-are-repository-level-context-files-helpf]] _(paper)_ — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
-- 2026-04-29 — [[2026-04-29-context-engineering-for-ai-agents-in-open-source-software]] _(paper)_ — Context Engineering for AI Agents in Open-Source Software
-- 2026-04-29 — [[2026-04-29-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
-- 2026-04-29 — [[2026-04-29-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
-- 2026-04-29 — [[2026-04-29-the-revenge-of-the-data-scientist]] _(blog-post)_ — The Revenge of the Data Scientist
-- 2026-04-29 — [[2026-04-29-claude-code-quality-issues-root-cause-analysis-and-fixes]] _(blog-post)_ — Claude Code Quality Issues: Root Cause Analysis and Fixes
-- 2026-04-29 — [[2026-04-29-sign-of-the-future-gpt-55]] _(blog-post)_ — Sign of the future: GPT-5.5
-- 2026-04-29 — [[2026-04-29-components-of-a-coding-agent]] _(blog-post)_ — Components of A Coding Agent
-- 2026-04-29 — [[2026-04-29-gpt-55-openais-strongest-agentic-coding-model]] _(blog-post)_ — GPT-5.5: OpenAI's strongest agentic coding model
 
 ## Co-occurring tags
 
-- `research/agents` (22 items)
-- `research/evals` (8 items)
-- `research/tool-use` (7 items)
+- `research/agents` (18 items)
+- `research/evals` (5 items)
+- `research/tool-use` (5 items)
 - `research/industry` (4 items)
-- `research/model-release` (4 items)
+- `research/safety` (3 items)

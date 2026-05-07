@@ -14,8 +14,11 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-safety]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/safety` — 18 items (most recent first).
+Source tag: `research/safety` — 21 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-aris-adversarial-research-infrastructure-for-safe-ai]] _(paper)_ — ARIS: Adversarial Research Infrastructure for Safe AI
+- 2026-05-07 — [[2026-05-07-safety-and-accuracy-follow-different-scaling-laws-in-clinica]] _(paper)_ — Safety and accuracy follow different scaling laws in clinical large language models
+- 2026-05-07 — [[2026-05-07-model-spec-midtraining-improving-how-alignment-training-gene]] _(blog-post)_ — Model Spec Midtraining: Improving How Alignment Training Generalizes
 - 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
 - 2026-05-05 — [[2026-05-05-anthropic-how-people-ask-claude-for-personal-guidance]] _(blog-post)_ — Anthropic: How people ask Claude for personal guidance
 - 2026-05-04 — [[2026-05-04-exploration-hacking-can-llms-learn-to-resist-rl-training]] _(paper)_ — Exploration Hacking: Can LLMs Learn to Resist RL Training?

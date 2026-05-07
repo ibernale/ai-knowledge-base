@@ -14,8 +14,11 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-benchmarks]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/benchmarks` — 17 items (most recent first).
+Source tag: `research/benchmarks` — 20 items (most recent first).
 
+- 2026-05-07 — [[2026-05-07-workspace-bench-10-benchmarking-ai-agents-on-workspace-tasks]] _(paper)_ — Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies
+- 2026-05-07 — [[2026-05-07-safety-and-accuracy-follow-different-scaling-laws-in-clinica]] _(paper)_ — Safety and accuracy follow different scaling laws in clinical large language models
+- 2026-05-07 — [[2026-05-07-stop-automating-peer-review-without-rigorous-evaluation]] _(paper)_ — Stop Automating Peer Review Without Rigorous Evaluation
 - 2026-05-06 — [[2026-05-06-videonet-a-large-scale-dataset-for-domain-specific-action-re]] _(paper)_ — VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition
 - 2026-05-04 — [[2026-05-04-measuring-progress-toward-agi-a-cognitive-framework]] _(blog-post)_ — Measuring Progress Toward AGI: A Cognitive Framework
 - 2026-05-03 — [[2026-05-03-synthetic-computers-at-scale-for-long-horizon-productivity-s]] _(paper)_ — Synthetic Computers at Scale for Long-Horizon Productivity Simulation

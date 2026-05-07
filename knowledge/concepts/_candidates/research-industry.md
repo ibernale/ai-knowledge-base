@@ -5,8 +5,8 @@ slug: "research-industry"
 source_tag: "research/industry"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-06"
-last_updated: "2026-05-06"
+first_seen: "2026-05-07"
+last_updated: "2026-05-07"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (21)
+## Items in the window (18)
 
+- 2026-05-07 — [[2026-05-07-anthropic-launches-finance-agent-templates-and-microsoft-365]] _(blog-post)_ — Anthropic launches finance agent templates and Microsoft 365 add-ins
+- 2026-05-07 — [[2026-05-07-anthropic-partners-with-spacex-for-orbital-ai-compute-capaci]] _(blog-post)_ — Anthropic partners with SpaceX for orbital AI compute capacity
 - 2026-05-06 — [[2026-05-06-the-distillation-panic]] _(blog-post)_ — The distillation panic
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-05 — [[2026-05-05-building-a-new-enterprise-ai-services-company-with-blackston]] _(blog-post)_ — Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
@@ -38,16 +40,11 @@ linked_entities: []
 - 2026-04-30 — [[2026-04-30-weekly-ai-newsletter-april-2026-2026]] _(blog-post)_ — Weekly AI Newsletter: April 20–26, 2026
 - 2026-04-30 — [[2026-04-30-the-next-phase-of-the-microsoft-openai-partnership]] _(blog-post)_ — The next phase of the Microsoft-OpenAI partnership
 - 2026-04-30 — [[2026-04-30-openai-and-aws-expanded-partnership-gpt-55-on-amazon-bedrock]] _(blog-post)_ — OpenAI and AWS Expanded Partnership: GPT-5.5 on Amazon Bedrock
-- 2026-04-29 — [[2026-04-29-anthropic-and-nec-collaborate-on-japans-largest-ai-engineeri]] _(blog-post)_ — Anthropic and NEC Collaborate on Japan's Largest AI Engineering
-- 2026-04-29 — [[2026-04-29-what-comes-next-with-open-models]] _(blog-post)_ — What comes next with open models
-- 2026-04-29 — [[2026-04-29-openai-releases-chatgpt-for-clinicians]] _(blog-post)_ — OpenAI Releases ChatGPT for Clinicians
-- 2026-04-29 — [[2026-04-29-tracking-the-history-of-the-now-deceased-openai-microsoft-ag]] _(blog-post)_ — Tracking the history of the now-deceased OpenAI Microsoft AGI clause
-- 2026-04-29 — [[2026-04-29-my-bets-on-open-models-mid-2026]] _(blog-post)_ — My bets on open models, mid-2026
 
 ## Co-occurring tags
 
-- `research/agents` (6 items)
+- `research/agents` (7 items)
 - `research/agentic-coding` (4 items)
 - `research/model-release` (3 items)
-- `research/distillation` (3 items)
 - `research/inference` (2 items)
+- `research/distillation` (1 item)

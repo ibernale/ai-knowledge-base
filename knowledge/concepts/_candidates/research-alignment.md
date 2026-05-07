@@ -5,8 +5,8 @@ slug: "research-alignment"
 source_tag: "research/alignment"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-06"
-last_updated: "2026-05-06"
+first_seen: "2026-05-07"
+last_updated: "2026-05-07"
 linked_papers: []
 linked_entities: []
 ---
@@ -22,17 +22,17 @@ linked_entities: []
 
 ## Items in the window (6)
 
+- 2026-05-07 — [[2026-05-07-model-spec-midtraining-improving-how-alignment-training-gene]] _(blog-post)_ — Model Spec Midtraining: Improving How Alignment Training Generalizes
 - 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
 - 2026-05-05 — [[2026-05-05-anthropic-how-people-ask-claude-for-personal-guidance]] _(blog-post)_ — Anthropic: How people ask Claude for personal guidance
 - 2026-05-04 — [[2026-05-04-exploration-hacking-can-llms-learn-to-resist-rl-training]] _(paper)_ — Exploration Hacking: Can LLMs Learn to Resist RL Training?
 - 2026-05-03 — [[2026-05-03-deepmind-paper-llms-will-never-be-conscious]] _(paper)_ — DeepMind Paper: LLMs Will Never Be Conscious
 - 2026-05-03 — [[2026-05-03-2026-cosmos-lecture-jack-clark-on-human-autonomy]] _(blog-post)_ — 2026 Cosmos Lecture: Jack Clark on Human Autonomy
-- 2026-04-29 — [[2026-04-29-the-people-do-not-yearn-for-automation]] _(blog-post)_ — The people do not yearn for automation
 
 ## Co-occurring tags
 
-- `research/safety` (3 items)
+- `research/safety` (4 items)
+- `research/posttraining` (2 items)
 - `research/reasoning` (1 item)
-- `research/posttraining` (1 item)
 - `governance/eu-ai-act` (1 item)
 - `research/agents` (1 item)

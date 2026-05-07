@@ -5,8 +5,8 @@ slug: "research-regulation"
 source_tag: "research/regulation"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-06"
-last_updated: "2026-05-06"
+first_seen: "2026-05-07"
+last_updated: "2026-05-07"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,22 +20,15 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (9)
+## Items in the window (3)
 
 - 2026-05-03 — [[2026-05-03-pentagon-strikes-ai-deals-with-seven-major-tech-companies-an]] _(blog-post)_ — Pentagon Strikes AI Deals with Seven Major Tech Companies; Anthropic Excluded
 - 2026-05-03 — [[2026-05-03-agentic-ai-governance-framework-for-banking-healthcare-retai]] _(blog-post)_ — Agentic AI Governance Framework for Banking, Healthcare, Retail, and Supply Chain
 - 2026-05-03 — [[2026-05-03-pentagon-strikes-deals-with-7-big-tech-companies-after-shunn]] _(blog-post)_ — Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic
-- 2026-04-29 — [[2026-04-29-anthropic-and-nec-collaborate-on-japans-largest-ai-engineeri]] _(blog-post)_ — Anthropic and NEC Collaborate on Japan's Largest AI Engineering
-- 2026-04-29 — [[2026-04-29-the-people-do-not-yearn-for-automation]] _(blog-post)_ — The people do not yearn for automation
-- 2026-04-29 — [[2026-04-29-tracking-the-history-of-the-now-deceased-openai-microsoft-ag]] _(blog-post)_ — Tracking the history of the now-deceased OpenAI Microsoft AGI clause
-- 2026-04-29 — [[2026-04-29-anthropic-election-safeguards-update]] _(blog-post)_ — Anthropic Election Safeguards Update
-- 2026-04-29 — [[2026-04-29-time-to-apply-the-brakes-to-runaway-ai-says-pioneer]] _(report)_ — Time to apply the brakes to runaway AI, says pioneer
-- 2026-04-29 — [[2026-04-29-the-2026-ai-index-report]] _(report)_ — The 2026 AI Index Report
 
 ## Co-occurring tags
 
-- `research/safety` (4 items)
+- `research/safety` (2 items)
 - `governance/dora` (2 items)
-- `research/industry` (2 items)
-- `research/economics` (2 items)
 - `research/agents` (1 item)
+- `governance/eba` (1 item)
