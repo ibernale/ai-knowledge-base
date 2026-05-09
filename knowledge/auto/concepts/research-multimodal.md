@@ -14,8 +14,11 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-multimodal]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/multimodal` — 21 items (most recent first).
+Source tag: `research/multimodal` — 24 items (most recent first).
 
+- 2026-05-09 — [[2026-05-09-vibevoice-long-form-multi-speaker-speech-synthesis-via-next]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis via Next-Token Diffusion
+- 2026-05-09 — [[2026-05-09-mineru25-a-12b-parameter-document-parsing-vision-language-mo]] _(paper)_ — MinerU2.5: A 1.2B-Parameter Document Parsing Vision-Language Model
+- 2026-05-09 — [[2026-05-09-advancing-voice-intelligence-with-new-models-in-the-api]] _(blog-post)_ — Advancing voice intelligence with new models in the API
 - 2026-05-06 — [[2026-05-06-unicorrn-unified-correspondence-transformer-across-2d-and-3d]] _(paper)_ — UniCorrn: Unified Correspondence Transformer Across 2D and 3D
 - 2026-05-06 — [[2026-05-06-rf-detr-neural-architecture-search-for-real-time-detection-t]] _(paper)_ — RF-DETR: Neural Architecture Search for Real-Time Detection Transformers
 - 2026-05-06 — [[2026-05-06-videonet-a-large-scale-dataset-for-domain-specific-action-re]] _(paper)_ — VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition

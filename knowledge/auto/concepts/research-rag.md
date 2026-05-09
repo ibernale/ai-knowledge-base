@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-rag]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/rag` — 4 items (most recent first).
+Source tag: `research/rag` — 5 items (most recent first).
 
+- 2026-05-09 — [[2026-05-09-latentrag-latent-reasoning-and-retrieval-for-efficient-agent]] _(paper)_ — LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG
 - 2026-05-07 — [[2026-05-07-mem0-graph-based-memory-for-long-term-conversational-coheren]] _(paper)_ — Mem0: Graph-based Memory for Long-term Conversational Coherence
 - 2026-05-07 — [[2026-05-07-rethinking-reasoning-intensive-retrieval-evaluating-and-adva]] _(paper)_ — Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems
 - 2026-05-06 — [[2026-05-06-a-survey-of-reasoning-intensive-retrieval-progress-and-chall]] _(paper)_ — A Survey of Reasoning-Intensive Retrieval: Progress and Challenges

@@ -14,8 +14,15 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-agents]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/agents` — 60 items (most recent first).
+Source tag: `research/agents` — 67 items (most recent first).
 
+- 2026-05-09 — [[2026-05-09-agentic-ais-are-the-missing-paradigm-for-out-of-distribution]] _(paper)_ — Agentic AIs Are the Missing Paradigm for Out-of-Distribution Generalization in Foundation Models
+- 2026-05-09 — [[2026-05-09-agent-context-files-first-large-scale-empirical-study-of-230]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study of 2,303 Files from 1,925 Repositories
+- 2026-05-09 — [[2026-05-09-latentrag-latent-reasoning-and-retrieval-for-efficient-agent]] _(paper)_ — LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG
+- 2026-05-09 — [[2026-05-09-aris-open-source-research-harness-using-cross-model-adversar]] _(paper)_ — ARIS: Open-Source Research Harness Using Cross-Model Adversarial Collaboration
+- 2026-05-09 — [[2026-05-09-instrumental-choices-measuring-the-propensity-of-llm-agents]] _(paper)_ — Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors
+- 2026-05-09 — [[2026-05-09-alphaevolve-gemini-powered-coding-agent-scaling-impact-acros]] _(blog-post)_ — AlphaEvolve: Gemini-powered coding agent scaling impact across fields
+- 2026-05-09 — [[2026-05-09-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026
 - 2026-05-07 — [[2026-05-07-mem0-graph-based-memory-for-long-term-conversational-coheren]] _(paper)_ — Mem0: Graph-based Memory for Long-term Conversational Coherence
 - 2026-05-07 — [[2026-05-07-world-models-in-robot-learning-a-survey]] _(paper)_ — World Models in Robot Learning: A Survey
 - 2026-05-07 — [[2026-05-07-workspace-bench-10-benchmarking-ai-agents-on-workspace-tasks]] _(paper)_ — Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies

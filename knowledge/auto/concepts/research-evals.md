@@ -14,8 +14,11 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-evals]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/evals` — 30 items (most recent first).
+Source tag: `research/evals` — 33 items (most recent first).
 
+- 2026-05-09 — [[2026-05-09-verifier-backed-hard-problem-generation-for-mathematical-rea]] _(paper)_ — Verifier-Backed Hard Problem Generation for Mathematical Reasoning
+- 2026-05-09 — [[2026-05-09-agentic-ais-are-the-missing-paradigm-for-out-of-distribution]] _(paper)_ — Agentic AIs Are the Missing Paradigm for Out-of-Distribution Generalization in Foundation Models
+- 2026-05-09 — [[2026-05-09-aris-open-source-research-harness-using-cross-model-adversar]] _(paper)_ — ARIS: Open-Source Research Harness Using Cross-Model Adversarial Collaboration
 - 2026-05-07 — [[2026-05-07-workspace-bench-10-benchmarking-ai-agents-on-workspace-tasks]] _(paper)_ — Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies
 - 2026-05-07 — [[2026-05-07-aris-adversarial-research-infrastructure-for-safe-ai]] _(paper)_ — ARIS: Adversarial Research Infrastructure for Safe AI
 - 2026-05-07 — [[2026-05-07-safety-and-accuracy-follow-different-scaling-laws-in-clinica]] _(paper)_ — Safety and accuracy follow different scaling laws in clinical large language models

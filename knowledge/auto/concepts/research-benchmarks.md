@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-benchmarks]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/benchmarks` — 20 items (most recent first).
+Source tag: `research/benchmarks` — 21 items (most recent first).
 
+- 2026-05-09 — [[2026-05-09-verifier-backed-hard-problem-generation-for-mathematical-rea]] _(paper)_ — Verifier-Backed Hard Problem Generation for Mathematical Reasoning
 - 2026-05-07 — [[2026-05-07-workspace-bench-10-benchmarking-ai-agents-on-workspace-tasks]] _(paper)_ — Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies
 - 2026-05-07 — [[2026-05-07-safety-and-accuracy-follow-different-scaling-laws-in-clinica]] _(paper)_ — Safety and accuracy follow different scaling laws in clinical large language models
 - 2026-05-07 — [[2026-05-07-stop-automating-peer-review-without-rigorous-evaluation]] _(paper)_ — Stop Automating Peer Review Without Rigorous Evaluation

@@ -14,8 +14,11 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-tool-use]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/tool-use` — 13 items (most recent first).
+Source tag: `research/tool-use` — 16 items (most recent first).
 
+- 2026-05-09 — [[2026-05-09-agent-context-files-first-large-scale-empirical-study-of-230]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study of 2,303 Files from 1,925 Repositories
+- 2026-05-09 — [[2026-05-09-advancing-voice-intelligence-with-new-models-in-the-api]] _(blog-post)_ — Advancing voice intelligence with new models in the API
+- 2026-05-09 — [[2026-05-09-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026
 - 2026-05-06 — [[2026-05-06-simon-willison-redis-array-type-and-vibe-coding-at-scale]] _(blog-post)_ — Simon Willison: Redis array type and vibe-coding at scale
 - 2026-05-03 — [[2026-05-03-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-03 — [[2026-05-03-simon-willison-sightings-adding-inaturalist-to-my-blog]] _(blog-post)_ — Simon Willison: Sightings - Adding iNaturalist to My Blog

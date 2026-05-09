@@ -5,8 +5,8 @@ slug: "research-tool-use"
 source_tag: "research/tool-use"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-07"
-last_updated: "2026-05-07"
+first_seen: "2026-05-09"
+last_updated: "2026-05-09"
 linked_papers: []
 linked_entities: []
 ---
@@ -22,17 +22,18 @@ linked_entities: []
 
 ## Items in the window (8)
 
+- 2026-05-09 — [[2026-05-09-agent-context-files-first-large-scale-empirical-study-of-230]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study of 2,303 Files from 1,925 Repositories
+- 2026-05-09 — [[2026-05-09-advancing-voice-intelligence-with-new-models-in-the-api]] _(blog-post)_ — Advancing voice intelligence with new models in the API
+- 2026-05-09 — [[2026-05-09-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026
 - 2026-05-06 — [[2026-05-06-simon-willison-redis-array-type-and-vibe-coding-at-scale]] _(blog-post)_ — Simon Willison: Redis array type and vibe-coding at scale
 - 2026-05-03 — [[2026-05-03-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-03 — [[2026-05-03-simon-willison-sightings-adding-inaturalist-to-my-blog]] _(blog-post)_ — Simon Willison: Sightings - Adding iNaturalist to My Blog
 - 2026-05-03 — [[2026-05-03-simon-willison-inaturalist-sightings-tool]] _(blog-post)_ — Simon Willison: iNaturalist Sightings Tool
 - 2026-05-02 — [[2026-05-02-claude-for-creative-work]] _(blog-post)_ — Claude for Creative Work
-- 2026-05-01 — [[2026-05-01-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
-- 2026-05-01 — [[2026-05-01-an-open-source-spec-for-codex-orchestration-symphony]] _(blog-post)_ — An open-source spec for Codex orchestration: Symphony
-- 2026-04-30 — [[2026-04-30-llm-032a0-is-a-major-backwards-compatible-refactor]] _(blog-post)_ — LLM 0.32a0 is a major backwards-compatible refactor
 
 ## Co-occurring tags
 
-- `research/agentic-coding` (5 items)
+- `research/agentic-coding` (6 items)
 - `research/agents` (4 items)
+- `research/multimodal` (1 item)
 - `research/inference` (1 item)

@@ -14,8 +14,10 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-pretraining]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/pretraining` — 9 items (most recent first).
+Source tag: `research/pretraining` — 11 items (most recent first).
 
+- 2026-05-09 — [[2026-05-09-unipool-a-globally-shared-expert-pool-for-mixture-of-experts]] _(paper)_ — UniPool: A Globally Shared Expert Pool for Mixture-of-Experts
+- 2026-05-09 — [[2026-05-09-notes-from-inside-chinas-ai-labs]] _(blog-post)_ — Notes from inside China's AI labs
 - 2026-05-05 — [[2026-05-05-granite-41-llms-how-theyre-built]] _(blog-post)_ — Granite 4.1 LLMs: How They're Built
 - 2026-05-03 — [[2026-05-03-learning-rate-transfer-in-normalized-transformers-gpt]] _(paper)_ — Learning Rate Transfer in Normalized Transformers (νGPT)
 - 2026-05-03 — [[2026-05-03-gpt-robust-learning-rate-transfer-for-normalized-transformer]] _(paper)_ — νGPT: Robust Learning Rate Transfer for Normalized Transformers

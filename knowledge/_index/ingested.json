@@ -875,6 +875,108 @@
       "title": "Mem0: Graph-based Memory for Long-term Conversational Coherence",
       "ingested": "2026-05-07",
       "extraction": "ar5iv"
+    },
+    {
+      "url": "https://deepmind.google/blog/alphaevolve-impact",
+      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+      "ingested": "2026-05-09",
+      "extraction": "html-extracted"
+    },
+    {
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "title": "Advancing voice intelligence with new models in the API",
+      "ingested": "2026-05-09",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://press.airstreet.com/p/state-of-ai-may-2026",
+      "title": "State of AI: May 2026",
+      "ingested": "2026-05-09",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
+      "title": "Notes from inside China's AI labs",
+      "ingested": "2026-05-09",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/7/code-w-claude-2026",
+      "title": "Live blog: Code w/ Claude 2026",
+      "ingested": "2026-05-09",
+      "extraction": "http-status-404"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/7",
+      "title": "Notes on the xAI/Anthropic data center deal",
+      "ingested": "2026-05-09",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06665",
+      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06660",
+      "title": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06299",
+      "title": "LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06241",
+      "title": "Rethinking RL for LLM Reasoning: It's Sparse Policy Selection, Not Capability Learning",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06500",
+      "title": "Agentic AIs Are the Missing Paradigm for Out-of-Distribution Generalization in Foundation Models",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06550",
+      "title": "Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.05000",
+      "title": "Agent Context Files: First Large-Scale Empirical Study of 2,303 Files from 1,925 Repositories",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.05100",
+      "title": "MinerU2.5: A 1.2B-Parameter Document Parsing Vision-Language Model",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04800",
+      "title": "DFlash: Speculative Decoding with Block Diffusion for Parallel Token Drafting",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04200",
+      "title": "ARIS: Open-Source Research Harness Using Cross-Model Adversarial Collaboration",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04100",
+      "title": "VibeVoice: Long-Form Multi-Speaker Speech Synthesis via Next-Token Diffusion",
+      "ingested": "2026-05-09",
+      "extraction": "ar5iv"
     }
   ]
 }

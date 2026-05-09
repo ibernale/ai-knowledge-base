@@ -5,8 +5,8 @@ slug: "research-safety"
 source_tag: "research/safety"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-07"
-last_updated: "2026-05-07"
+first_seen: "2026-05-09"
+last_updated: "2026-05-09"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (15)
+## Items in the window (17)
 
+- 2026-05-09 — [[2026-05-09-instrumental-choices-measuring-the-propensity-of-llm-agents]] _(paper)_ — Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors
+- 2026-05-09 — [[2026-05-09-state-of-ai-may-2026]] _(report)_ — State of AI: May 2026
 - 2026-05-07 — [[2026-05-07-aris-adversarial-research-infrastructure-for-safe-ai]] _(paper)_ — ARIS: Adversarial Research Infrastructure for Safe AI
 - 2026-05-07 — [[2026-05-07-safety-and-accuracy-follow-different-scaling-laws-in-clinica]] _(paper)_ — Safety and accuracy follow different scaling laws in clinical large language models
 - 2026-05-07 — [[2026-05-07-model-spec-midtraining-improving-how-alignment-training-gene]] _(blog-post)_ — Model Spec Midtraining: Improving How Alignment Training Generalizes
@@ -41,7 +43,7 @@ linked_entities: []
 ## Co-occurring tags
 
 - `research/evals` (6 items)
-- `research/alignment` (4 items)
-- `research/agents` (4 items)
+- `research/alignment` (5 items)
+- `research/agents` (5 items)
 - `research/benchmarks` (3 items)
 - `research/agentic-coding` (3 items)

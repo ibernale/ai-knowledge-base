@@ -14,8 +14,11 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-alignment]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/alignment` — 9 items (most recent first).
+Source tag: `research/alignment` — 12 items (most recent first).
 
+- 2026-05-09 — [[2026-05-09-rethinking-rl-for-llm-reasoning-its-sparse-policy-selection]] _(paper)_ — Rethinking RL for LLM Reasoning: It's Sparse Policy Selection, Not Capability Learning
+- 2026-05-09 — [[2026-05-09-aris-open-source-research-harness-using-cross-model-adversar]] _(paper)_ — ARIS: Open-Source Research Harness Using Cross-Model Adversarial Collaboration
+- 2026-05-09 — [[2026-05-09-instrumental-choices-measuring-the-propensity-of-llm-agents]] _(paper)_ — Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors
 - 2026-05-07 — [[2026-05-07-model-spec-midtraining-improving-how-alignment-training-gene]] _(blog-post)_ — Model Spec Midtraining: Improving How Alignment Training Generalizes
 - 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
 - 2026-05-05 — [[2026-05-05-anthropic-how-people-ask-claude-for-personal-guidance]] _(blog-post)_ — Anthropic: How people ask Claude for personal guidance

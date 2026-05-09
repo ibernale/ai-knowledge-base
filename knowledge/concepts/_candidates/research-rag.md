@@ -5,8 +5,8 @@ slug: "research-rag"
 source_tag: "research/rag"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-07"
-last_updated: "2026-05-07"
+first_seen: "2026-05-09"
+last_updated: "2026-05-09"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,14 +20,15 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (3)
+## Items in the window (4)
 
+- 2026-05-09 — [[2026-05-09-latentrag-latent-reasoning-and-retrieval-for-efficient-agent]] _(paper)_ — LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG
 - 2026-05-07 — [[2026-05-07-mem0-graph-based-memory-for-long-term-conversational-coheren]] _(paper)_ — Mem0: Graph-based Memory for Long-term Conversational Coherence
 - 2026-05-07 — [[2026-05-07-rethinking-reasoning-intensive-retrieval-evaluating-and-adva]] _(paper)_ — Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems
 - 2026-05-06 — [[2026-05-06-a-survey-of-reasoning-intensive-retrieval-progress-and-chall]] _(paper)_ — A Survey of Reasoning-Intensive Retrieval: Progress and Challenges
 
 ## Co-occurring tags
 
-- `research/agents` (2 items)
-- `research/reasoning` (2 items)
+- `research/agents` (3 items)
+- `research/reasoning` (3 items)
 - `research/long-context` (1 item)

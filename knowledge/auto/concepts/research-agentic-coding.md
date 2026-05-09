@@ -14,8 +14,11 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-agentic-coding]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/agentic-coding` — 34 items (most recent first).
+Source tag: `research/agentic-coding` — 37 items (most recent first).
 
+- 2026-05-09 — [[2026-05-09-agent-context-files-first-large-scale-empirical-study-of-230]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study of 2,303 Files from 1,925 Repositories
+- 2026-05-09 — [[2026-05-09-alphaevolve-gemini-powered-coding-agent-scaling-impact-acros]] _(blog-post)_ — AlphaEvolve: Gemini-powered coding agent scaling impact across fields
+- 2026-05-09 — [[2026-05-09-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026
 - 2026-05-07 — [[2026-05-07-evaluating-agentsmd-are-repository-level-context-files-helpf]] _(paper)_ — Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
 - 2026-05-07 — [[2026-05-07-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026
 - 2026-05-06 — [[2026-05-06-simon-willison-redis-array-type-and-vibe-coding-at-scale]] _(blog-post)_ — Simon Willison: Redis array type and vibe-coding at scale

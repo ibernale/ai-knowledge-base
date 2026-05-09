@@ -5,8 +5,8 @@ slug: "research-regulation"
 source_tag: "research/regulation"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-07"
-last_updated: "2026-05-07"
+first_seen: "2026-05-09"
+last_updated: "2026-05-09"
 linked_papers: []
 linked_entities: []
 ---
