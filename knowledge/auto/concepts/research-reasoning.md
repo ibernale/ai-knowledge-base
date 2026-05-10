@@ -14,8 +14,10 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-reasoning]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/reasoning` — 31 items (most recent first).
+Source tag: `research/reasoning` — 33 items (most recent first).
 
+- 2026-05-10 — [[2026-05-10-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
+- 2026-05-10 — [[2026-05-10-ai-for-science-training-transformers-to-solve-95-failure-rat]] _(blog-post)_ — AI for Science: Training Transformers to solve 95% failure rate of Cancer Trials
 - 2026-05-09 — [[2026-05-09-verifier-backed-hard-problem-generation-for-mathematical-rea]] _(paper)_ — Verifier-Backed Hard Problem Generation for Mathematical Reasoning
 - 2026-05-09 — [[2026-05-09-agentic-ais-are-the-missing-paradigm-for-out-of-distribution]] _(paper)_ — Agentic AIs Are the Missing Paradigm for Out-of-Distribution Generalization in Foundation Models
 - 2026-05-09 — [[2026-05-09-latentrag-latent-reasoning-and-retrieval-for-efficient-agent]] _(paper)_ — LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG

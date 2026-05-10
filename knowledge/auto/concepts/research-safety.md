@@ -14,8 +14,11 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-safety]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/safety` — 23 items (most recent first).
+Source tag: `research/safety` — 26 items (most recent first).
 
+- 2026-05-10 — [[2026-05-10-introducing-trusted-contact-in-chatgpt]] _(blog-post)_ — Introducing Trusted Contact in ChatGPT
+- 2026-05-10 — [[2026-05-10-donating-our-open-source-alignment-tool-petri-to-meridian-la]] _(blog-post)_ — Donating our open-source alignment tool Petri to Meridian Labs
+- 2026-05-10 — [[2026-05-10-scaling-trusted-access-for-cyber-with-gpt-55-and-gpt-55-cybe]] _(blog-post)_ — Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
 - 2026-05-09 — [[2026-05-09-instrumental-choices-measuring-the-propensity-of-llm-agents]] _(paper)_ — Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors
 - 2026-05-09 — [[2026-05-09-state-of-ai-may-2026]] _(report)_ — State of AI: May 2026
 - 2026-05-07 — [[2026-05-07-aris-adversarial-research-infrastructure-for-safe-ai]] _(paper)_ — ARIS: Adversarial Research Infrastructure for Safe AI

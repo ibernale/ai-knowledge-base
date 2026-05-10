@@ -5,8 +5,8 @@ slug: "research-safety"
 source_tag: "research/safety"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-09"
-last_updated: "2026-05-09"
+first_seen: "2026-05-10"
+last_updated: "2026-05-10"
 linked_papers: []
 linked_entities: []
 ---
@@ -22,6 +22,9 @@ linked_entities: []
 
 ## Items in the window (17)
 
+- 2026-05-10 — [[2026-05-10-introducing-trusted-contact-in-chatgpt]] _(blog-post)_ — Introducing Trusted Contact in ChatGPT
+- 2026-05-10 — [[2026-05-10-donating-our-open-source-alignment-tool-petri-to-meridian-la]] _(blog-post)_ — Donating our open-source alignment tool Petri to Meridian Labs
+- 2026-05-10 — [[2026-05-10-scaling-trusted-access-for-cyber-with-gpt-55-and-gpt-55-cybe]] _(blog-post)_ — Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
 - 2026-05-09 — [[2026-05-09-instrumental-choices-measuring-the-propensity-of-llm-agents]] _(paper)_ — Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors
 - 2026-05-09 — [[2026-05-09-state-of-ai-may-2026]] _(report)_ — State of AI: May 2026
 - 2026-05-07 — [[2026-05-07-aris-adversarial-research-infrastructure-for-safe-ai]] _(paper)_ — ARIS: Adversarial Research Infrastructure for Safe AI
@@ -36,14 +39,11 @@ linked_entities: []
 - 2026-05-03 — [[2026-05-03-claude-mythos-and-misguided-open-weight-fearmongering]] _(blog-post)_ — Claude Mythos and misguided open-weight fearmongering
 - 2026-05-03 — [[2026-05-03-import-ai-newsletter-ai-cybersecurity-capabilities-and-exper]] _(blog-post)_ — Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts
 - 2026-05-03 — [[2026-05-03-pentagon-strikes-deals-with-7-big-tech-companies-after-shunn]] _(blog-post)_ — Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic
-- 2026-05-02 — [[2026-05-02-simon-willison-codex-cli-01280-adds-goal-and-gpt-55-cyber-ev]] _(blog-post)_ — Simon Willison: Codex CLI 0.128.0 adds /goal and GPT-5.5 cyber evaluation coverage
-- 2026-05-02 — [[2026-05-02-import-ai-390-offensive-cyber-capabilities-now-frontier-wide]] _(blog-post)_ — Import AI 390: Offensive cyber capabilities now frontier-wide
-- 2026-05-02 — [[2026-05-02-our-evaluation-of-openais-gpt-55-cyber-capabilities]] _(report)_ — Our evaluation of OpenAI's GPT-5.5 cyber capabilities
 
 ## Co-occurring tags
 
-- `research/evals` (6 items)
-- `research/alignment` (5 items)
+- `research/alignment` (6 items)
+- `research/evals` (5 items)
 - `research/agents` (5 items)
-- `research/benchmarks` (3 items)
-- `research/agentic-coding` (3 items)
+- `research/posttraining` (2 items)
+- `research/benchmarks` (2 items)

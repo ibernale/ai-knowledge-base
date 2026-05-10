@@ -977,6 +977,60 @@
       "title": "VibeVoice: Long-Form Multi-Speaker Speech Synthesis via Next-Token Diffusion",
       "ingested": "2026-05-09",
       "extraction": "ar5iv"
+    },
+    {
+      "url": "https://www.anthropic.com/research/donating-open-source-petri",
+      "title": "Donating our open-source alignment tool Petri to Meridian Labs",
+      "ingested": "2026-05-10",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "ingested": "2026-05-10",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research",
+      "title": "Import AI 455: Automating AI Research",
+      "ingested": "2026-05-10",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.19413",
+      "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+      "ingested": "2026-05-10",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06700",
+      "title": "Agent Context Files: A Large-Scale Empirical Study",
+      "ingested": "2026-05-10",
+      "extraction": "pdf-status-404"
+    },
+    {
+      "url": "https://www.anthropic.com/news/expanded-compute-capacity",
+      "title": "Anthropic Claude Code rate limits doubled, SpaceX Colossus partnership announced",
+      "ingested": "2026-05-10",
+      "extraction": "http-status-404"
+    },
+    {
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "title": "Testing ads in ChatGPT",
+      "ingested": "2026-05-10",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "ingested": "2026-05-10",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://www.latent.space/p/ai-for-science-cancer-trials",
+      "title": "AI for Science: Training Transformers to solve 95% failure rate of Cancer Trials",
+      "ingested": "2026-05-10",
+      "extraction": "http-status-404"
     }
   ]
 }

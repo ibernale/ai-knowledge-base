@@ -5,8 +5,8 @@ slug: "research-evals"
 source_tag: "research/evals"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-09"
-last_updated: "2026-05-09"
+first_seen: "2026-05-10"
+last_updated: "2026-05-10"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (16)
+## Items in the window (15)
 
+- 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
+- 2026-05-10 — [[2026-05-10-donating-our-open-source-alignment-tool-petri-to-meridian-la]] _(blog-post)_ — Donating our open-source alignment tool Petri to Meridian Labs
 - 2026-05-09 — [[2026-05-09-verifier-backed-hard-problem-generation-for-mathematical-rea]] _(paper)_ — Verifier-Backed Hard Problem Generation for Mathematical Reasoning
 - 2026-05-09 — [[2026-05-09-agentic-ais-are-the-missing-paradigm-for-out-of-distribution]] _(paper)_ — Agentic AIs Are the Missing Paradigm for Out-of-Distribution Generalization in Foundation Models
 - 2026-05-09 — [[2026-05-09-aris-open-source-research-harness-using-cross-model-adversar]] _(paper)_ — ARIS: Open-Source Research Harness Using Cross-Model Adversarial Collaboration
@@ -35,14 +37,11 @@ linked_entities: []
 - 2026-05-03 — [[2026-05-03-synthetic-computers-at-scale-for-long-horizon-productivity-s]] _(paper)_ — Synthetic Computers at Scale for Long-Horizon Productivity Simulation
 - 2026-05-03 — [[2026-05-03-import-ai-453-breaking-ai-agents-mirrorcode-ten-views-on-gra]] _(blog-post)_ — Import AI 453: Breaking AI Agents; MirrorCode; Ten Views on Gradual Disempowerment
 - 2026-05-03 — [[2026-05-03-import-ai-newsletter-ai-cybersecurity-capabilities-and-exper]] _(blog-post)_ — Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts
-- 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
-- 2026-05-02 — [[2026-05-02-import-ai-390-offensive-cyber-capabilities-now-frontier-wide]] _(blog-post)_ — Import AI 390: Offensive cyber capabilities now frontier-wide
-- 2026-05-02 — [[2026-05-02-our-evaluation-of-openais-gpt-55-cyber-capabilities]] _(report)_ — Our evaluation of OpenAI's GPT-5.5 cyber capabilities
 
 ## Co-occurring tags
 
 - `research/agents` (9 items)
-- `research/benchmarks` (9 items)
-- `research/safety` (6 items)
-- `research/agentic-coding` (2 items)
+- `research/benchmarks` (7 items)
+- `research/safety` (5 items)
+- `research/agentic-coding` (3 items)
 - `research/reasoning` (2 items)

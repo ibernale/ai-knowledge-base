@@ -14,8 +14,10 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-agentic-coding]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/agentic-coding` — 37 items (most recent first).
+Source tag: `research/agentic-coding` — 39 items (most recent first).
 
+- 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
+- 2026-05-10 — [[2026-05-10-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
 - 2026-05-09 — [[2026-05-09-agent-context-files-first-large-scale-empirical-study-of-230]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study of 2,303 Files from 1,925 Repositories
 - 2026-05-09 — [[2026-05-09-alphaevolve-gemini-powered-coding-agent-scaling-impact-acros]] _(blog-post)_ — AlphaEvolve: Gemini-powered coding agent scaling impact across fields
 - 2026-05-09 — [[2026-05-09-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026

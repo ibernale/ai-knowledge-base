@@ -5,8 +5,8 @@ slug: "research-inference"
 source_tag: "research/inference"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-09"
-last_updated: "2026-05-09"
+first_seen: "2026-05-10"
+last_updated: "2026-05-10"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (18)
+## Items in the window (19)
 
+- 2026-05-10 — [[2026-05-10-anthropic-claude-code-rate-limits-doubled-spacex-colossus-pa]] _(blog-post)_ — Anthropic Claude Code rate limits doubled, SpaceX Colossus partnership announced
 - 2026-05-09 — [[2026-05-09-vibevoice-long-form-multi-speaker-speech-synthesis-via-next]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis via Next-Token Diffusion
 - 2026-05-09 — [[2026-05-09-mineru25-a-12b-parameter-document-parsing-vision-language-mo]] _(paper)_ — MinerU2.5: A 1.2B-Parameter Document Parsing Vision-Language Model
 - 2026-05-09 — [[2026-05-09-dflash-speculative-decoding-with-block-diffusion-for-paralle]] _(paper)_ — DFlash: Speculative Decoding with Block Diffusion for Parallel Token Drafting
@@ -47,4 +48,4 @@ linked_entities: []
 - `research/pretraining` (3 items)
 - `research/agents` (3 items)
 - `research/distillation` (2 items)
-- `research/model-release` (2 items)
+- `research/industry` (2 items)

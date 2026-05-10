@@ -5,8 +5,8 @@ slug: "research-alignment"
 source_tag: "research/alignment"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-09"
-last_updated: "2026-05-09"
+first_seen: "2026-05-10"
+last_updated: "2026-05-10"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (9)
+## Items in the window (10)
 
+- 2026-05-10 — [[2026-05-10-donating-our-open-source-alignment-tool-petri-to-meridian-la]] _(blog-post)_ — Donating our open-source alignment tool Petri to Meridian Labs
 - 2026-05-09 — [[2026-05-09-rethinking-rl-for-llm-reasoning-its-sparse-policy-selection]] _(paper)_ — Rethinking RL for LLM Reasoning: It's Sparse Policy Selection, Not Capability Learning
 - 2026-05-09 — [[2026-05-09-aris-open-source-research-harness-using-cross-model-adversar]] _(paper)_ — ARIS: Open-Source Research Harness Using Cross-Model Adversarial Collaboration
 - 2026-05-09 — [[2026-05-09-instrumental-choices-measuring-the-propensity-of-llm-agents]] _(paper)_ — Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors
@@ -34,8 +35,8 @@ linked_entities: []
 
 ## Co-occurring tags
 
-- `research/safety` (5 items)
+- `research/safety` (6 items)
 - `research/posttraining` (3 items)
 - `research/agents` (3 items)
 - `research/reasoning` (2 items)
-- `research/evals` (1 item)
+- `research/evals` (2 items)

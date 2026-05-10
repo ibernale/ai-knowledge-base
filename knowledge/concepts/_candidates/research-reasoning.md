@@ -5,8 +5,8 @@ slug: "research-reasoning"
 source_tag: "research/reasoning"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-09"
-last_updated: "2026-05-09"
+first_seen: "2026-05-10"
+last_updated: "2026-05-10"
 linked_papers: []
 linked_entities: []
 ---
@@ -22,6 +22,8 @@ linked_entities: []
 
 ## Items in the window (16)
 
+- 2026-05-10 — [[2026-05-10-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
+- 2026-05-10 — [[2026-05-10-ai-for-science-training-transformers-to-solve-95-failure-rat]] _(blog-post)_ — AI for Science: Training Transformers to solve 95% failure rate of Cancer Trials
 - 2026-05-09 — [[2026-05-09-verifier-backed-hard-problem-generation-for-mathematical-rea]] _(paper)_ — Verifier-Backed Hard Problem Generation for Mathematical Reasoning
 - 2026-05-09 — [[2026-05-09-agentic-ais-are-the-missing-paradigm-for-out-of-distribution]] _(paper)_ — Agentic AIs Are the Missing Paradigm for Out-of-Distribution Generalization in Foundation Models
 - 2026-05-09 — [[2026-05-09-latentrag-latent-reasoning-and-retrieval-for-efficient-agent]] _(paper)_ — LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG
@@ -36,13 +38,11 @@ linked_entities: []
 - 2026-05-03 — [[2026-05-03-deepmind-paper-llms-will-never-be-conscious]] _(paper)_ — DeepMind Paper: LLMs Will Never Be Conscious
 - 2026-05-03 — [[2026-05-03-agentic-world-modeling-foundations-capabilities-laws-and-bey]] _(paper)_ — Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond
 - 2026-05-03 — [[2026-05-03-simulating-the-visual-world-with-artificial-intelligence-a-r]] _(paper)_ — Simulating the Visual World with Artificial Intelligence: A Roadmap
-- 2026-05-02 — [[2026-05-02-thinking-with-visual-primitives]] _(paper)_ — Thinking with Visual Primitives
-- 2026-05-02 — [[2026-05-02-cvpr-2026-top-papers-delta-tokens-point-tracking-and-multi-s]] _(paper)_ — CVPR 2026 Top Papers: Delta Tokens, Point Tracking, and Multi-Scale Attention
 
 ## Co-occurring tags
 
-- `research/agents` (7 items)
+- `research/agents` (8 items)
 - `research/rag` (3 items)
-- `research/multimodal` (3 items)
 - `research/alignment` (2 items)
 - `research/evals` (2 items)
+- `research/robotics` (2 items)

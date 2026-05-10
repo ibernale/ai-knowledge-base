@@ -14,8 +14,12 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-agents]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/agents` — 67 items (most recent first).
+Source tag: `research/agents` — 71 items (most recent first).
 
+- 2026-05-10 — [[2026-05-10-mem0-building-production-ready-ai-agents-with-scalable-long]] _(paper)_ — Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory
+- 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
+- 2026-05-10 — [[2026-05-10-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
+- 2026-05-10 — [[2026-05-10-scaling-trusted-access-for-cyber-with-gpt-55-and-gpt-55-cybe]] _(blog-post)_ — Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
 - 2026-05-09 — [[2026-05-09-agentic-ais-are-the-missing-paradigm-for-out-of-distribution]] _(paper)_ — Agentic AIs Are the Missing Paradigm for Out-of-Distribution Generalization in Foundation Models
 - 2026-05-09 — [[2026-05-09-agent-context-files-first-large-scale-empirical-study-of-230]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study of 2,303 Files from 1,925 Repositories
 - 2026-05-09 — [[2026-05-09-latentrag-latent-reasoning-and-retrieval-for-efficient-agent]] _(paper)_ — LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG

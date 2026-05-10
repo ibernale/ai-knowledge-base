@@ -5,8 +5,8 @@ slug: "research-industry"
 source_tag: "research/industry"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-09"
-last_updated: "2026-05-09"
+first_seen: "2026-05-10"
+last_updated: "2026-05-10"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (17)
+## Items in the window (16)
 
+- 2026-05-10 — [[2026-05-10-anthropic-claude-code-rate-limits-doubled-spacex-colossus-pa]] _(blog-post)_ — Anthropic Claude Code rate limits doubled, SpaceX Colossus partnership announced
+- 2026-05-10 — [[2026-05-10-testing-ads-in-chatgpt]] _(blog-post)_ — Testing ads in ChatGPT
 - 2026-05-09 — [[2026-05-09-notes-on-the-xaianthropic-data-center-deal]] _(blog-post)_ — Notes on the xAI/Anthropic data center deal
 - 2026-05-09 — [[2026-05-09-notes-from-inside-chinas-ai-labs]] _(blog-post)_ — Notes from inside China's AI labs
 - 2026-05-09 — [[2026-05-09-state-of-ai-may-2026]] _(report)_ — State of AI: May 2026
@@ -36,14 +38,11 @@ linked_entities: []
 - 2026-05-03 — [[2026-05-03-aie-europe-debrief-agent-labs-thesis-latent-space-x-unsuperv]] _(blog-post)_ — AIE Europe Debrief + Agent Labs Thesis: Latent Space x Unsupervised Learning Crossover
 - 2026-05-03 — [[2026-05-03-microsoft-new-future-of-work-report-2025]] _(report)_ — Microsoft New Future of Work Report 2025
 - 2026-05-03 — [[2026-05-03-2026-agentic-coding-trends-report-how-coding-agents-are-resh]] _(report)_ — 2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development
-- 2026-05-02 — [[2026-05-02-gpt-55-now-available-on-databricks-via-unity-ai-gateway]] _(blog-post)_ — GPT-5.5 Now Available on Databricks via Unity AI Gateway
-- 2026-05-02 — [[2026-05-02-aws-whats-next-2026-openai-partnership-and-amazon-quick]] _(blog-post)_ — AWS What's Next 2026: OpenAI Partnership and Amazon Quick
-- 2026-05-02 — [[2026-05-02-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 
 ## Co-occurring tags
 
-- `research/agents` (7 items)
-- `research/agentic-coding` (4 items)
-- `research/model-release` (2 items)
+- `research/agents` (5 items)
+- `research/agentic-coding` (3 items)
+- `research/inference` (2 items)
 - `research/hardware` (2 items)
-- `research/inference` (1 item)
+- `research/pretraining` (1 item)

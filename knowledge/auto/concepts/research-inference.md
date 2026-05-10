@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-inference]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/inference` — 28 items (most recent first).
+Source tag: `research/inference` — 29 items (most recent first).
 
+- 2026-05-10 — [[2026-05-10-anthropic-claude-code-rate-limits-doubled-spacex-colossus-pa]] _(blog-post)_ — Anthropic Claude Code rate limits doubled, SpaceX Colossus partnership announced
 - 2026-05-09 — [[2026-05-09-vibevoice-long-form-multi-speaker-speech-synthesis-via-next]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis via Next-Token Diffusion
 - 2026-05-09 — [[2026-05-09-mineru25-a-12b-parameter-document-parsing-vision-language-mo]] _(paper)_ — MinerU2.5: A 1.2B-Parameter Document Parsing Vision-Language Model
 - 2026-05-09 — [[2026-05-09-dflash-speculative-decoding-with-block-diffusion-for-paralle]] _(paper)_ — DFlash: Speculative Decoding with Block Diffusion for Parallel Token Drafting

@@ -5,8 +5,8 @@ slug: "research-benchmarks"
 source_tag: "research/benchmarks"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-09"
-last_updated: "2026-05-09"
+first_seen: "2026-05-10"
+last_updated: "2026-05-10"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (10)
+## Items in the window (8)
 
 - 2026-05-09 — [[2026-05-09-verifier-backed-hard-problem-generation-for-mathematical-rea]] _(paper)_ — Verifier-Backed Hard Problem Generation for Mathematical Reasoning
 - 2026-05-07 — [[2026-05-07-workspace-bench-10-benchmarking-ai-agents-on-workspace-tasks]] _(paper)_ — Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies
@@ -30,13 +30,11 @@ linked_entities: []
 - 2026-05-04 — [[2026-05-04-measuring-progress-toward-agi-a-cognitive-framework]] _(blog-post)_ — Measuring Progress Toward AGI: A Cognitive Framework
 - 2026-05-03 — [[2026-05-03-synthetic-computers-at-scale-for-long-horizon-productivity-s]] _(paper)_ — Synthetic Computers at Scale for Long-Horizon Productivity Simulation
 - 2026-05-03 — [[2026-05-03-import-ai-newsletter-ai-cybersecurity-capabilities-and-exper]] _(blog-post)_ — Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts
-- 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
-- 2026-05-02 — [[2026-05-02-our-evaluation-of-openais-gpt-55-cyber-capabilities]] _(report)_ — Our evaluation of OpenAI's GPT-5.5 cyber capabilities
 
 ## Co-occurring tags
 
-- `research/evals` (9 items)
-- `research/agents` (3 items)
-- `research/safety` (3 items)
+- `research/evals` (7 items)
+- `research/agents` (2 items)
+- `research/safety` (2 items)
 - `research/reasoning` (1 item)
 - `research/multimodal` (1 item)

@@ -5,8 +5,8 @@ slug: "research-agentic-coding"
 source_tag: "research/agentic-coding"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-09"
-last_updated: "2026-05-09"
+first_seen: "2026-05-10"
+last_updated: "2026-05-10"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (24)
+## Items in the window (22)
 
+- 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
+- 2026-05-10 — [[2026-05-10-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
 - 2026-05-09 — [[2026-05-09-agent-context-files-first-large-scale-empirical-study-of-230]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study of 2,303 Files from 1,925 Repositories
 - 2026-05-09 — [[2026-05-09-alphaevolve-gemini-powered-coding-agent-scaling-impact-acros]] _(blog-post)_ — AlphaEvolve: Gemini-powered coding agent scaling impact across fields
 - 2026-05-09 — [[2026-05-09-live-blog-code-w-claude-2026]] _(blog-post)_ — Live blog: Code w/ Claude 2026
@@ -42,15 +44,11 @@ linked_entities: []
 - 2026-05-03 — [[2026-05-03-aie-europe-debrief-agent-labs-thesis-latent-space-x-unsuperv]] _(blog-post)_ — AIE Europe Debrief + Agent Labs Thesis: Latent Space x Unsupervised Learning Crossover
 - 2026-05-03 — [[2026-05-03-simon-willison-inaturalist-sightings-tool]] _(blog-post)_ — Simon Willison: iNaturalist Sightings Tool
 - 2026-05-03 — [[2026-05-03-2026-agentic-coding-trends-report-how-coding-agents-are-resh]] _(report)_ — 2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development
-- 2026-05-02 — [[2026-05-02-agent-context-files-first-large-scale-empirical-study]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study
-- 2026-05-02 — [[2026-05-02-simon-willison-codex-cli-01280-adds-goal-and-gpt-55-cyber-ev]] _(blog-post)_ — Simon Willison: Codex CLI 0.128.0 adds /goal and GPT-5.5 cyber evaluation coverage
-- 2026-05-02 — [[2026-05-02-latent-space-harness-engineering-with-ryan-lopopolo-openai-f]] _(blog-post)_ — Latent Space: Harness Engineering with Ryan Lopopolo (OpenAI Frontier)
-- 2026-05-02 — [[2026-05-02-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 
 ## Co-occurring tags
 
-- `research/agents` (17 items)
+- `research/agents` (15 items)
 - `research/tool-use` (6 items)
-- `research/industry` (4 items)
-- `research/safety` (3 items)
-- `research/evals` (2 items)
+- `research/evals` (3 items)
+- `research/industry` (3 items)
+- `research/reasoning` (2 items)

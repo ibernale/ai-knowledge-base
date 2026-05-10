@@ -5,8 +5,8 @@ slug: "research-agents"
 source_tag: "research/agents"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-09"
-last_updated: "2026-05-09"
+first_seen: "2026-05-10"
+last_updated: "2026-05-10"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,12 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (41)
+## Items in the window (38)
 
+- 2026-05-10 — [[2026-05-10-mem0-building-production-ready-ai-agents-with-scalable-long]] _(paper)_ — Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory
+- 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
+- 2026-05-10 — [[2026-05-10-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
+- 2026-05-10 — [[2026-05-10-scaling-trusted-access-for-cyber-with-gpt-55-and-gpt-55-cybe]] _(blog-post)_ — Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
 - 2026-05-09 — [[2026-05-09-agentic-ais-are-the-missing-paradigm-for-out-of-distribution]] _(paper)_ — Agentic AIs Are the Missing Paradigm for Out-of-Distribution Generalization in Foundation Models
 - 2026-05-09 — [[2026-05-09-agent-context-files-first-large-scale-empirical-study-of-230]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study of 2,303 Files from 1,925 Repositories
 - 2026-05-09 — [[2026-05-09-latentrag-latent-reasoning-and-retrieval-for-efficient-agent]] _(paper)_ — LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG
@@ -56,18 +60,11 @@ linked_entities: []
 - 2026-05-03 — [[2026-05-03-import-ai-453-breaking-ai-agents-mirrorcode-ten-views-on-gra]] _(blog-post)_ — Import AI 453: Breaking AI Agents; MirrorCode; Ten Views on Gradual Disempowerment
 - 2026-05-03 — [[2026-05-03-agentic-ai-governance-framework-for-banking-healthcare-retai]] _(blog-post)_ — Agentic AI Governance Framework for Banking, Healthcare, Retail, and Supply Chain
 - 2026-05-03 — [[2026-05-03-2026-agentic-coding-trends-report-how-coding-agents-are-resh]] _(report)_ — 2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development
-- 2026-05-02 — [[2026-05-02-agent-context-files-first-large-scale-empirical-study]] _(paper)_ — Agent Context Files: First Large-Scale Empirical Study
-- 2026-05-02 — [[2026-05-02-the-last-human-written-paper-agent-native-research-artifacts]] _(paper)_ — The Last Human-Written Paper: Agent-Native Research Artifacts
-- 2026-05-02 — [[2026-05-02-simon-willison-codex-cli-01280-adds-goal-and-gpt-55-cyber-ev]] _(blog-post)_ — Simon Willison: Codex CLI 0.128.0 adds /goal and GPT-5.5 cyber evaluation coverage
-- 2026-05-02 — [[2026-05-02-claude-for-creative-work]] _(blog-post)_ — Claude for Creative Work
-- 2026-05-02 — [[2026-05-02-aws-whats-next-2026-openai-partnership-and-amazon-quick]] _(blog-post)_ — AWS What's Next 2026: OpenAI Partnership and Amazon Quick
-- 2026-05-02 — [[2026-05-02-latent-space-harness-engineering-with-ryan-lopopolo-openai-f]] _(blog-post)_ — Latent Space: Harness Engineering with Ryan Lopopolo (OpenAI Frontier)
-- 2026-05-02 — [[2026-05-02-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 
 ## Co-occurring tags
 
-- `research/agentic-coding` (17 items)
+- `research/agentic-coding` (15 items)
 - `research/evals` (9 items)
-- `research/reasoning` (7 items)
-- `research/industry` (7 items)
+- `research/reasoning` (8 items)
 - `research/safety` (5 items)
+- `research/industry` (5 items)
