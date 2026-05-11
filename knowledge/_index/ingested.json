@@ -1031,6 +1031,18 @@
       "title": "AI for Science: Training Transformers to solve 95% failure rate of Cancer Trials",
       "ingested": "2026-05-10",
       "extraction": "http-status-404"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "ingested": "2026-05-11",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://meridianlabs.ai/blog/posts/introducing-petri-3",
+      "title": "Introducing Petri 3.0",
+      "ingested": "2026-05-11",
+      "extraction": "html-too-short"
     }
   ]
 }

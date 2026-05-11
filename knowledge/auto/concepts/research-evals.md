@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-evals]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/evals` — 35 items (most recent first).
+Source tag: `research/evals` — 36 items (most recent first).
 
+- 2026-05-11 — [[2026-05-11-introducing-petri-30]] _(blog-post)_ — Introducing Petri 3.0
 - 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
 - 2026-05-10 — [[2026-05-10-donating-our-open-source-alignment-tool-petri-to-meridian-la]] _(blog-post)_ — Donating our open-source alignment tool Petri to Meridian Labs
 - 2026-05-09 — [[2026-05-09-verifier-backed-hard-problem-generation-for-mathematical-rea]] _(paper)_ — Verifier-Backed Hard Problem Generation for Mathematical Reasoning

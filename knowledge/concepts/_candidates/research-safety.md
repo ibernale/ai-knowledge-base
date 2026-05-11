@@ -5,8 +5,8 @@ slug: "research-safety"
 source_tag: "research/safety"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-10"
-last_updated: "2026-05-10"
+first_seen: "2026-05-11"
+last_updated: "2026-05-11"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (17)
+## Items in the window (12)
 
+- 2026-05-11 — [[2026-05-11-introducing-petri-30]] _(blog-post)_ — Introducing Petri 3.0
 - 2026-05-10 — [[2026-05-10-introducing-trusted-contact-in-chatgpt]] _(blog-post)_ — Introducing Trusted Contact in ChatGPT
 - 2026-05-10 — [[2026-05-10-donating-our-open-source-alignment-tool-petri-to-meridian-la]] _(blog-post)_ — Donating our open-source alignment tool Petri to Meridian Labs
 - 2026-05-10 — [[2026-05-10-scaling-trusted-access-for-cyber-with-gpt-55-and-gpt-55-cybe]] _(blog-post)_ — Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
@@ -33,17 +34,11 @@ linked_entities: []
 - 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
 - 2026-05-05 — [[2026-05-05-anthropic-how-people-ask-claude-for-personal-guidance]] _(blog-post)_ — Anthropic: How people ask Claude for personal guidance
 - 2026-05-04 — [[2026-05-04-exploration-hacking-can-llms-learn-to-resist-rl-training]] _(paper)_ — Exploration Hacking: Can LLMs Learn to Resist RL Training?
-- 2026-05-03 — [[2026-05-03-pentagon-strikes-ai-deals-with-seven-major-tech-companies-an]] _(blog-post)_ — Pentagon Strikes AI Deals with Seven Major Tech Companies; Anthropic Excluded
-- 2026-05-03 — [[2026-05-03-openai-advanced-account-security-for-chatgpt-and-codex]] _(blog-post)_ — OpenAI Advanced Account Security for ChatGPT and Codex
-- 2026-05-03 — [[2026-05-03-import-ai-453-breaking-ai-agents-mirrorcode-ten-views-on-gra]] _(blog-post)_ — Import AI 453: Breaking AI Agents; MirrorCode; Ten Views on Gradual Disempowerment
-- 2026-05-03 — [[2026-05-03-claude-mythos-and-misguided-open-weight-fearmongering]] _(blog-post)_ — Claude Mythos and misguided open-weight fearmongering
-- 2026-05-03 — [[2026-05-03-import-ai-newsletter-ai-cybersecurity-capabilities-and-exper]] _(blog-post)_ — Import AI Newsletter: AI Cybersecurity Capabilities and Expert Forecasts
-- 2026-05-03 — [[2026-05-03-pentagon-strikes-deals-with-7-big-tech-companies-after-shunn]] _(blog-post)_ — Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic
 
 ## Co-occurring tags
 
-- `research/alignment` (6 items)
-- `research/evals` (5 items)
-- `research/agents` (5 items)
+- `research/alignment` (7 items)
+- `research/evals` (4 items)
+- `research/agents` (4 items)
 - `research/posttraining` (2 items)
-- `research/benchmarks` (2 items)
+- `research/benchmarks` (1 item)

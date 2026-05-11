@@ -5,8 +5,8 @@ slug: "research-industry"
 source_tag: "research/industry"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-10"
-last_updated: "2026-05-10"
+first_seen: "2026-05-11"
+last_updated: "2026-05-11"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (16)
+## Items in the window (11)
 
 - 2026-05-10 — [[2026-05-10-anthropic-claude-code-rate-limits-doubled-spacex-colossus-pa]] _(blog-post)_ — Anthropic Claude Code rate limits doubled, SpaceX Colossus partnership announced
 - 2026-05-10 — [[2026-05-10-testing-ads-in-chatgpt]] _(blog-post)_ — Testing ads in ChatGPT
@@ -33,16 +33,11 @@ linked_entities: []
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-05 — [[2026-05-05-building-a-new-enterprise-ai-services-company-with-blackston]] _(blog-post)_ — Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 - 2026-05-04 — [[2026-05-04-anthropics-annualized-revenue-hits-30-billion]] _(blog-post)_ — Anthropic's annualized revenue hits $30 billion
-- 2026-05-03 — [[2026-05-03-deepmind-alumni-start-dozens-of-european-startups]] _(blog-post)_ — DeepMind Alumni Start Dozens of European Startups
-- 2026-05-03 — [[2026-05-03-shopifys-ai-phase-transition-2026-usage-explosion-unlimited]] _(blog-post)_ — Shopify's AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget
-- 2026-05-03 — [[2026-05-03-aie-europe-debrief-agent-labs-thesis-latent-space-x-unsuperv]] _(blog-post)_ — AIE Europe Debrief + Agent Labs Thesis: Latent Space x Unsupervised Learning Crossover
-- 2026-05-03 — [[2026-05-03-microsoft-new-future-of-work-report-2025]] _(report)_ — Microsoft New Future of Work Report 2025
-- 2026-05-03 — [[2026-05-03-2026-agentic-coding-trends-report-how-coding-agents-are-resh]] _(report)_ — 2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development
 
 ## Co-occurring tags
 
-- `research/agents` (5 items)
-- `research/agentic-coding` (3 items)
+- `research/agents` (3 items)
 - `research/inference` (2 items)
 - `research/hardware` (2 items)
 - `research/pretraining` (1 item)
+- `research/posttraining` (1 item)

@@ -5,8 +5,8 @@ slug: "research-agents"
 source_tag: "research/agents"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-10"
-last_updated: "2026-05-10"
+first_seen: "2026-05-11"
+last_updated: "2026-05-11"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,9 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (38)
+## Items in the window (27)
 
+- 2026-05-11 — [[2026-05-11-vibe-coding-and-agentic-engineering-are-getting-closer-than]] _(blog-post)_ — Vibe coding and agentic engineering are getting closer than I'd like
 - 2026-05-10 — [[2026-05-10-mem0-building-production-ready-ai-agents-with-scalable-long]] _(paper)_ — Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory
 - 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
 - 2026-05-10 — [[2026-05-10-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
@@ -48,23 +49,11 @@ linked_entities: []
 - 2026-05-04 — [[2026-05-04-position-agentic-ai-orchestration-should-be-bayes-consistent]] _(paper)_ — Position: agentic AI orchestration should be Bayes-consistent
 - 2026-05-04 — [[2026-05-04-introducing-dynamic-workflows-durable-execution-that-follows]] _(blog-post)_ — Introducing Dynamic Workflows: durable execution that follows the tenant
 - 2026-05-04 — [[2026-05-04-building-the-agentic-cloud-everything-we-launched-during-age]] _(blog-post)_ — Building the agentic cloud: everything we launched during Agents Week 2026
-- 2026-05-03 — [[2026-05-03-genericagent-self-evolving-llm-agent-with-hierarchical-memor]] _(paper)_ — GenericAgent: Self-Evolving LLM Agent with Hierarchical Memory and Reusable SOPs
-- 2026-05-03 — [[2026-05-03-agentic-world-modeling-foundations-capabilities-laws-and-bey]] _(paper)_ — Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond
-- 2026-05-03 — [[2026-05-03-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
-- 2026-05-03 — [[2026-05-03-a-roadmap-for-visual-generation-from-atomic-mapping-to-agent]] _(paper)_ — A Roadmap for Visual Generation: From Atomic Mapping to Agentic World Modeling
-- 2026-05-03 — [[2026-05-03-codified-context-infrastructure-for-ai-agents-in-a-complex-c]] _(paper)_ — Codified Context: Infrastructure for AI Agents in a Complex Codebase
-- 2026-05-03 — [[2026-05-03-agent-context-files-an-empirical-study-of-agentic-coding-doc]] _(paper)_ — Agent Context Files: An Empirical Study of Agentic Coding Documentation
-- 2026-05-03 — [[2026-05-03-synthetic-computers-at-scale-for-long-horizon-productivity-s]] _(paper)_ — Synthetic Computers at Scale for Long-Horizon Productivity Simulation
-- 2026-05-03 — [[2026-05-03-agent-context-files-study-readmes-for-coding-agents]] _(paper)_ — Agent Context Files Study: READMEs for Coding Agents
-- 2026-05-03 — [[2026-05-03-shopifys-ai-phase-transition-2026-usage-explosion-unlimited]] _(blog-post)_ — Shopify's AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget
-- 2026-05-03 — [[2026-05-03-import-ai-453-breaking-ai-agents-mirrorcode-ten-views-on-gra]] _(blog-post)_ — Import AI 453: Breaking AI Agents; MirrorCode; Ten Views on Gradual Disempowerment
-- 2026-05-03 — [[2026-05-03-agentic-ai-governance-framework-for-banking-healthcare-retai]] _(blog-post)_ — Agentic AI Governance Framework for Banking, Healthcare, Retail, and Supply Chain
-- 2026-05-03 — [[2026-05-03-2026-agentic-coding-trends-report-how-coding-agents-are-resh]] _(report)_ — 2026 Agentic Coding Trends Report: How Coding Agents Are Reshaping Software Development
 
 ## Co-occurring tags
 
-- `research/agentic-coding` (15 items)
-- `research/evals` (9 items)
-- `research/reasoning` (8 items)
-- `research/safety` (5 items)
-- `research/industry` (5 items)
+- `research/agentic-coding` (10 items)
+- `research/evals` (7 items)
+- `research/reasoning` (6 items)
+- `research/rag` (4 items)
+- `research/safety` (4 items)

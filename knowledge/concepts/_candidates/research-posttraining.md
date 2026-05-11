@@ -5,8 +5,8 @@ slug: "research-posttraining"
 source_tag: "research/posttraining"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-10"
-last_updated: "2026-05-10"
+first_seen: "2026-05-11"
+last_updated: "2026-05-11"
 linked_papers: []
 linked_entities: []
 ---

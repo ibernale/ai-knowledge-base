@@ -5,8 +5,8 @@ slug: "research-model-release"
 source_tag: "research/model-release"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-10"
-last_updated: "2026-05-10"
+first_seen: "2026-05-11"
+last_updated: "2026-05-11"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (7)
+## Items in the window (6)
 
 - 2026-05-09 — [[2026-05-09-state-of-ai-may-2026]] _(report)_ — State of AI: May 2026
 - 2026-05-06 — [[2026-05-06-gpt-55-instant-smarter-clearer-and-more-personalized]] _(blog-post)_ — GPT-5.5 Instant: smarter, clearer, and more personalized
@@ -28,12 +28,11 @@ linked_entities: []
 - 2026-05-05 — [[2026-05-05-granite-41-3b-svg-pelican-gallery]] _(blog-post)_ — Granite 4.1 3B SVG Pelican Gallery
 - 2026-05-05 — [[2026-05-05-granite-41-llms-how-theyre-built]] _(blog-post)_ — Granite 4.1 LLMs: How They're Built
 - 2026-05-04 — [[2026-05-04-kimi-k26-beats-claude-gpt-55-and-gemini-in-programming-chall]] _(blog-post)_ — Kimi K2.6 beats Claude, GPT-5.5, and Gemini in programming challenge
-- 2026-05-03 — [[2026-05-03-claude-mythos-and-misguided-open-weight-fearmongering]] _(blog-post)_ — Claude Mythos and misguided open-weight fearmongering
 
 ## Co-occurring tags
 
 - `research/agentic-coding` (2 items)
 - `research/inference` (2 items)
-- `research/safety` (2 items)
 - `research/reasoning` (1 item)
 - `research/pretraining` (1 item)
+- `research/posttraining` (1 item)

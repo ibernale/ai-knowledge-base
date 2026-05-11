@@ -5,8 +5,8 @@ slug: "research-multimodal"
 source_tag: "research/multimodal"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-10"
-last_updated: "2026-05-10"
+first_seen: "2026-05-11"
+last_updated: "2026-05-11"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (15)
+## Items in the window (12)
 
 - 2026-05-10 — [[2026-05-10-ai-for-science-training-transformers-to-solve-95-failure-rat]] _(blog-post)_ — AI for Science: Training Transformers to solve 95% failure rate of Cancer Trials
 - 2026-05-09 — [[2026-05-09-vibevoice-long-form-multi-speaker-speech-synthesis-via-next]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis via Next-Token Diffusion
@@ -34,14 +34,11 @@ linked_entities: []
 - 2026-05-05 — [[2026-05-05-vibevoice-long-form-multi-speaker-speech-synthesis]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis
 - 2026-05-05 — [[2026-05-05-unividx-a-unified-multimodal-framework-for-video-generation]] _(paper)_ — UniVidX: A Unified Multimodal Framework for Video Generation
 - 2026-05-04 — [[2026-05-04-hermes-toward-a-unified-driving-world-model-for-3d-scene-und]] _(paper)_ — HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation
-- 2026-05-03 — [[2026-05-03-vibevoice-expressive-podcast-generation-with-next-token-diff]] _(paper)_ — VibeVoice: Expressive Podcast Generation with Next-Token Diffusion
-- 2026-05-03 — [[2026-05-03-a-roadmap-for-visual-generation-from-atomic-mapping-to-agent]] _(paper)_ — A Roadmap for Visual Generation: From Atomic Mapping to Agentic World Modeling
-- 2026-05-03 — [[2026-05-03-simulating-the-visual-world-with-artificial-intelligence-a-r]] _(paper)_ — Simulating the Visual World with Artificial Intelligence: A Roadmap
 
 ## Co-occurring tags
 
-- `research/inference` (7 items)
-- `research/robotics` (2 items)
-- `research/reasoning` (2 items)
+- `research/inference` (6 items)
 - `research/distillation` (1 item)
-- `research/agents` (1 item)
+- `research/benchmarks` (1 item)
+- `research/robotics` (1 item)
+- `research/tool-use` (1 item)

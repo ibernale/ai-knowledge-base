@@ -5,8 +5,8 @@ slug: "research-inference"
 source_tag: "research/inference"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-10"
-last_updated: "2026-05-10"
+first_seen: "2026-05-11"
+last_updated: "2026-05-11"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (19)
+## Items in the window (16)
 
 - 2026-05-10 — [[2026-05-10-anthropic-claude-code-rate-limits-doubled-spacex-colossus-pa]] _(blog-post)_ — Anthropic Claude Code rate limits doubled, SpaceX Colossus partnership announced
 - 2026-05-09 — [[2026-05-09-vibevoice-long-form-multi-speaker-speech-synthesis-via-next]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis via Next-Token Diffusion
@@ -38,14 +38,11 @@ linked_entities: []
 - 2026-05-05 — [[2026-05-05-granite-41-3b-svg-pelican-gallery]] _(blog-post)_ — Granite 4.1 3B SVG Pelican Gallery
 - 2026-05-04 — [[2026-05-04-introducing-dynamic-workflows-durable-execution-that-follows]] _(blog-post)_ — Introducing Dynamic Workflows: durable execution that follows the tenant
 - 2026-05-04 — [[2026-05-04-building-the-agentic-cloud-everything-we-launched-during-age]] _(blog-post)_ — Building the agentic cloud: everything we launched during Agents Week 2026
-- 2026-05-03 — [[2026-05-03-learning-rate-transfer-in-normalized-transformers-gpt]] _(paper)_ — Learning Rate Transfer in Normalized Transformers (νGPT)
-- 2026-05-03 — [[2026-05-03-vibevoice-expressive-podcast-generation-with-next-token-diff]] _(paper)_ — VibeVoice: Expressive Podcast Generation with Next-Token Diffusion
-- 2026-05-03 — [[2026-05-03-gpt-robust-learning-rate-transfer-for-normalized-transformer]] _(paper)_ — νGPT: Robust Learning Rate Transfer for Normalized Transformers
 
 ## Co-occurring tags
 
-- `research/multimodal` (7 items)
-- `research/pretraining` (3 items)
+- `research/multimodal` (6 items)
 - `research/agents` (3 items)
 - `research/distillation` (2 items)
 - `research/industry` (2 items)
+- `research/model-release` (2 items)
