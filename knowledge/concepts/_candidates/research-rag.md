@@ -5,8 +5,8 @@ slug: "research-rag"
 source_tag: "research/rag"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-11"
-last_updated: "2026-05-11"
+first_seen: "2026-05-12"
+last_updated: "2026-05-12"
 linked_papers: []
 linked_entities: []
 ---

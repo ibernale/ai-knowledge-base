@@ -5,8 +5,8 @@ slug: "research-multimodal"
 source_tag: "research/multimodal"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-11"
-last_updated: "2026-05-11"
+first_seen: "2026-05-12"
+last_updated: "2026-05-12"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,7 +20,7 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (12)
+## Items in the window (11)
 
 - 2026-05-10 — [[2026-05-10-ai-for-science-training-transformers-to-solve-95-failure-rat]] _(blog-post)_ — AI for Science: Training Transformers to solve 95% failure rate of Cancer Trials
 - 2026-05-09 — [[2026-05-09-vibevoice-long-form-multi-speaker-speech-synthesis-via-next]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis via Next-Token Diffusion
@@ -33,12 +33,11 @@ linked_entities: []
 - 2026-05-06 — [[2026-05-06-how-openai-delivers-low-latency-voice-ai-at-scale]] _(blog-post)_ — How OpenAI delivers low-latency voice AI at scale
 - 2026-05-05 — [[2026-05-05-vibevoice-long-form-multi-speaker-speech-synthesis]] _(paper)_ — VibeVoice: Long-Form Multi-Speaker Speech Synthesis
 - 2026-05-05 — [[2026-05-05-unividx-a-unified-multimodal-framework-for-video-generation]] _(paper)_ — UniVidX: A Unified Multimodal Framework for Video Generation
-- 2026-05-04 — [[2026-05-04-hermes-toward-a-unified-driving-world-model-for-3d-scene-und]] _(paper)_ — HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation
 
 ## Co-occurring tags
 
 - `research/inference` (6 items)
 - `research/distillation` (1 item)
 - `research/benchmarks` (1 item)
-- `research/robotics` (1 item)
 - `research/tool-use` (1 item)
+- `research/reasoning` (1 item)

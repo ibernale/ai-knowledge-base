@@ -1043,6 +1043,36 @@
       "title": "Introducing Petri 3.0",
       "ingested": "2026-05-11",
       "extraction": "html-too-short"
+    },
+    {
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "title": "OpenAI launches the OpenAI Deployment Company to help businesses build around intelligence",
+      "ingested": "2026-05-12",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://importai.substack.com/p/import-ai-456-rsi-and-economic-growth",
+      "title": "Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer",
+      "ingested": "2026-05-12",
+      "extraction": "http-status-403"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.05115",
+      "title": "Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior",
+      "ingested": "2026-05-12",
+      "extraction": "ar5iv"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor",
+      "title": "Learning on the Shop floor",
+      "ingested": "2026-05-12",
+      "extraction": "html-too-short"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/11/zombie-internet",
+      "title": "Your AI Use Is Breaking My Brain",
+      "ingested": "2026-05-12",
+      "extraction": "html-too-short"
     }
   ]
 }

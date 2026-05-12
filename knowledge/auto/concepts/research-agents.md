@@ -14,8 +14,10 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-agents]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/agents` — 72 items (most recent first).
+Source tag: `research/agents` — 74 items (most recent first).
 
+- 2026-05-12 — [[2026-05-12-openai-launches-the-openai-deployment-company-to-help-busine]] _(blog-post)_ — OpenAI launches the OpenAI Deployment Company to help businesses build around intelligence
+- 2026-05-12 — [[2026-05-12-learning-on-the-shop-floor]] _(blog-post)_ — Learning on the Shop floor
 - 2026-05-11 — [[2026-05-11-vibe-coding-and-agentic-engineering-are-getting-closer-than]] _(blog-post)_ — Vibe coding and agentic engineering are getting closer than I'd like
 - 2026-05-10 — [[2026-05-10-mem0-building-production-ready-ai-agents-with-scalable-long]] _(paper)_ — Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory
 - 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study

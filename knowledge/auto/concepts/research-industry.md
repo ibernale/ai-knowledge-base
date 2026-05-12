@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-industry]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/industry` — 28 items (most recent first).
+Source tag: `research/industry` — 29 items (most recent first).
 
+- 2026-05-12 — [[2026-05-12-openai-launches-the-openai-deployment-company-to-help-busine]] _(blog-post)_ — OpenAI launches the OpenAI Deployment Company to help businesses build around intelligence
 - 2026-05-10 — [[2026-05-10-anthropic-claude-code-rate-limits-doubled-spacex-colossus-pa]] _(blog-post)_ — Anthropic Claude Code rate limits doubled, SpaceX Colossus partnership announced
 - 2026-05-10 — [[2026-05-10-testing-ads-in-chatgpt]] _(blog-post)_ — Testing ads in ChatGPT
 - 2026-05-09 — [[2026-05-09-notes-on-the-xaianthropic-data-center-deal]] _(blog-post)_ — Notes on the xAI/Anthropic data center deal

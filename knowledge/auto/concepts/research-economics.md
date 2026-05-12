@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-economics]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/economics` — 3 items (most recent first).
+Source tag: `research/economics` — 4 items (most recent first).
 
+- 2026-05-12 — [[2026-05-12-import-ai-456-rsi-and-economic-growth-radical-optionality-fo]] _(blog-post)_ — Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer
 - 2026-05-03 — [[2026-05-03-microsoft-new-future-of-work-report-2025]] _(report)_ — Microsoft New Future of Work Report 2025
 - 2026-04-29 — [[2026-04-29-the-people-do-not-yearn-for-automation]] _(blog-post)_ — The people do not yearn for automation
 - 2026-04-29 — [[2026-04-29-the-2026-ai-index-report]] _(report)_ — The 2026 AI Index Report

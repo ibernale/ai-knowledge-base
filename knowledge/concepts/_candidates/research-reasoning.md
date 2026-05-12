@@ -5,8 +5,8 @@ slug: "research-reasoning"
 source_tag: "research/reasoning"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-11"
-last_updated: "2026-05-11"
+first_seen: "2026-05-12"
+last_updated: "2026-05-12"
 linked_papers: []
 linked_entities: []
 ---
@@ -22,6 +22,7 @@ linked_entities: []
 
 ## Items in the window (12)
 
+- 2026-05-12 — [[2026-05-12-manifold-steering-reveals-the-shared-geometry-of-neural-netw]] _(paper)_ — Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior
 - 2026-05-10 — [[2026-05-10-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
 - 2026-05-10 — [[2026-05-10-ai-for-science-training-transformers-to-solve-95-failure-rat]] _(blog-post)_ — AI for Science: Training Transformers to solve 95% failure rate of Cancer Trials
 - 2026-05-09 — [[2026-05-09-verifier-backed-hard-problem-generation-for-mathematical-rea]] _(paper)_ — Verifier-Backed Hard Problem Generation for Mathematical Reasoning
@@ -33,11 +34,10 @@ linked_entities: []
 - 2026-05-07 — [[2026-05-07-rethinking-reasoning-intensive-retrieval-evaluating-and-adva]] _(paper)_ — Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems
 - 2026-05-06 — [[2026-05-06-a-survey-of-reasoning-intensive-retrieval-progress-and-chall]] _(paper)_ — A Survey of Reasoning-Intensive Retrieval: Progress and Challenges
 - 2026-05-06 — [[2026-05-06-gpt-55-instant-smarter-clearer-and-more-personalized]] _(blog-post)_ — GPT-5.5 Instant: smarter, clearer, and more personalized
-- 2026-05-04 — [[2026-05-04-position-agentic-ai-orchestration-should-be-bayes-consistent]] _(paper)_ — Position: agentic AI orchestration should be Bayes-consistent
 
 ## Co-occurring tags
 
-- `research/agents` (6 items)
+- `research/agents` (5 items)
 - `research/rag` (3 items)
 - `research/evals` (2 items)
 - `research/agentic-coding` (2 items)

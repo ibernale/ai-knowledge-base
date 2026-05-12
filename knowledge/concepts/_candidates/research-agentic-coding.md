@@ -5,8 +5,8 @@ slug: "research-agentic-coding"
 source_tag: "research/agentic-coding"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-11"
-last_updated: "2026-05-11"
+first_seen: "2026-05-12"
+last_updated: "2026-05-12"
 linked_papers: []
 linked_entities: []
 ---
@@ -22,6 +22,7 @@ linked_entities: []
 
 ## Items in the window (13)
 
+- 2026-05-12 — [[2026-05-12-learning-on-the-shop-floor]] _(blog-post)_ — Learning on the Shop floor
 - 2026-05-11 — [[2026-05-11-vibe-coding-and-agentic-engineering-are-getting-closer-than]] _(blog-post)_ — Vibe coding and agentic engineering are getting closer than I'd like
 - 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
 - 2026-05-10 — [[2026-05-10-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
@@ -34,12 +35,11 @@ linked_entities: []
 - 2026-05-05 — [[2026-05-05-agent-readmes-an-empirical-study-of-context-files-for-agenti]] _(paper)_ — Agent READMEs: An Empirical Study of Context Files for Agentic Coding
 - 2026-05-05 — [[2026-05-05-simon-willisons-april-2026-newsletter]] _(blog-post)_ — Simon Willison's April 2026 Newsletter
 - 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
-- 2026-05-04 — [[2026-05-04-kimi-k26-beats-claude-gpt-55-and-gemini-in-programming-chall]] _(blog-post)_ — Kimi K2.6 beats Claude, GPT-5.5, and Gemini in programming challenge
 
 ## Co-occurring tags
 
-- `research/agents` (10 items)
+- `research/agents` (11 items)
 - `research/evals` (3 items)
 - `research/tool-use` (3 items)
 - `research/reasoning` (2 items)
-- `research/model-release` (2 items)
+- `research/inference` (1 item)

@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-regulation]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/regulation` — 11 items (most recent first).
+Source tag: `research/regulation` — 12 items (most recent first).
 
+- 2026-05-12 — [[2026-05-12-import-ai-456-rsi-and-economic-growth-radical-optionality-fo]] _(blog-post)_ — Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer
 - 2026-05-03 — [[2026-05-03-pentagon-strikes-ai-deals-with-seven-major-tech-companies-an]] _(blog-post)_ — Pentagon Strikes AI Deals with Seven Major Tech Companies; Anthropic Excluded
 - 2026-05-03 — [[2026-05-03-agentic-ai-governance-framework-for-banking-healthcare-retai]] _(blog-post)_ — Agentic AI Governance Framework for Banking, Healthcare, Retail, and Supply Chain
 - 2026-05-03 — [[2026-05-03-pentagon-strikes-deals-with-7-big-tech-companies-after-shunn]] _(blog-post)_ — Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic

@@ -5,8 +5,8 @@ slug: "research-agents"
 source_tag: "research/agents"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-11"
-last_updated: "2026-05-11"
+first_seen: "2026-05-12"
+last_updated: "2026-05-12"
 linked_papers: []
 linked_entities: []
 ---
@@ -20,8 +20,10 @@ linked_entities: []
 >
 > **Discard**: delete this file. The pipeline regenerates next Sunday if the tag stays hot.
 
-## Items in the window (27)
+## Items in the window (26)
 
+- 2026-05-12 — [[2026-05-12-openai-launches-the-openai-deployment-company-to-help-busine]] _(blog-post)_ — OpenAI launches the OpenAI Deployment Company to help businesses build around intelligence
+- 2026-05-12 — [[2026-05-12-learning-on-the-shop-floor]] _(blog-post)_ — Learning on the Shop floor
 - 2026-05-11 — [[2026-05-11-vibe-coding-and-agentic-engineering-are-getting-closer-than]] _(blog-post)_ — Vibe coding and agentic engineering are getting closer than I'd like
 - 2026-05-10 — [[2026-05-10-mem0-building-production-ready-ai-agents-with-scalable-long]] _(paper)_ — Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory
 - 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
@@ -46,14 +48,11 @@ linked_entities: []
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-05 — [[2026-05-05-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
 - 2026-05-05 — [[2026-05-05-building-a-new-enterprise-ai-services-company-with-blackston]] _(blog-post)_ — Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
-- 2026-05-04 — [[2026-05-04-position-agentic-ai-orchestration-should-be-bayes-consistent]] _(paper)_ — Position: agentic AI orchestration should be Bayes-consistent
-- 2026-05-04 — [[2026-05-04-introducing-dynamic-workflows-durable-execution-that-follows]] _(blog-post)_ — Introducing Dynamic Workflows: durable execution that follows the tenant
-- 2026-05-04 — [[2026-05-04-building-the-agentic-cloud-everything-we-launched-during-age]] _(blog-post)_ — Building the agentic cloud: everything we launched during Agents Week 2026
 
 ## Co-occurring tags
 
-- `research/agentic-coding` (10 items)
+- `research/agentic-coding` (11 items)
 - `research/evals` (7 items)
-- `research/reasoning` (6 items)
+- `research/reasoning` (5 items)
 - `research/rag` (4 items)
 - `research/safety` (4 items)

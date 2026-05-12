@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-alignment]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/alignment` — 14 items (most recent first).
+Source tag: `research/alignment` — 15 items (most recent first).
 
+- 2026-05-12 — [[2026-05-12-import-ai-456-rsi-and-economic-growth-radical-optionality-fo]] _(blog-post)_ — Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer
 - 2026-05-11 — [[2026-05-11-introducing-petri-30]] _(blog-post)_ — Introducing Petri 3.0
 - 2026-05-10 — [[2026-05-10-donating-our-open-source-alignment-tool-petri-to-meridian-la]] _(blog-post)_ — Donating our open-source alignment tool Petri to Meridian Labs
 - 2026-05-09 — [[2026-05-09-rethinking-rl-for-llm-reasoning-its-sparse-policy-selection]] _(paper)_ — Rethinking RL for LLM Reasoning: It's Sparse Policy Selection, Not Capability Learning

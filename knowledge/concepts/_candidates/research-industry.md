@@ -5,8 +5,8 @@ slug: "research-industry"
 source_tag: "research/industry"
 status: "candidate"
 tags: ["type/concept", "workflow/candidate", "access/public"]
-first_seen: "2026-05-11"
-last_updated: "2026-05-11"
+first_seen: "2026-05-12"
+last_updated: "2026-05-12"
 linked_papers: []
 linked_entities: []
 ---
@@ -22,6 +22,7 @@ linked_entities: []
 
 ## Items in the window (11)
 
+- 2026-05-12 — [[2026-05-12-openai-launches-the-openai-deployment-company-to-help-busine]] _(blog-post)_ — OpenAI launches the OpenAI Deployment Company to help businesses build around intelligence
 - 2026-05-10 — [[2026-05-10-anthropic-claude-code-rate-limits-doubled-spacex-colossus-pa]] _(blog-post)_ — Anthropic Claude Code rate limits doubled, SpaceX Colossus partnership announced
 - 2026-05-10 — [[2026-05-10-testing-ads-in-chatgpt]] _(blog-post)_ — Testing ads in ChatGPT
 - 2026-05-09 — [[2026-05-09-notes-on-the-xaianthropic-data-center-deal]] _(blog-post)_ — Notes on the xAI/Anthropic data center deal
@@ -32,11 +33,10 @@ linked_entities: []
 - 2026-05-06 — [[2026-05-06-the-distillation-panic]] _(blog-post)_ — The distillation panic
 - 2026-05-05 — [[2026-05-05-openai-models-codex-and-managed-agents-come-to-aws]] _(blog-post)_ — OpenAI models, Codex, and Managed Agents come to AWS
 - 2026-05-05 — [[2026-05-05-building-a-new-enterprise-ai-services-company-with-blackston]] _(blog-post)_ — Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
-- 2026-05-04 — [[2026-05-04-anthropics-annualized-revenue-hits-30-billion]] _(blog-post)_ — Anthropic's annualized revenue hits $30 billion
 
 ## Co-occurring tags
 
-- `research/agents` (3 items)
+- `research/agents` (4 items)
 - `research/inference` (2 items)
 - `research/hardware` (2 items)
 - `research/pretraining` (1 item)

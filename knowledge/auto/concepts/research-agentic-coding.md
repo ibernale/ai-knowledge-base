@@ -14,8 +14,9 @@ tags: ["type/concept", "access/public"]
 > can transclude this with `![[auto/concepts/research-agentic-coding]]` to surface the
 > latest items tagged with this concept.
 
-Source tag: `research/agentic-coding` — 40 items (most recent first).
+Source tag: `research/agentic-coding` — 41 items (most recent first).
 
+- 2026-05-12 — [[2026-05-12-learning-on-the-shop-floor]] _(blog-post)_ — Learning on the Shop floor
 - 2026-05-11 — [[2026-05-11-vibe-coding-and-agentic-engineering-are-getting-closer-than]] _(blog-post)_ — Vibe coding and agentic engineering are getting closer than I'd like
 - 2026-05-10 — [[2026-05-10-agent-context-files-a-large-scale-empirical-study]] _(paper)_ — Agent Context Files: A Large-Scale Empirical Study
 - 2026-05-10 — [[2026-05-10-import-ai-455-automating-ai-research]] _(blog-post)_ — Import AI 455: Automating AI Research
